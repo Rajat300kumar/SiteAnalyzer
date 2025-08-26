@@ -1,0 +1,271 @@
+<!-- @if(!hidden) {
+    <div style="position: absolute;" (click)="toggleSideMenu($event)">>></div>
+} -->
+<div class="sideMenu font14" [ngClass]="{overlay: config().overlay}" [ngStyle]="{
+    width: config().hidden ? config()?.minWidth || 0 : config().width,
+    height: 'calc(100% - ' + (config()?.top || '0px') + ')',
+    left: config().left ? config().left : '',
+    right: config().right ? config().right : '',
+    top: config().top ? config().top : ''
+}">
+  @if (centerClose) {
+  <div class="centerclose" (click)="config().hidden = !config().hidden" [ngClass]="{'close_flip':config().hidden}">
+    <img src="app/shared/assets/icons/rightArrow.svg" alt=">" class="src" />
+  </div>
+  }
+
+  <div class="SidemenuTabs">
+    <!-- TABS -->
+    @if (config().type==1) {
+    <div class="tabsContainer1 flexCenter">
+      @for (item of config().tabList; track item) {
+      <div class="tabItem flexCenter" (click)="tabSelection(item)"
+        [ngClass]="{'activeTab1': item==config().selectedTab}">
+        <img src="assets/{{item}}.svg">
+        <span>{{item}}</span>
+      </div>
+      }
+    </div>
+    @if (config().selectedTab == 'Batches') {
+    <div class="batchContainer flexCenter">
+      <div class="batchcb flexCenter font12">
+        APP 1
+        <input type="checkbox" [(ngModel)]="config().list['Batches']['app1']">
+      </div>
+      <div class="batchcb flexCenter font12">
+        APP 2
+        <input type="checkbox" [(ngModel)]="config().list['Batches']['app2']">
+      </div>
+      @for (item of batchTabList; track $index) {
+      <div class="batchItem flexCenter btn font12" (click)="config().list['Batches'].apply=item"
+        [ngClass]="{'active1': config().list['Batches']?.apply==item}">
+        {{item}}
+      </div>
+      }
+    </div>
+    }
+    @else if (config().selectedTab == 'Taxonomy') {
+    <div class="taxoContainer flexCenter">
+      <div class="taxoItem flexCenter btn font12" (click)="config().list['Taxonomy']!.operation='Add'"
+        [ngClass]="{'active1': config().list['Taxonomy']?.operation=='Add'}">
+        <i class="fa fa-solid fa-plus" style="color: #6c78f9;"></i>
+        Add Taxo
+      </div>
+      <div class="taxoItem flexCenter btn font12" (click)="config().list['Taxonomy']!.operation='Delete'"
+        [ngClass]="{'active1': config().list['Taxonomy']?.operation=='Delete'}">
+        <i class="fa fa-regular fa-trash-can" style="color: #ff574d;"></i>
+        Delete Taxo
+      </div>
+      <div class="taxoItem flexCenter btn font12" (click)="config().list['Taxonomy']!.operation='Edit'"
+        [ngClass]="{'active1': config().list['Taxonomy']?.operation=='Edit'}">
+        <i class="fa fa-regular fa-pen-to-square" style="color: #ffa000;"></i>
+        Edit Taxo
+      </div>
+      <!-- <app-dropdown style="height: 40px" [config]="ddConfig"></app-dropdown> -->
+    </div>
+    }
+    }
+
+    @else if (config().type==2) {
+    <div class="searchContainer">
+      <div class="searchBox">
+        <div style="display: flex;justify-content: center;width: 100%;">
+          <input type="text" [(ngModel)]="searchTerm" class="searchinput" placeholder="Search..." style="width:100%">
+          <button class="halfButton">
+            <i class="fa fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <button class="xMarkContainer" (click)="toggleSideMenu($event)">
+          <i class="fa fa-solid fa-x" style="color: #FF4D4F;"></i>
+        </button>
+      </div>
+    </div>
+    }
+
+    @else if (config().type==3) {
+    <div class="tabsContainer3">
+      <div class="tabs3 flexCenter">
+        @for (item of config().tabList; track item) {
+        <div class="tabItem3 flexCenter" [ngClass]="{'tab3Active': config().selectedTab==item}"
+          (click)="tabSelection(item)">{{item}}</div>
+        <!-- <button class="btn2">Taxonomy</button> -->
+        }
+      </div>
+      <button class="xMarkContainer" (click)="toggleSideMenu($event)">
+        <i class="fa fa-solid fa-x" style="color: #FF4D4F;"></i>
+      </button>
+    </div>
+    <!-- <div class="searchContainer">
+                <div class="searchBox">
+                    <input type="text" [(ngModel)]="searchTerm" class="searchinput" placeholder="Search...">
+                    <button class="halfButton" >
+                        <i class="fa fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <button class="xMarkContainer" (click)="toggleSideMenu($event)">
+                    <i class="fa fa-solid fa-x" style="color: #FF4D4F;"></i>
+                </button>
+            </div> -->
+    }
+
+    @else if (config().type==4 || config().type==5 && (config().title || config().search)) {
+    <div class="sideMenuTitleContainer">
+      @if(config().title) {
+      <div class="sideMenuTitle">
+
+        <h6 class="btn_icon">
+          @if(config().iconClass){
+          <i [class]="config().iconClass"></i>
+          }
+          @if (!config().hidden) {
+          <span>{{config().title}}</span>
+          }
+
+        </h6>
+        <!-- <button class="xMarkContainer" (click)="toggleSideMenu($event)">
+                                <i class="fa fa-solid fa-x" style="color: #FF4D4F;"></i>
+                            </button> -->
+      </div>
+      }
+      @if(config().search) {
+      <!-- <div style="width: 100%;"> -->
+      <div class="searchBox">
+        <!-- <div class="searchCntr"> -->
+        <input type="text" [(ngModel)]="searchTerm" class="searchinput" placeholder="Search...">
+        <button class="halfButton">
+          <i class="fa fa-solid fa-magnifying-glass"></i>
+        </button>
+        <!-- </div> -->
+      </div>
+      <!-- </div> -->
+      }
+
+    </div>
+    <!-- @if (config().upload && !config().upload.hidden) { -->
+    <!-- <app-file-upload style="padding: 16px;display: inline-flex;justify-content: center;width: 100%;"
+                [config]="config().upload" (done)="uploadDone($event)"></app-file-upload> -->
+    <!-- } -->
+
+    <div class="btn_lst" style="opacity: 0.3;">
+      @for (btnInof of config().buttonList; track $index) {
+      <button mat-flat-button [color]="btnInof[0]" (click)="btnInof[2]()" class="dny_btn disabled">
+        <span class="btn_icon">
+          <i class="{{btnInof[3]}}"></i>
+          @if (!config().hidden) {
+          <span>{{btnInof[1]}}</span>
+          }
+        </span>
+      </button>
+      }
+    </div>
+    <!-- <div style="height: calc(100% - 48px);">
+                    <app-ag-grid #grid [config()]="grid"></app-ag-grid>
+                </div> -->
+    }
+  </div>
+
+  <!-- list body -->
+  @if (config().type==1 || config().type==3) {
+  <!-- <div style="width: 100%;height: calc(100% - 48px);overflow: auto;"> -->
+  <!-- <ul class="listContainer flexCenter">
+                    @for (item of config().list; track $index) {
+                        <li class="listItem ellipsis" (click)="itemSelection(item, config().selectedTab, true)" [ngClass]="{'activeListItem': item==config().selectedItem}">{{ item[config().displayKey || ''] || item}}</li>
+                    }
+                </ul> -->
+
+  @if(config().tabData?.[config().selectedTab || '']) {
+  <ul class="listContainer flexCenter">
+
+    @for (item of config().tabData[config().selectedTab || ''].list; track $index) {
+    <li class="listItem ellipsis" (click)="itemSelection(item, config().selectedTab, true)"
+      [ngClass]="{'activeListItem': item==config().selectedItem}" [innerHTML]="item[config().tabData[config().selectedTab ||
+      ''].displayKey || ''] || item "></li>
+    }
+  </ul>
+  }
+
+  <!-- </div> -->
+  <!-- <div style="flex-grow: 1;">
+                <app-ag-grid #grid [config]="config().list" [search]="searchTerm"></app-ag-grid>
+            </div> -->
+  }
+  @else if(config().type == 4) {
+  <!-- <div style="width: 100%;height: calc(100% - 48px);overflow: auto;" class="list"> -->
+  <ul class="listContainer flexCenter">
+    @if(config().displayKey?.length) {
+    @for (item of config().list | filter:searchTerm:config().displayKey; track $index) {
+    <li (click)="itemSelection(item)" class="listItem ellipsis" style="text-align: left;"
+      [ngClass]="{'activeListItem4': item==config().selectedItem}"> @if(item.eflg) {<i class="fa fa-solid fa-circle"
+        [ngStyle]="{'color': item.eflg}" ></i>}{{ item[config().displayKey || '']
+      }}</li>
+    }
+    }
+    @else {
+    @for (item of config().list | filter:searchTerm; track $index) {
+    <li (click)="itemSelection(item)" class="listItem ellipsis" style="text-align: left;"
+      [ngClass]="{'activeListItem4': item==config().selectedItem}" [innerHTML]="item"></li>
+    }
+    }
+  </ul>
+  <!-- </div> -->
+  }
+  @else if(config().type == 5) {
+  <!-- <div style="width: 100%;height: calc(100% - 48px);overflow: auto;" class="list"> -->
+  <!-- @if(config().title) {
+                    <div class="sideMenuTitleContainer">
+                        <div class="sideMenuTitle">
+                            <h6>{{config().title}}</h6>
+                        </div>
+                    </div>
+                } -->
+  <ul class="listContainer flexCenter">
+    @for (item of config().list | filter:searchTerm:config().displayKey; track $index) {
+    <li class="listItem ellipsis"
+      [ngStyle]="{ 'margin-left': item?.child+40 +'px','pointer-events':item?.hasOwnProperty('parent')?'none':'visible'}"
+      (click)="itemSelection(item)" [ngClass]="{'activeListItem5': item==config().selectedItem}">
+      <span class="listItem5 ellipsis" style="text-align: left;display: flex;justify-content: space-between;"
+        [innerHTML]="item?.[config().displayKey||''] || item ">
+        <span style="color: #FF4D4F;" (click)="__deletelist(item);$event.stopPropagation()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+            <path
+              d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+          </svg>
+
+        </span>
+
+      </span>
+      @if(item[2]) {
+      @if(item[2]=='O') {
+      <div class="profile-main-loader" ng-if="row.entity[col.field].v==0 && col.field == 'sts'">
+        <div class="loader">
+          <svg class="circular-loader" viewBox="25 25 50 50">
+            <circle class="loader-path" cx="50" cy="50" r="20" fill="none" stroke="grey" stroke-width="2" />
+          </svg>
+        </div>
+      </div>
+      } @else {
+      <i class="fa fa-solid fa-circle" [ngStyle]="{'color': getColours(item[2])}"></i>
+      }
+      }
+    </li>
+    }
+  </ul>
+  <!-- @if(config().update) {
+            <div class="update flexCenter">
+                <button class="btn mainprimary" (click)="config()?.update(config().list)">
+                    <i class="fa fa-solid fa-upload"></i>
+                    Update
+                </button>
+            </div>
+        } -->
+  <!-- </div> -->
+  }
+  @else {
+  <div style="flex-grow: 1;">
+    <!-- <app-ag-grid #grid [config]="gridConfig" [search]="searchTerm"></app-ag-grid> -->
+  </div>
+  }
+</div>

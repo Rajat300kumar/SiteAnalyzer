@@ -1,0 +1,62 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn:focus,
+.btn:hover {
+    text-decoration: none
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.btn.disabled,
+.btn:disabled {
+    opacity: .65
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+.button {
+    display: flex;
+    gap: 16px
+}
+
+.resize-handle-top,
+.resize-handle-bottom {
+  /* position: absolute; */
+  height: 10px;
+  cursor: row-resize;
+  width: 100%;
+  background: #dfe2e7;
+}
+
+.resize-handle-left,
+.resize-handle-right {
+  /* position: absolute; */
+  width: 10px;
+  cursor: col-resize;
+  height: 100%;
+  background: #dfe2e7;
+}
+mwlResizable {
+    box-sizing: border-box;
+}

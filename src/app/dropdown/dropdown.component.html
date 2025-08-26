@@ -1,0 +1,81 @@
+<span class="dropdownComponent font14">
+    
+    @if(config().increment) {
+        <button class="icon" (click)="updateSelection('prev')" [ngClass]="{' disabled': config().list&&config().selectedItems==config().list[0]}"> 
+            @if(config().role=='font') {
+                <i class="fa fa-solid fa-minus"></i>
+            }
+            @else if(config().role=='pagination') {
+                <i class="fa-solid fa-chevron-left"></i>
+            }
+            @else if(config().role=='zoom') {
+                <i class="fa fa-solid fa-magnifying-glass-minus"></i>
+            }
+        </button>
+    }
+
+    <label class="dropdownDisplay" (click)="togglePopup()">
+        <div class="ellipsis" [ngStyle]="{'width': config().role=='text' ? '100px' : '32px' }">
+            @if(config().displayKey) {
+                {{ config().selectedItems?.[config().displayKey || ''] }}
+            } @else if (config().selectedItems?.push) {
+                {{config().selectedItems[0]}}
+            } @else {
+                {{config().selectedItems}}
+            }
+        </div>
+        <!-- <input class="btn" type="input" list="config().selectedItem" [(ngModel)]="config().selectedItem" (change)="updateSelection(config().selectedItem)" class="input_dropdown"/> -->
+        <div class="selectedItem" style="padding: 0;">
+            <i class="fa fa-xs fa-solid fa-chevron-down" style="cursor: pointer;"></i>
+        </div>
+    </label>
+
+    @if(config().increment) {
+        <button class="icon" (click)="updateSelection('next')" [ngClass]="{' disabled': config().list&&config().selectedItems==config().list.at(-1)}">
+            @if(config().role=='font') {
+                <i class="fa fa-solid fa-plus"></i>
+            }
+            @else if(config().role=='pagination') {
+                <i class="fa-solid fa-chevron-right"></i>
+            }
+            @else if(config().role=='zoom') {
+                <i class="fa fa-solid fa-magnifying-glass-plus"></i>
+            }
+        </button>
+    }
+
+</span>
+
+@if(open) {
+    <div class="popupContainer" [ngStyle]="{'margin-left': config().increment ? '28px' : '0'}">
+        @if(config().searchField) {
+            <span class="searchBox">
+                <input [(ngModel)]="filter" placeholder="Search{{config().addField?' or Add':''}}" [ngStyle]="searchWidth">
+                @if(config().addField) {
+                    <button class="halfBtn" (click)="addField()">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                }
+            </span>
+        }
+        <div class="dropdownList">
+            @if(this.config().displayKey) {
+                @for (item of config().list | filter:filter:config().displayKey; track item) {
+                    <span class="dropdownItem flexCenter" (click)="updateSelection(item);" [ngClass]="{ 'active': isActive(item) }">
+                        {{item[config().displayKey || '']}}
+                    </span>
+                }
+            }
+            @else {
+                @for (item of config().list | filter:filter; track item) {
+                    <span class="dropdownItem flexCenter" (click)="updateSelection(item);" [ngClass]="{ 'active': isActive(item) }">
+                        @if(config().role == 'text') {
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        }
+                        <span>{{item}}</span>
+                    </span>
+                }
+            }
+        </div>
+    </div>
+}

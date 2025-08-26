@@ -1,0 +1,255 @@
+/* Core Grid CSS */
+/* @import 'ag-grid-community/styles/ag-grid.css'; */
+/* Quartz Theme Specific CSS */
+/* @import 'ag-grid-community/styles/ag-theme-quartz.css'; */
+
+/* .ag-header-cell[col-id="treearrow"] {
+  padding: 0;
+}
+.ag-header-cell[col-id="treearrow"]>.ag-header-cell-comp-wrapper {
+  justify-content: center;
+} */
+
+.ag-header-cell-label, .ag-header-group-cell {
+  justify-content: center !important;
+}
+ng-component {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+::ng-deep.mat-mdc-tab-labels {
+  gap: 16px
+}
+::ng-deep.mat-mdc-tab-labels>div {
+  max-width: 120px!important;
+  min-width: 120px!important;
+  width: 120px;
+}
+
+/* .ag-theme-quartz { */
+  /* --ag-header-height: 10px; */
+  /* --ag-header-foreground-color: white; */
+  /* --ag-header-background-color: #5E718D; */
+  /* --ag-header-border: 1px 1px 1px 1px; */
+  /* --ag-header-border: solid; */
+  /* --ag-header-border: #3e4149; */
+  /* --ag-header-border-radius: 0; */
+  /* --ag-header-font-size: 12px; */
+  /* --ag-header-font-weight: 200; */
+  /* --ag-header-line-height: 24px; */
+  /* --ag-header-justify-content: center; */
+  /* --ag-column-hover-color: #5e718d !important; */
+  /* --ag-row-hover-color: transparent; */
+  /* --ag-row-cell-color: red; */
+  /* --ag-input-focus-border-color: green; */
+  /* font-family: Inter */
+/* } */
+
+/* .ag-header-group-cell, .ag-header-cell {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+} */
+
+/* .ag-header-cell, .ag-header-group-cell, .ag-cell {
+  background-color: #5E718D;
+  justify-content: center !important;
+  border-width: 1px 0px 0px 1px;
+  border-style: solid;
+  border-color: #DADEE7;
+  border-radius: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+} */
+/* .ag-header-cell {
+  background-color: blueviolet;
+  font-size: 10px;
+  padding: 0;
+} */
+
+/* BUTTONS */
+.hidden {display: none !important}
+/* i.fa {font-size: 16px !important;} */
+/* .btn {
+  text-transform: capitalize !important;
+  font-family: Inter;
+  font-size: 14px !important;
+  font-style: normal;
+  box-shadow: none !important;
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	cursor: pointer;
+} */
+.btn_trpnt {
+  background-color: transparent;
+}
+.btn_trpnt:hover {
+  background-color: #dddddd;
+}
+.btn_trpnt:active {
+  background-color: #cccccc;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"]:not(.ag-input-field-input.ag-checkbox-input),
+input[type="radio"] {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.mainprimary {
+  background-color: #0384FC !important;
+  color: white !important;
+  border-radius: 4px;
+  /* Small/Shadow-sm-3 */
+  box-shadow: 0px 4px 8px 0px rgba(14, 31, 53, 0.08),
+    0px 1px 4px 0px rgba(14, 31, 53, 0.12);
+}
+
+/* TOOLBAR */
+.toolbar {
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 8px;
+  /* height: 35px */
+}
+.alignIcons {
+  margin: auto 0;
+}
+/* :host ::ng-deep .mat-mdc-tab-body-content>* {
+  height: 36px;
+  background-color: #ddd;
+  margin: auto 8px;
+  padding: 0px 8px;
+} */
+.toolbar>label{
+  display: flex;
+  align-items: center;
+}
+
+/* POPUPS */
+.popup {
+  position: fixed;
+  z-index: 20;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  display: flex;
+}
+.fontsizePickerContainer {
+  flex-direction: column;
+  padding: 4px;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 48px;
+}
+.fontsizePickerContainer>span:hover {
+  background-color: #dadada;
+}
+.colorPickerContainer {
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 16px;
+  width: 180px;
+  margin: 12px 0;
+}
+.colorPickerBox {
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  height: 16px;
+  width: 16px;
+  outline: 1px solid #ccc;
+  border: 1px solid #fff;
+}
+.colorPickerBox:hover {
+  outline: 1px solid #f66
+}
+.input_dropdown {
+  width: 32px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer
+}
+.contextMenu {
+  flex-direction: column;
+  /* padding: 16px; */
+  gap: 16px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  box-shadow: 2px 4px 16px rgb(64 64 64 / 20%);
+}
+.contextMenu > span {
+  font: inherit;
+  border: 0;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: relative;
+  text-decoration: unset;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer
+}
+.contextMenu > span:hover {
+  background:#f1f3f7;
+  color: #4b00ff;
+}
+/* .contextMenu > span > i {
+  padding-right: 10px;
+} */
+.contextMenu > span.trash:hover {
+  color: red;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  padding: 10px 0;
+  margin: 0;
+}
+.menu > li {
+  font: inherit;
+  border: 0;
+  padding: 10px 30px 10px 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: unset;
+  color: #000;
+  font-weight: 500;
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  cursor: pointer; 
+  gap: 10px;
+}
+button {
+  border-radius: 4px;
+}

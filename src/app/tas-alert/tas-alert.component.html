@@ -1,0 +1,11 @@
+@if (showAlert) {
+    <div id="alert_section" (click)="showAlert = false">
+    </div>
+    <div id="alert_box">
+        <img id="alert_i" src="../../assets/{{type}}.svg" alt="{{type}}">
+        <span id="alert_text">{{message}}</span>
+        <button id="alert_close" (click)="showAlert = false;">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+}

@@ -1,0 +1,86 @@
+<div class="login flexCenter">
+    <mat-card>
+        <!-- <img class="logo" src="../../assets/tas.svg" alt=""> -->
+        <mat-card-title class="flexCenter">
+            <!-- <img src="../../assets/TAS.svg" alt=""> -->
+            <div [innerHTML]="icon | bypassHtmlSanitizer"></div>
+            <h2 class="fontHeader">{{title}}</h2>
+        </mat-card-title>
+        <mat-card-content>
+            <!-- <div class="flexCenter">
+                <button class="bg-header text-font px-4 py-2 font-semibold text-xl mt-8 w-full" mat-raised-button color="text-font" (click)="isLogin=true" [ngClass]="{'bg-header-act text-text-act': isLogin}">Login</button>
+                <button class="bg-header text-font px-4 py-2 font-semibold text-xl mt-8 w-full" mat-raised-button color="text-font" (click)="isLogin=false" [ngClass]="{'bg-header-act text-text-act': !isLogin}">Register</button>
+            </div> -->
+
+            <form [formGroup]="login" (ngSubmit)="onSubmit()" *ngIf="isLogin">
+                <mat-error *ngIf="">
+                    The username and password were not recognised
+                </mat-error>
+                <div class="flexCenter">
+                    <mat-form-field>
+                        <mat-label>User ID</mat-label>
+                        <input matInput placeholder="Please Enter User ID" name="username" formControlName="username" required>
+                        <mat-error>Please provide a valid email address</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="flexCenter">{{login.value.password.errors?.minlength}}
+                    <mat-form-field class="w-full">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" placeholder="Please Enter Password" name="password" formControlName="password" required>
+                        <mat-error>Password must be at least 8 characters</mat-error>
+                    </mat-form-field>
+                </div>
+                <mat-card-actions class="flexCenter">
+                    <button mat-raised-button type="submit" class="font16 blueBtn">Log In</button>
+                </mat-card-actions>
+                <mat-card-footer class="font14pale">
+                    <span (click)="forgotPassword()">Forgot Password?</span>
+                </mat-card-footer>
+            </form>
+
+            <!-- <form class="my-form text-font w-full my-4 mt-10" [formGroup]="register" (ngSubmit)="onSubmitRegister()" *ngIf="!isLogin">
+                <mat-error *ngIf="">
+                    The username and password were not recognised
+                </mat-error>
+                <div class="flexCenter">
+                    <mat-form-field class="w-full">
+                        <mat-label>User ID</mat-label>
+                        <input class="h-12 mt-4" matInput placeholder="Please Enter User ID" name="username" formControlName="username" required autocomplete="off">
+                        <mat-error class="text-red-400 text-sm">Please create a User ID</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="flexCenter">
+                    <mat-form-field class="w-full">
+                        <mat-label>Password</mat-label>
+                        <input class="h-12 mt-4" matInput type="password" placeholder="Create a Password" name="password" formControlName="password" required autocomplete="off">
+                        <mat-error class="text-red-400 text-sm">Password must be at least 8 characters</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="flexCenter">
+                    <mat-form-field class="w-full">
+                        <mat-label>Confirm Password</mat-label>
+                        <input class="h-12 mt-4" matInput type="password" placeholder="Please Re-Enter Password" name="cpassword" formControlName="cpassword" required autocomplete="off">
+                        <mat-error class="text-red-400 text-sm">Password must be at least 8 characters</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="flexCenter">
+                    <mat-form-field class="w-4/5"  >
+                        <mat-label>Mail ID</mat-label>
+                        <input class="h-12" matInput type="email" placeholder="Please Enter Mail ID" name="mail_id" formControlName="mail_id" required autocomplete="off">
+                        <mat-error class="text-red-400 text-sm">Invalid email address</mat-error>
+                    </mat-form-field>
+                    <div class="h-12 bg-old-toolbar text-font rounded font-semibold text-sm px-4 w-1/5 flex cursor-pointer" mat-raised-button color="text-font" (click)="verify()">
+                        <span class="m-auto">Verify</span>
+                    </div>
+                </div>
+                <div class="mt-2" *ngIf="vfy">
+                    OTP has been sent to your email
+                    <ng-otp-input class="m-auto" #ngOtpInput (onInputChange)="register.value.otp = $event" [config]="{length: 6, isPasswordInput: true}" ></ng-otp-input>
+                </div>
+                <mat-card-actions>
+                    <button class="bg-old-toolbar text-font px-4 py-2 rounded font-semibold text-xl mt-4 w-full" mat-raised-button color="text-font" type="submit" [ngClass]="{'opacity-50 pointer-events-none': !vfy}">Submit</button>
+                </mat-card-actions>
+            </form> -->
+        </mat-card-content>
+    </mat-card>
+</div>

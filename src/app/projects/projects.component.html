@@ -1,0 +1,28 @@
+<div class="componentContainer">
+    <div class="componentHeadbar">
+        <div class="flexCenter">
+            <div [innerHTML]="icon | bypassHtmlSanitizer"></div>
+            <h2 class="fontHeader">{{title}}</h2>
+            <!-- <img src="assets/TAS.svg" alt="TAS">
+            <div class="fontHeader">Projects</div> -->
+            <!-- <span style="cursor: pointer;" (click)="sidemenu.toggleSideMenu($event)">
+                <i class="fa-solid fa-bars"></i>
+            </span> -->
+        </div>
+        <div class="flexCenter">
+            
+        </div>
+        <div class="flexCenter">
+            <div class="flexCenter headerItem" (click)="factory.logout_func()">
+                <i class="fa fa-solid fa-right-from-bracket" style="color: #f44336;"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="componentBody">
+        <!-- <app-side-menu #sidemenu style="height: 100%" [config]="taxoGrid"></app-side-menu> -->
+        <div style="height: 100%;">
+            <app-ag-grid [config]="projectsGrid"></app-ag-grid>
+        </div>
+    </div>
+</div>

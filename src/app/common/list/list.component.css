@@ -1,0 +1,36 @@
+.scrollable-list-container {
+    height: calc(100% - 94px);
+    /* Set max height for the container */
+    overflow-x: scroll;
+    /* Enable vertical scrolling */
+    /* border: 1px solid #ccc; */
+    /* Optional: Add a border for clarity */
+    padding: 1px;
+    /* Optional: Add padding for aesthetics */
+    background-color: #ffffff;
+    /* Optional: Add background color */
+}
+
+mat-form-field {
+    margin-bottom: 6px;
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+    height: 0px;
+    overflow: hidden;
+    /* Ensures content doesn't push the height */
+}
+
+::ng-deep .mat-mdc-form-field-bottom-align {
+    height: 0px;
+}
+
+/* Add a background color to the highlighted list item */
+.highlighted {
+    background-color: #d3f4ff !important;
+    /* Light blue highlight */
+}
+
+button.active-filter {
+    border: 1px solid #ff4081;
+}

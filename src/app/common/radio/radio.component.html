@@ -1,0 +1,21 @@
+<!-- <div class="">{{ariaPlaceholder}}</div>
+<mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="radioselect"
+  (change)="onSelect(radioselect)">
+  @for (season of Radio; track season) {
+  <mat-radio-button class="example-radio-button" [value]="season">{{season}}</mat-radio-button>
+  <mat-divider></mat-divider>
+  }
+</mat-radio-group> -->
+
+<div class="radio-container">
+  <div class="radio-header">{{ariaPlaceholder}}</div>
+  <div [style.height]="scrollHeight" style="overflow-y: auto; border: 1px solid lightgray; padding: 8px;">
+    <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="radioselect"
+      (change)="onSelect(radioselect)">
+      @for (season of Radio; track season) {
+      <mat-radio-button #radioItems class="example-radio-button" [value]="season">{{season}}</mat-radio-button>
+      <mat-divider></mat-divider>
+      }
+    </mat-radio-group>
+  </div>
+</div>

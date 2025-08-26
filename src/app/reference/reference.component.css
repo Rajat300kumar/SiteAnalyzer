@@ -1,0 +1,346 @@
+.referenceComponent {
+    width: 100%;
+    height: 93%/*default 100%*/
+}
+
+.toolbar {
+    height: 40px;
+    /* width: 100%; */
+    display: flex;
+    background: #F2F4F7;
+    padding: 0 8px;
+    align-items: center;
+    border-bottom: 1px solid #DADEE7;
+    text-wrap: nowrap;
+    /* overflow: auto; */
+}
+
+.left,
+.center,
+.right {
+    height: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.ulTabCont {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+.ulTab {
+    cursor: pointer;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    font-weight: 500;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    border-bottom: 2px solid transparent ;
+}
+.activeDoc {
+    border-bottom: 2px solid #0384FC !important;
+    color: #0384FC !important;
+}
+
+.activeTab {
+    background-color: #6680FF !important;
+    color: white !important;
+}
+
+.leftDropDown,
+.rightDropDown {
+    display: flex;
+    /* width: 24px;
+    height: 25px; */
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-spacing-6, 6px);
+    background: var(--Main-Primary, #0384FC);
+    cursor: pointer;
+}
+
+.leftMenu {
+    transform: scaleY(-1);
+    color: #0384FC;
+    cursor: pointer;
+}
+
+.docTypes {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.docTypesElement {
+    display: flex;
+    border-bottom: 2px solid #DADEE7;
+    padding: 8px 16px;
+    gap: 8px
+}
+.dropDown {
+    gap: 8px
+}
+.center {
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    padding: 8px;
+}
+
+.customTabs {
+    border-radius: 4px;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    overflow: hidden;
+}
+
+.customTabsElement {
+    padding: 4px 8px;
+    background-color: white;
+    height: 100%;
+    cursor: pointer;
+}
+
+.markClear {
+    display: flex;
+    gap: 12px;
+    /* height: 24px; */
+    border-radius: 6px
+}
+
+.markClearElement {
+    background: #E7EAF0;
+    height: 24px;
+    padding: 0px 12px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+/* .paginator {
+    height: 40px;
+} */
+
+.save {
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    gap: 4px;
+    height: 32px;
+}
+
+.close {
+    display: flex;
+    color: #FF4D4F;
+}
+
+.page {
+    height: calc(100% - 40px);
+    background: #F5F5F5;
+    overflow: auto;
+}
+
+.reference,
+.formula {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+.formula>div {
+    height: 100%;
+    width: 50%;
+    overflow: auto
+}
+
+img {
+    margin: auto;
+}
+
+/* .table {
+    height: 100%;
+    width: 50%;
+}
+.table, .ref {
+    height: 100%;
+    width: 50%;
+    overflow: auto
+} */
+
+/* ICONS */
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #595959;
+}
+
+.activeDoc>.icon {
+    background-color: #0384FC;
+}
+
+.webDoc {
+    mask: url(../../assets/webDoc.svg) no-repeat center / contain;
+    -webkit-mask: url(../../assets/webDoc.svg) no-repeat center / contain;
+}
+
+.image {
+    mask: url(../../assets/image.svg) no-repeat center / contain;
+    -webkit-mask: url(../../assets/image.svg) no-repeat center / contain;
+}
+
+.pdf {
+    mask: url(../../assets/pdf.svg) no-repeat center / contain;
+    -webkit-mask: url(../../assets/pdf.svg) no-repeat center / contain;
+}
+
+.tab-container {
+    position: relative;
+}
+
+.button-container {
+    position: absolute;
+    top: 0%;
+    z-index: 2222;
+    right: 10px;
+    /* Adjust as needed */
+}
+
+.ant-tabs-nav-list>.ant-tabs-tab {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 14px;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.ant-tabs-nav-list>.ant-tabs-tab .ng-star-inserted {
+    margin: 0%;
+}
+
+.mat-mdc-tab-label-container {
+    width: 40vw !important;
+}
+
+mat-tab-header {
+    width: 40vw !important;
+}
+
+.mat-tab-label-container {
+    display: none;
+}
+
+.example-large-box {
+    height: 42vh;
+    overflow: none;
+}
+
+/* Button */
+[nz-button] {
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+
+.ant-dropdown {
+    top: 0;
+    left: 84px;
+    position: relative;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+nz-dropdown-menu {
+    top: 0;
+    left: 84px;
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+::ng-deep.cdk-overlay-pane {
+    position: absolute !important;
+    left: 120px;
+    background-color: white;
+}
+
+::ng-deep.cdk-overlay-connected-position-bounding-box {
+    position: absolute !important;
+}
+
+.mat-mdc-menu-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    padding-left: var(--mat-menu-item-leading-spacing);
+    padding-right: var(--mat-menu-item-trailing-spacing);
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: inherit;
+    background: none;
+    text-decoration: none;
+    margin: 0;
+    align-items: center;
+    min-height: 48px;
+}
+
+
+.rm_scr {
+    text-align: center;
+    overflow: auto;
+    background: #404040;
+}
+
+.rmcb {
+    width: 100%;
+    /* height: calc(100% - 40px); */
+    float: left;
+    position: relative;
+    overflow: hidden;
+    /* background: #fff; */
+}
+
+.rmcc_img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.mainprimary {
+    background-color: #0384FC !important;
+    color: white !important;
+    border-radius: 4px;
+    /* Small/Shadow-sm-3 */
+    box-shadow: 0px 4px 8px 0px rgba(14, 31, 53, 0.08),
+        0px 1px 4px 0px rgba(14, 31, 53, 0.12);
+}
+.ulTabCont.navLefttabs .ulTab {
+    border: none;
+
+}
+.ulTabCont.navLefttabs .ulTab:focus {
+    outline: none;
+    border: 1px solid rgb(145, 145, 155);
+}
+
+.ulTabCont.navLefttabs .ulTab.active {
+    box-shadow: none;
+    border-color: blue;
+}

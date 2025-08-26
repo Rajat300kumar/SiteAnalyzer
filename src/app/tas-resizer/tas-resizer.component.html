@@ -1,0 +1,3 @@
+<div id="{{config().id}}" class="resizer" [ngClass]="config().type=='h' ? 'height' : 'width'" (mousedown)="dragStart($event)" (mousemove)="drag($event)" (mouseup)="dragEnd($event)" (mouseout)="dragEnd($event)">
+</div>
+<div class="resizerDisplay" [ngClass]="config().type=='h' ? 'height' : 'width'"></div>

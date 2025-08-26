@@ -1,0 +1,255 @@
+<!-- Dropdown -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation" *ngIf="config.html_tab">
+        <button class="nav-link " id="HTML-tab" data-bs-toggle="tab" data-bs-target="#HTML" type="button" role="tab"
+            aria-controls="HTML" aria-selected="true" (click)="ref_tabchange(config,'HTML')">HTML</button>
+    </li>
+    <li class="nav-item" role="presentation" *ngIf="config.HTMLg_t">
+        <button class="nav-link " id="HTML_t-tab" data-bs-toggle="tab" data-bs-target="#HTML_t" type="button" role="tab"
+            aria-controls="HTML_t" aria-selected="true" (click)="ref_tabchange(config,'trans')">HTML_t</button>
+    </li>
+    <li class="nav-item" role="presentation" *ngIf="config.pdf_tab">
+        <button class="nav-link active" id="PDF-tab" data-bs-toggle="tab" data-bs-target="#PDF" type="button" role="tab"
+            aria-controls="PDF" aria-selected="false" (click)="ref_tabchange(config,'pdf')">PDF</button>
+    </li>
+    <div class="sub-header border-0 p-0" style="width:50%;justify-content: flex-end;">
+        <button nz-button nzType="text" (click)="clearAll_hightlights(config.id)" *ngIf="active !='pdf'"><span
+                nz-icon nzType="clear" nzTheme="outline"></span></button>
+    </div>
+    <div class="sub-header border-0 p-0" style="justify-content: flex-end;">
+        <button nz-button nzType="text" nzSize="small" *ngIf="config.activeTabIndex===0"
+            (click)="add_data_annotaion('AddIndividual','key')">Annotated Html</button>
+    </div>
+    <div class="sub-header border-0 p-0" style="justify-content: flex-end;">
+        <div class="dropdown-trigger" (click)="popup_disply_ind()" *ngIf="active!='pdf'">
+            Page:
+            <div class="text-text">
+                <div class="text">{{config.selected_pno}}</div>
+            </div>
+            <div class="icon-wrapper">
+                <svg class="arrow-caret-down-md" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M2.23431 3.74408C2.54673 3.41864 3.05327 3.41864 3.36569 3.74408L6 6.48816L8.63432 3.74408C8.94673 3.41864 9.45327 3.41864 9.76569 3.74408C10.0781 4.06951 10.0781 4.59715 9.76569 4.92259L6.56569 8.25592C6.25327 8.58136 5.74673 8.58136 5.43431 8.25592L2.23431 4.92259C1.9219 4.59715 1.9219 4.06951 2.23431 3.74408Z"
+                        fill="#595959" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show " id="HTML" role="tabpanel" aria-labelledby="HTML-tab" *ngIf="config.html_tab">
+        <div class="example-large-box">
+            <iframe #iframeRef id={{config.id}} [src]="config.html  | safe" height="100%" width="100%"
+                class="context-area"></iframe>
+        </div>
+    </div>
+    <!-- Translated HTML -->
+    <div class="tab-pane fade show " id="HTML_t" role="tabpanel" aria-labelledby="HTML_t-tab" *ngIf="config.HTMLg_t">
+        <div class="example-large-box">
+            <iframe #iframeRef id={{config.id}} [src]="config.HTML_t  | safe" height="100%" width="100%"
+                class="context-area"></iframe>
+        </div>
+    </div>
+
+    <div class="tab-pane fade show active" id="PDF" role="tabpanel" aria-labelledby="PDF-tab" *ngIf="config.pdf_tab">
+        <div class="example-large-box">
+            <app-pdf-viewer #pdfn2viewer [pdfSrc]="config" style="height: 100%; width: 100%"></app-pdf-viewer>
+            <!-- <iframe [src]="config.pdf  | safe" height="100%" width="100%"></iframe> -->
+        </div>
+    </div>
+</div>
+<div class="dropdown-opened-2" *ngIf="popup_dis_ind" style="left:86%;width: 10%;">
+    <div class="frame-812373">
+        <div class="search-box">
+            <div class="wrapper" style="width: 20px;">
+                <div class="text" *ngIf="0">
+                    <input class="border-0" type="text" [(ngModel)]="searchText" style="outline: none;width: 20px;"
+                        placeholder="Search..." (keyup)="onKeyup($event)">
+                    <!--div class="placeholder">Search</div-->
+                </div>
+            </div>
+            <svg class="divider" width="2" height="16" viewBox="0 0 2 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="0" height="14" transform="translate(1 1)" fill="#DADEE7" />
+                <path d="M1 1V15" stroke="#DADEE7" stroke-linecap="round" />
+            </svg>
+
+            <div class="icon-base1">
+                <div class="icon-wrapper">
+                    <svg class="interface-search-magnifying-glass" width="12" height="12" viewBox="0 0 12 12"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2ZM1 5C1 2.79086 2.79086 1 5 1C7.20914 1 9 2.79086 9 5C9 5.92436 8.68646 6.77548 8.15993 7.45282L10.8536 10.1464C11.0488 10.3417 11.0488 10.6583 10.8536 10.8536C10.6583 11.0488 10.3417 11.0488 10.1464 10.8536L7.45282 8.15993C6.77548 8.68646 5.92436 9 5 9C2.79086 9 1 7.20914 1 5Z"
+                            fill="#808080" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="frame-812374">
+        <div class="dropdown-list" *ngFor="let rw of config.pno_list  | filter :searchText;let i = index">
+            <div class="text-here" (click)="page_no_change_func(config, rw,i)">{{rw}}</div>
+        </div>
+    </div>
+</div>
+
+<mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" *ngif="0">
+    <mat-tab label="HTML" *ngIf="config.html_tab"><!--*ngIf="config.html_tab"-->
+        <div class="example-large-box">
+            <iframe #iframeRef id={{config.id}} [src]="config.html  | safe" height="100%" width="100%"
+                class="context-area"></iframe>
+        </div>
+    </mat-tab>
+    <mat-tab label="PDF" *ngIf="config.pdf_tab">
+        <div class="example-large-box">
+            <iframe [src]="config.pdf  | safe" height="100%" width="100%"></iframe>
+        </div>
+    </mat-tab>
+</mat-tab-group>
+
+
+
+
+<mat-menu #support="matMenu" [hidden]="right_drop_action!='support'">
+    <button mat-menu-item (click)="add_data_annotaion('AddGroup','support')">AddGroup</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddIndividual','support')">AddIndividual</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddSupport','support')">AddSupport</button>
+</mat-menu>
+
+<mat-menu #value="matMenu" [hidden]="right_drop_action!='value'">
+    <button mat-menu-item (click)="add_data_annotaion('AddGroup','value')">AddGroup</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddIndividual','value')">AddIndividual</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddSupport','value')">AddSupport</button>
+</mat-menu>
+
+<mat-menu #Key="matMenu" [hidden]="right_drop_action!='key'">
+    <button mat-menu-item (click)="add_data_annotaion('AddGroup','Key')">AddGroup</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddIndividual','Key')">AddIndividual</button>
+    <button mat-menu-item (click)="add_data_annotaion('AddSupport','Key')">AddSupport</button>
+</mat-menu>
+
+
+<div class="card" *ngIf="isBooleanVariable" style="z-index: 10000;position: absolute;z-index: 1000;width: 120px;"
+    [ngStyle]="{left:eleft+'px',top:etop+'px'}">
+    <li mat-menu-item (click)="menuTriggerClicked('Key')" [matMenuTriggerFor]="Key">key <svg viewBox="0 0 5 10"
+            focusable="false" aria-hidden="true" class="mat-mdc-menu-submenu-icon ng-star-inserted">
+            <polygon points="0,0 5,5 0,10"></polygon>
+        </svg></li>
+    <li mat-menu-item (click)="menuTriggerClicked('value')" [matMenuTriggerFor]="value">Value<svg viewBox="0 0 5 10"
+            focusable="false" aria-hidden="true" class="mat-mdc-menu-submenu-icon ng-star-inserted">
+            <polygon points="0,0 5,5 0,10"></polygon>
+        </svg></li>
+    <li mat-menu-item (click)="menuTriggerClicked('support')" [matMenuTriggerFor]="support">Support <svg
+            viewBox="0 0 5 10" focusable="false" aria-hidden="true" class="mat-mdc-menu-submenu-icon ng-star-inserted">
+            <polygon points="0,0 5,5 0,10"></polygon>
+        </svg></li>
+    <li mat-menu-item (click)="clearAll_hightlights(config.id)">clear<svg viewBox="64 64 896 896" focusable="false"
+            fill="currentColor" width="1em" height="1em" data-icon="clear" aria-hidden="true">
+            <defs>
+                <style></style>
+            </defs>
+            <path
+                d="M899.1 869.6l-53-305.6H864c14.4 0 26-11.6 26-26V346c0-14.4-11.6-26-26-26H618V138c0-14.4-11.6-26-26-26H432c-14.4 0-26 11.6-26 26v182H160c-14.4 0-26 11.6-26 26v192c0 14.4 11.6 26 26 26h17.9l-53 305.6a25.95 25.95 0 0025.6 30.4h723c1.5 0 3-.1 4.4-.4a25.88 25.88 0 0021.2-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v156H416V674c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v156H202.8l45.1-260H776l45.1 260H672z">
+            </path>
+        </svg>
+    </li>
+</div>
+<!-- HTML  -->
+<nz-tabset [nzTabBarExtraContent]="extraTemplate" [(nzSelectedIndex)]="config.activeTabIndex" style="display: none;">
+    <nz-tab nzTitle="HTML" [nzTitle]="HTML" *ngIf="config.html_tab">
+        <ng-template #HTML>
+            <span nz-icon nzType="html5" nzTheme="outline" (click)="ref_tabchange(config,'HTML')"
+                style="width:'20px'"></span>
+            HTML
+        </ng-template>
+        <div class="example-large-box">
+            <!-- <iframe appContext id={{config.id}} [src]="config.html  | safe" height="100%" width="100%"
+                class="context-area"></iframe> -->
+            <!-- <p (contextmenu)="onIframeLoad()">contextmenu</p> -->
+            <iframe #iframeRef id={{config.id}} [src]="config.html  | safe" height="100%" width="100%"
+                class="context-area"></iframe>
+
+        </div>
+
+    </nz-tab>
+    <nz-tab nzTitle="Image" [nzTitle]="Image" *ngIf="config.img_tab">
+        <ng-template #Image>
+            <span nz-icon nzType="file-image" nzTheme="outline" style="width:'20px'"
+                (click)="ref_tabchange(config,'image')"></span>
+            Image
+        </ng-template>
+        <div class="example-large-box">
+            <!-- <iframe [src]="config.img  | safe" height="100%" width="100%"></iframe> -->
+            <img [src]="config.img  | safe" height="100%" width="100%" />
+        </div>
+    </nz-tab>
+    <nz-tab nzTitle="PDF" [nzTitle]="PDF" *ngIf="config.pdf_tab">
+        <ng-template #PDF>
+            <span nz-icon nzType="file-pdf" nzTheme="outline" (click)="ref_tabchange(config,'pdf')"
+                style="width:'20px'"></span>
+            PDF
+        </ng-template>
+        <div class="example-large-box">
+            <iframe [src]="config.pdf  | safe" height="100%" width="100%"></iframe>
+        </div>
+    </nz-tab>
+    <nz-tab nzTitle="HTML" [nzTitle]="HTMLg_t" *ngIf="config.HTMLg_t">
+        <ng-template #HTMLg_t>
+            <span nz-icon nzType="translation" nzTheme="outline" (click)="ref_tabchange(config,'trans')"
+                style="width:'20px'"></span>
+            HTMl
+        </ng-template>
+        <div class="example-large-box">
+            {{ref}}
+        </div>
+    </nz-tab>
+    <nz-tab nzTitle="html" [nzTitle]="html_format" *ngIf="config.html_f_tab">
+        <ng-template #html_format>
+            <span nz-icon nzType="file-text" nzTheme="outline" (click)="ref_tabchange(config,'Format')"
+                nzSize="default"></span>
+            HTML
+        </ng-template>
+        <div class="example-large-box">
+            <iframe [src]="config.Format  | safe" height="100%" width="100%"></iframe>
+        </div>
+    </nz-tab>
+</nz-tabset>
+<ng-template #extraTemplate style="display: none;">
+    <!-- <button nz-button nzType="dashed" (click)="helight_(config)">helight</button> -->
+    <!-- <button nz-button nzType="default" nz-dropdown nzTrigger="click" [matMenuTriggerFor]="Key" value="Key"
+        (click)="clicked_button($event)" [ngStyle]="{'color':key_val_sup_hlight=='Key'?'red':''}" *ngIf="config.activeTabIndex===0">Key</button>
+    <button nz-button nzType="default" nz-dropdown nzTrigger="click" [matMenuTriggerFor]="value" value="value"
+        (click)="clicked_button($event)" [ngStyle]="{'color':key_val_sup_hlight=='value'?'red':''}" *ngIf="config.activeTabIndex===0">Value</button>
+    <button nz-button nzType="default" value="support" (click)="clicked_button($event)" nz-dropdown nzTrigger="click"
+        [matMenuTriggerFor]="support" [ngStyle]="{'color':key_val_sup_hlight=='support'?'red':''}" *ngIf="config.activeTabIndex===0">Support</button>
+    <nz-divider class="m-0" nzType="vertical" nzSize="default" *ngIf="config.activeTabIndex===0"></nz-divider> -->
+
+    <!-- <button nz-button nzType="text" nzSize="small" *ngIf="config.activeTabIndex===0"
+        (click)="add_data_annotaion('AddGroup',key_val_sup_hlight)">AddGroup</button>
+    <nz-divider class="m-0" nzType="vertical" nzSize="default" *ngIf="config.activeTabIndex===0"></nz-divider>
+    <button nz-button nzType="text" nzSize="small" *ngIf="config.activeTabIndex===0"
+        (click)="add_data_annotaion('AddIndividual',key_val_sup_hlight)">AddIndividual</button>
+    <nz-divider class="m-0" nzType="vertical" nzSize="default" *ngIf="config.activeTabIndex===0"></nz-divider>
+    <button nz-button nzType="text" nzSize="small" *ngIf="config.activeTabIndex===0"
+        (click)="add_data_annotaion('AddSupport',key_val_sup_hlight)">AddSupport</button> -->
+    <nz-divider class="m-0" nzType="vertical" nzSize="default" *ngIf="config.activeTabIndex===0"></nz-divider>
+    <button nz-button nzType="text" (click)="clearAll_hightlights(config.id)"><span nz-icon nzType="clear"
+            nzTheme="outline"></span></button><!--(click)="helight_(config)"-->
+    <span nzType="left" nzTheme="outline" (click)="page_no_change_func_scroll(config,'prev')"></span>
+    <nz-divider class="m-0" nzType="vertical" nzSize="default"></nz-divider>
+    <button nz-button nzType="text" nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu1"
+        [(ngModel)]="config.selected_pno" ngDefaultControl>{{config.selected_pno}}
+    </button>
+    <nz-divider class="m-0" nzType="vertical" nzSize="default"></nz-divider>
+    <span nz-icon nzType="right" nzTheme="outline" (click)="page_no_change_func_scroll(config,'next')"></span>
+    <nz-dropdown-menu #menu1="nzDropdownMenu">
+        <ul nz-menu style="height: 200px !important;overflow: auto;border-radius: 0px;width: 75px;">
+            <input nz-input placeholder="search" style="background-color: #FFF;" [(ngModel)]="searchText"
+                ngDefaultControl nzSize="small" />
+            <li nz-menu-item *ngFor="let rw of config.pno_list  | filter :searchText;let i = index"
+                (click)="page_no_change_func(config, rw,i)">{{rw | json}}</li>
+        </ul>
+    </nz-dropdown-menu>
+</ng-template>
+<!--  -->

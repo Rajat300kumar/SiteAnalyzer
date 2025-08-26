@@ -1,0 +1,27 @@
+<div class="example-form">
+    <mat-form-field style="width: 100%;height: 45px;">
+        <mat-label> Docs ID</mat-label>
+        <input #input type="text" placeholder="please input" matInput [formControl]="myControl" (input)="filter()"
+            (focus)="filter()">
+    </mat-form-field>
+</div>
+<div class="display:flex;" ngif="0">
+    <button mat-raised-button (click)="filterBy('all')"
+        [ngClass]="{'active-filter': selectedFilter === 'all'}">ALL</button>
+    <button mat-raised-button (click)="filterBy('true')"
+        [ngClass]="{'active-filter': selectedFilter === 'true'}">Done</button>
+    <button mat-raised-button (click)="filterBy('false')"
+        [ngClass]="{'active-filter': selectedFilter === 'false'}">Pending</button>
+</div>
+<div class="scrollable-list-container">
+    <mat-list role="list">
+        @for (option of filteredOptions; track option) {
+        <mat-list-item style="border-bottom: 1px solid lightsteelblue;cursor: pointer;" (click)="onSelect(option)"
+            [ngClass]="{'highlighted': selectedOption__ === option}"><!--(optionSelected_)="onSelect(option)"-->
+            <mat-icon matListItemIcon [style.color]="option.toString().split(',')[2] === 'true' ? 'green' : 'gray'"
+                title="{{option.toString().split(',')[2]}}">circle</mat-icon>
+            <div matListItemTitle>{{option.toString().split(',')[0]}}</div>
+        </mat-list-item>
+        }
+    </mat-list>
+</div>

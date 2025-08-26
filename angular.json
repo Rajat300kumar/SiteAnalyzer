@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ref-component",
+            "outputPath": "dist/SiteAnalyzer",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -21,15 +21,30 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/tasIcon.ico",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/ng2-pdfjs-viewer/pdfjs",
+                "output": "/assets/pdfjs"
+              }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/ag-grid-community/styles/ag-grid.css",
+              "node_modules/ag-grid-community/styles/ag-theme-quartz.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js"
+            ],
             "server": "src/main.server.ts",
-            "prerender": true,
+            "prerender": false,
             "ssr": {
               "entry": "server.ts"
             }
@@ -39,13 +54,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "4mb",
+                  "maximumError": "4mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "6kb",
+                  "maximumError": "8kb"
                 }
               ],
               "outputHashing": "all"
@@ -60,6 +75,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "host": "0.0.0.0",
+            "port": 4100
+          },
           "configurations": {
             "production": {
               "buildTarget": "refComponent:build:production"
@@ -85,10 +104,11 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
+              "src/tasIcon.ico",
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -96,5 +116,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

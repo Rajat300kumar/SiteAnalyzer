@@ -1,0 +1,51 @@
+<!-- 
+   
+<div class="sub-header border-0 p-0" style="width: 10%;">
+    <div class="dropdown-trigger" (click)="popup_disply_ind()">
+        Page:
+        <div class="text-text">
+            <div class="text">{{config.selected_pno}}</div>
+        </div>
+        <div class="icon-wrapper">
+            <svg class="arrow-caret-down-md" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.23431 3.74408C2.54673 3.41864 3.05327 3.41864 3.36569 3.74408L6 6.48816L8.63432 3.74408C8.94673 3.41864 9.45327 3.41864 9.76569 3.74408C10.0781 4.06951 10.0781 4.59715 9.76569 4.92259L6.56569 8.25592C6.25327 8.58136 5.74673 8.58136 5.43431 8.25592L2.23431 4.92259C1.9219 4.59715 1.9219 4.06951 2.23431 3.74408Z"
+                    fill="#595959" />
+            </svg>
+        </div>
+    </div>
+</div>
+<div class="dropdown-opened-2" *ngIf="popup_dis_ind" style="left:86%;width: 10%;">
+    <div class="frame-812373">
+        <div class="search-box">
+            <div class="wrapper">
+                <div class="text">
+                    <input class="placeholder border-0" type="text" ng-model="searchTerm_ind" style="outline: none;"
+                        placeholder="Search...">
+                </div>
+            </div>
+            <svg class="divider" width="2" height="16" viewBox="0 0 2 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect width="0" height="14" transform="translate(1 1)" fill="#DADEE7" />
+                <path d="M1 1V15" stroke="#DADEE7" stroke-linecap="round" />
+            </svg>
+
+            <div class="icon-base1">
+                <div class="icon-wrapper">
+                    <svg class="interface-search-magnifying-glass" width="12" height="12" viewBox="0 0 12 12"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2ZM1 5C1 2.79086 2.79086 1 5 1C7.20914 1 9 2.79086 9 5C9 5.92436 8.68646 6.77548 8.15993 7.45282L10.8536 10.1464C11.0488 10.3417 11.0488 10.6583 10.8536 10.8536C10.6583 11.0488 10.3417 11.0488 10.1464 10.8536L7.45282 8.15993C6.77548 8.68646 5.92436 9 5 9C2.79086 9 1 7.20914 1 5Z"
+                            fill="#808080" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="frame-812374">
+        <div class="dropdown-list" *ngFor="let rw of config.pno_list  | filter :searchTerm_ind;let i = index">
+            <div class="text-here" (click)="page_no_change_func(config, rw,i)">{{rw}}</div>
+        </div>
+    </div>
+</div> -->

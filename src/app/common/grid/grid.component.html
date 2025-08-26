@@ -1,0 +1,3 @@
+<ag-grid-angular [rowData]="gridOptions.rowData" [columnDefs]="gridOptions.columnDefs"
+    [defaultColDef]="gridOptions.defaultColDef"(filterChanged)="onFilterChanged($event)"
+    (gridReady)="onGridReady($event)" style="width:100%; height: 98%;" class="ag-theme-quartz" />

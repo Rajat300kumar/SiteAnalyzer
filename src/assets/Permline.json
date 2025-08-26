@@ -1,0 +1,4617 @@
+[
+  {
+    "Company Name": "3M",
+    "PermId": 5000072036.0,
+    "Ticker": "MMM"
+  },
+  {
+    "Company Name": "ABBVIE INC",
+    "PermId": 5037613143.0,
+    "Ticker": "ABBV"
+  },
+  {
+    "Company Name": "ACCENTURE PLC CLASS A",
+    "PermId": 4298364184.0,
+    "Ticker": "ACN"
+  },
+  {
+    "Company Name": "ADOBE INC",
+    "PermId": 4295905431.0,
+    "Ticker": "ADBE"
+  },
+  {
+    "Company Name": "Advanced Micro Devices (AMD)",
+    "PermId": 4295903297.0,
+    "Ticker": "AMD"
+  },
+  {
+    "Company Name": "ALPHABET INC CLASS A",
+    "PermId": 5030853586.0,
+    "Ticker": "GOOGL"
+  },
+  {
+    "Company Name": "ALTRIA GROUP INC",
+    "PermId": 4295903207.0,
+    "Ticker": "MO"
+  },
+  {
+    "Company Name": "AMERICAN EXPRESS",
+    "PermId": 4295903329.0,
+    "Ticker": "AXP"
+  },
+  {
+    "Company Name": "AMERICAN INTERNATIONAL GROUP INC",
+    "PermId": 4295903341.0,
+    "Ticker": "AIG"
+  },
+  {
+    "Company Name": "AMERICAN TOWER REIT CORP",
+    "PermId": 5041065616.0,
+    "Ticker": "AMT"
+  },
+  {
+    "Company Name": "AMGEN INC",
+    "PermId": 4295905537.0,
+    "Ticker": "AMGN"
+  },
+  {
+    "Company Name": "AT&T INC",
+    "PermId": 4295904853.0,
+    "Ticker": "T"
+  },
+  {
+    "Company Name": "BANK OF AMERICA CORP",
+    "PermId": 8589934339.0,
+    "Ticker": "BAC"
+  },
+  {
+    "Company Name": "BERKSHIRE HATHAWAY INC CLASS B",
+    "PermId": 4295908552.0,
+    "Ticker": "BRKB"
+  },
+  {
+    "Company Name": "BLACKROCK INC",
+    "PermId": 4295900990.0,
+    "Ticker": "BLK"
+  },
+  {
+    "Company Name": "BLACKSTONE INC",
+    "PermId": 4295902706.0,
+    "Ticker": "BX"
+  },
+  {
+    "Company Name": "BOEING",
+    "PermId": 4295903076.0,
+    "Ticker": "BA"
+  },
+  {
+    "Company Name": "BROADCOM INC",
+    "PermId": 5060689053.0,
+    "Ticker": "AVGO"
+  },
+  {
+    "Company Name": "CATERPILLAR INC",
+    "PermId": 4295903678.0,
+    "Ticker": "CAT"
+  },
+  {
+    "Company Name": "CHARLES SCHWAB CORP",
+    "PermId": 4296473910.0,
+    "Ticker": "SCHW"
+  },
+  {
+    "Company Name": "CHARTER COMMUNICATIONS INC CLASS A",
+    "PermId": 4296423152.0,
+    "Ticker": "CHTR"
+  },
+  {
+    "Company Name": "CHEVRON CORP",
+    "PermId": 4295903744.0,
+    "Ticker": "CVX"
+  },
+  {
+    "Company Name": "CISCO SYSTEMS INC",
+    "PermId": 5080018615.0,
+    "Ticker": "CSCO"
+  },
+  {
+    "Company Name": "CITIGROUP INC",
+    "PermId": 8589934316.0,
+    "Ticker": "C"
+  },
+  {
+    "Company Name": "COCA-COLA",
+    "PermId": 4295903091.0,
+    "Ticker": "KO"
+  },
+  {
+    "Company Name": "COLGATE-PALMOLIVE",
+    "PermId": 5051002506.0,
+    "Ticker": "CL"
+  },
+  {
+    "Company Name": "COMCAST CORP CLASS A",
+    "PermId": 4295908573.0,
+    "Ticker": "CMCSA"
+  },
+  {
+    "Company Name": "COSTCO WHOLESALE CORP",
+    "PermId": 4295912987.0,
+    "Ticker": "COST"
+  },
+  {
+    "Company Name": "DANAHER CORP",
+    "PermId": 4295903833.0,
+    "Ticker": "DHR"
+  },
+  {
+    "Company Name": "DUKE ENERGY CORP",
+    "PermId": 4295903896.0,
+    "Ticker": "DUK"
+  },
+  {
+    "Company Name": "ELI LILLY",
+    "PermId": 4295904414.0,
+    "Ticker": "LLY"
+  },
+  {
+    "Company Name": "EMERSON ELECTRIC",
+    "PermId": 4295903920.0,
+    "Ticker": "EMR"
+  },
+  {
+    "Company Name": "EXXON MOBIL CORP",
+    "PermId": 4295912121.0,
+    "Ticker": "XOM"
+  },
+  {
+    "Company Name": "FEDEX CORP",
+    "PermId": 4295912126.0,
+    "Ticker": "FDX"
+  },
+  {
+    "Company Name": "GE AEROSPACE",
+    "PermId": 4295903128.0,
+    "Ticker": "GE"
+  },
+  {
+    "Company Name": "GENERAL DYNAMICS CORP",
+    "PermId": 4295903136.0,
+    "Ticker": "GD"
+  },
+  {
+    "Company Name": "GENERAL MOTORS",
+    "PermId": 4298546138.0,
+    "Ticker": "GM"
+  },
+  {
+    "Company Name": "GILEAD SCIENCES INC",
+    "PermId": 4295906595.0,
+    "Ticker": "GILD"
+  },
+  {
+    "Company Name": "GOLDMAN SACHS GROUP INC",
+    "PermId": 4295911963.0,
+    "Ticker": "GS"
+  },
+  {
+    "Company Name": "HOME DEPOT INC",
+    "PermId": 4295903148.0,
+    "Ticker": "HD"
+  },
+  {
+    "Company Name": "HONEYWELL INTERNATIONAL INC",
+    "PermId": 4295912155.0,
+    "Ticker": "HON"
+  },
+  {
+    "Company Name": "INTEL CORPORATION CORP",
+    "PermId": 5000131040.0,
+    "Ticker": "INTC"
+  },
+  {
+    "Company Name": "INTERNATIONAL BUSINESS MACHINES CO",
+    "PermId": 4295904307.0,
+    "Ticker": "IBM"
+  },
+  {
+    "Company Name": "INTUIT INC",
+    "PermId": 4295906862.0,
+    "Ticker": "INTU"
+  },
+  {
+    "Company Name": "INTUITIVE SURGICAL INC",
+    "PermId": 4295913928.0,
+    "Ticker": "ISRG"
+  },
+  {
+    "Company Name": "JOHNSON & JOHNSON",
+    "PermId": 5057415212.0,
+    "Ticker": "JNJ"
+  },
+  {
+    "Company Name": "JPMORGAN CHASE & CO",
+    "PermId": 5000021791.0,
+    "Ticker": "JPM"
+  },
+  {
+    "Company Name": "LINDE PLC",
+    "PermId": 5083858869.0,
+    "Ticker": "LIN"
+  },
+  {
+    "Company Name": "LOCKHEED MARTIN CORP",
+    "PermId": 5000069094.0,
+    "Ticker": "LMT"
+  },
+  {
+    "Company Name": "LOWES COMPANIES INC",
+    "PermId": 4295904432.0,
+    "Ticker": "LOW"
+  },
+  {
+    "Company Name": "MASTERCARD INC CLASS A",
+    "PermId": 4295902520.0,
+    "Ticker": "MA"
+  },
+  {
+    "Company Name": "MCDONALDS CORP",
+    "PermId": 4295904499.0,
+    "Ticker": "MCD"
+  },
+  {
+    "Company Name": "MEDTRONIC PLC",
+    "PermId": 5043331632.0,
+    "Ticker": "MDT"
+  },
+  {
+    "Company Name": "MERCK & CO INC",
+    "PermId": 5076357266.0,
+    "Ticker": "MRK"
+  },
+  {
+    "Company Name": "META PLATFORMS INC CLASS A",
+    "PermId": 4297297477.0,
+    "Ticker": "META"
+  },
+  {
+    "Company Name": "MetLife",
+    "PermId": 4295912198.0,
+    "Ticker": "MET"
+  },
+  {
+    "Company Name": "MONDELEZ INTERNATIONAL INC CLASS A",
+    "PermId": 5073084716.0,
+    "Ticker": "MDLZ"
+  },
+  {
+    "Company Name": "NIKE INC CLASS B",
+    "PermId": 5000481042.0,
+    "Ticker": "NKE"
+  },
+  {
+    "Company Name": "NORTHROP GRUMMAN CORP",
+    "PermId": 5035414782.0,
+    "Ticker": "NOC"
+  },
+  {
+    "Company Name": "ORACLE CORP",
+    "PermId": 4295907485.0,
+    "Ticker": "ORCL"
+  },
+  {
+    "Company Name": "PALANTIR TECHNOLOGIES INC CLASS A",
+    "PermId": 4295968965.0,
+    "Ticker": "PLTR"
+  },
+  {
+    "Company Name": "PAYPAL HOLDINGS INC",
+    "PermId": 5045870012.0,
+    "Ticker": "PYPL"
+  },
+  {
+    "Company Name": "PEPSICO INC",
+    "PermId": 4295904718.0,
+    "Ticker": "PEP"
+  },
+  {
+    "Company Name": "PFIZER INC",
+    "PermId": 4295904722.0,
+    "Ticker": "PFE"
+  },
+  {
+    "Company Name": "PHILIP MORRIS INTERNATIONAL INC",
+    "PermId": 4298015178.0,
+    "Ticker": "PM"
+  },
+  {
+    "Company Name": "PROCTER & GAMBLE",
+    "PermId": 4295903247.0,
+    "Ticker": "PG"
+  },
+  {
+    "Company Name": "RTX CORP(formerly. Raytheon Technologies)",
+    "PermId": 4295905180.0,
+    "Ticker": "RTX"
+  },
+  {
+    "Company Name": "SALESFORCE INC",
+    "PermId": 4295915633.0,
+    "Ticker": "CRM"
+  },
+  {
+    "Company Name": "SERVICENOW INC",
+    "PermId": 5000388033.0,
+    "Ticker": "NOW"
+  },
+  {
+    "Company Name": "Simon Property Group",
+    "PermId": 5095155415.0,
+    "Ticker": "SPG"
+  },
+  {
+    "Company Name": "The Southern Company",
+    "PermId": 4295903239.0,
+    "Ticker": "SO"
+  },
+  {
+    "Company Name": "T MOBILE US INC",
+    "PermId": 4295900188.0,
+    "Ticker": "TMUS"
+  },
+  {
+    "Company Name": "TARGET CORP",
+    "PermId": 5059920032.0,
+    "Ticker": "TGT"
+  },
+  {
+    "Company Name": "TESLA INC",
+    "PermId": 5088024644.0,
+    "Ticker": "TSLA"
+  },
+  {
+    "Company Name": "TEXAS INSTRUMENT INC",
+    "PermId": 4295905063.0,
+    "Ticker": "TXN"
+  },
+  {
+    "Company Name": "THERMO FISHER SCIENTIFIC INC",
+    "PermId": 4295905068.0,
+    "Ticker": "TMO"
+  },
+  {
+    "Company Name": "TRAVELERS COMPANIES INC",
+    "PermId": 4295904877.0,
+    "Ticker": "TRV"
+  },
+  {
+    "Company Name": "UNION PACIFIC CORP",
+    "PermId": 4295905161.0,
+    "Ticker": "UNP"
+  },
+  {
+    "Company Name": "UNITED PARCEL SERVICE INC CLASS B",
+    "PermId": 4295912318.0,
+    "Ticker": "UPS"
+  },
+  {
+    "Company Name": "UNITEDHEALTH GROUP INC",
+    "PermId": 5046300101.0,
+    "Ticker": "UNH"
+  },
+  {
+    "Company Name": "VERIZON COMMUNICATIONS INC",
+    "PermId": 4295911976.0,
+    "Ticker": "VZ"
+  },
+  {
+    "Company Name": "VISA INC CLASS A",
+    "PermId": 4298015179.0,
+    "Ticker": "V"
+  },
+  {
+    "Company Name": "WALMART INC",
+    "PermId": 4295905298.0,
+    "Ticker": "WMT"
+  },
+  {
+    "Company Name": "WELLS FARGO",
+    "PermId": 8589934175.0,
+    "Ticker": "WFC"
+  },
+  {
+    "Company Name": "AIR PRODUCTS AND CHEMICALS INC",
+    "PermId": 4295903294.0,
+    "Ticker": "APD"
+  },
+  {
+    "Company Name": "AIRBNB INC CLASS A",
+    "PermId": 5001437821.0,
+    "Ticker": "ABNB"
+  },
+  {
+    "Company Name": "AMERIPRISE FINANCE INC",
+    "PermId": 4295899980.0,
+    "Ticker": "AMP"
+  },
+  {
+    "Company Name": "AMPHENOL CORP CLASS A",
+    "PermId": 4295903359.0,
+    "Ticker": "APH"
+  },
+  {
+    "Company Name": "AON PLC CLASS A",
+    "PermId": 4296821988.0,
+    "Ticker": "AON"
+  },
+  {
+    "Company Name": "ARISTA NETWORKS INC",
+    "PermId": 5042238586.0,
+    "Ticker": "ANET"
+  },
+  {
+    "Company Name": "ARTHUR J GALLAGHER",
+    "PermId": 4298547691.0,
+    "Ticker": "AJG"
+  },
+  {
+    "Company Name": "AUTODESK INC",
+    "PermId": 4295905642.0,
+    "Ticker": "ADSK"
+  },
+  {
+    "Company Name": "AUTOMATIC DATA PROCESSING INC",
+    "PermId": 4295903514.0,
+    "Ticker": "ADP"
+  },
+  {
+    "Company Name": "AUTOZONE INC",
+    "PermId": 4295903490.0,
+    "Ticker": "AZO"
+  },
+  {
+    "Company Name": "BANK OF NEW YORK MELLON CORP",
+    "PermId": 5000001034.0,
+    "Ticker": "BK"
+  },
+  {
+    "Company Name": "BECTON DICKINSON",
+    "PermId": 4295903533.0,
+    "Ticker": "BDX"
+  },
+  {
+    "Company Name": "BOOKING HOLDINGS INC",
+    "PermId": 4295914598.0,
+    "Ticker": "BKNG"
+  },
+  {
+    "Company Name": "BOSTON SCIENTIFIC CORP",
+    "PermId": 4295903586.0,
+    "Ticker": "BSX"
+  },
+  {
+    "Company Name": "BRISTOL MYERS SQUIBB",
+    "PermId": 4295903619.0,
+    "Ticker": "BMY"
+  },
+  {
+    "Company Name": "CADENCE DESIGN SYSTEMS INC",
+    "PermId": 4295903637.0,
+    "Ticker": "CDNS"
+  },
+  {
+    "Company Name": "CAPITAL ONE FINANCIAL CORP",
+    "PermId": 4295903652.0,
+    "Ticker": "COF"
+  },
+  {
+    "Company Name": "CARRIER GLOBAL CORP",
+    "PermId": 5073156222.0,
+    "Ticker": "CARR"
+  },
+  {
+    "Company Name": "CHIPOTLE MEXICAN GRILL INC",
+    "PermId": 4295900112.0,
+    "Ticker": "CMG"
+  },
+  {
+    "Company Name": "CHUBB LTD",
+    "PermId": 5000709065.0,
+    "Ticker": "CB"
+  },
+  {
+    "Company Name": "CIGNA",
+    "PermId": 5063766000.0,
+    "Ticker": "CI"
+  },
+  {
+    "Company Name": "CINTAS CORP",
+    "PermId": 4295905955.0,
+    "Ticker": "CTAS"
+  },
+  {
+    "Company Name": "CME GROUP INC CLASS A",
+    "PermId": 4295899615.0,
+    "Ticker": "CME"
+  },
+  {
+    "Company Name": "CONOCOPHILLIPS",
+    "PermId": 4297804328.0,
+    "Ticker": "COP"
+  },
+  {
+    "Company Name": "CONSTELLATION ENERGY CORP",
+    "PermId": 5081500884.0,
+    "Ticker": "CEG"
+  },
+  {
+    "Company Name": "CROWDSTRIKE HOLDINGS INC CLASS A",
+    "PermId": 5037134582.0,
+    "Ticker": "CRWD"
+  },
+  {
+    "Company Name": "CSX CORP",
+    "PermId": 4295903665.0,
+    "Ticker": "CSX"
+  },
+  {
+    "Company Name": "CVS HEALTH CORP",
+    "PermId": 4295903627.0,
+    "Ticker": "CVS"
+  },
+  {
+    "Company Name": "EATON PLC",
+    "PermId": 5037629126.0,
+    "Ticker": "ETN"
+  },
+  {
+    "Company Name": "ECOLAB INC",
+    "PermId": 4295903916.0,
+    "Ticker": "ECL"
+  },
+  {
+    "Company Name": "ELEVANCE HEALTH INC",
+    "PermId": 4295901784.0,
+    "Ticker": "ELV"
+  },
+  {
+    "Company Name": "EOG RESOURCES INC",
+    "PermId": 4295912113.0,
+    "Ticker": "EOG"
+  },
+  {
+    "Company Name": "EQUINIX REIT INC",
+    "PermId": 4295900491.0,
+    "Ticker": "EQIX"
+  },
+  {
+    "Company Name": "FISERV INC",
+    "PermId": 4295906509.0,
+    "Ticker": "FI"
+  },
+  {
+    "Company Name": "FORTINET INC",
+    "PermId": 4295935222.0,
+    "Ticker": "FTNT"
+  },
+  {
+    "Company Name": "FREEPORT MCMORAN INC",
+    "PermId": null,
+    "Ticker": "FCX"
+  },
+  {
+    "Company Name": "GE VERNOVA INC",
+    "PermId": 5086720112.0,
+    "Ticker": "GEV"
+  },
+  {
+    "Company Name": "GENERAL MILLS INC",
+    "PermId": 4295904061.0,
+    "Ticker": "GIS"
+  },
+  {
+    "Company Name": "HCA HEALTHCARE INC",
+    "PermId": 5001208951.0,
+    "Ticker": "HCA"
+  },
+  {
+    "Company Name": "HILTON WORLDWIDE HOLDINGS INC",
+    "PermId": 5040250025.0,
+    "Ticker": "HLT"
+  },
+  {
+    "Company Name": "ILLINOIS TOOL INC",
+    "PermId": 4295904216.0,
+    "Ticker": "ITW"
+  },
+  {
+    "Company Name": "INTERCONTINENTAL EXCHANGE INC",
+    "PermId": 5038915059.0,
+    "Ticker": "ICE"
+  },
+  {
+    "Company Name": "KKR AND CO INC",
+    "PermId": 5083144032.0,
+    "Ticker": "KKR"
+  },
+  {
+    "Company Name": "KLA CORP",
+    "PermId": 4295906904.0,
+    "Ticker": "KLAC"
+  },
+  {
+    "Company Name": "KRAFT HEINZ",
+    "PermId": 5038908093.0,
+    "Ticker": "KHC"
+  },
+  {
+    "Company Name": "LAM RESEARCH CORP",
+    "PermId": 4295906961.0,
+    "Ticker": "LRCX"
+  },
+  {
+    "Company Name": "MARRIOTT INTERNATIONAL INC CLASS A",
+    "PermId": 4295904482.0,
+    "Ticker": "MAR"
+  },
+  {
+    "Company Name": "MARSH & MCLENNAN INC",
+    "PermId": 4295904476.0,
+    "Ticker": "MMC"
+  },
+  {
+    "Company Name": "MCKESSON CORP",
+    "PermId": 4295912188.0,
+    "Ticker": "MCK"
+  },
+  {
+    "Company Name": "MICRON TECHNOLOGY INC",
+    "PermId": 4295903176.0,
+    "Ticker": "MU"
+  },
+  {
+    "Company Name": "MOODYS CORP",
+    "PermId": 8589934244.0,
+    "Ticker": "MCO"
+  },
+  {
+    "Company Name": "MORGAN STANLEY",
+    "PermId": 5000042134.0,
+    "Ticker": "MS"
+  },
+  {
+    "Company Name": "MOTOROLA SOLUTIONS INC",
+    "PermId": 4295904562.0,
+    "Ticker": "MSI"
+  },
+  {
+    "Company Name": "NETFLIX INC",
+    "PermId": 4295902158.0,
+    "Ticker": "NFLX"
+  },
+  {
+    "Company Name": "NEXTERA ENERGY INC",
+    "PermId": 4295903955.0,
+    "Ticker": "NEE"
+  },
+  {
+    "Company Name": "ONEOK INC",
+    "PermId": 4295904660.0,
+    "Ticker": "OKE"
+  },
+  {
+    "Company Name": "OREILLY AUTOMOTIVE INC",
+    "PermId": 4295907490.0,
+    "Ticker": "ORLY"
+  },
+  {
+    "Company Name": "PACCAR INC",
+    "PermId": 4295907525.0,
+    "Ticker": "PCAR"
+  },
+  {
+    "Company Name": "PALO ALTO NETWORKS INC",
+    "PermId": 4296000356.0,
+    "Ticker": "PANW"
+  },
+  {
+    "Company Name": "PARKER-HANNIFIN CORP",
+    "PermId": 4295903206.0,
+    "Ticker": "PH"
+  },
+  {
+    "Company Name": "PNC FINANCIAL SERVICES GROUP INC",
+    "PermId": 4295904676.0,
+    "Ticker": "PNC"
+  },
+  {
+    "Company Name": "PROGRESSIVE CORP",
+    "PermId": 4295904769.0,
+    "Ticker": "PGR"
+  },
+  {
+    "Company Name": "PROLOGIS REIT INC",
+    "PermId": 4295903263.0,
+    "Ticker": "PLD"
+  },
+  {
+    "Company Name": "REGENERON PHARMACEUTICALS INC",
+    "PermId": 4295907752.0,
+    "Ticker": "REGN"
+  },
+  {
+    "Company Name": "ROPER TECHNOLOGIES INC",
+    "PermId": 4295904842.0,
+    "Ticker": "ROP"
+  },
+  {
+    "Company Name": "ROYAL CARIBBEAN GROUP LTD",
+    "PermId": 4295900973.0,
+    "Ticker": "RCL"
+  },
+  {
+    "Company Name": "S&P GLOBAL INC",
+    "PermId": 4295904495.0,
+    "Ticker": "SPGI"
+  },
+  {
+    "Company Name": "SHERWIN WILLIAMS",
+    "PermId": 4295904914.0,
+    "Ticker": "SHW"
+  },
+  {
+    "Company Name": "STRYKER CORP",
+    "PermId": 4295904996.0,
+    "Ticker": "SYK"
+  },
+  {
+    "Company Name": "TJX INC",
+    "PermId": 4295905029.0,
+    "Ticker": "TJX"
+  },
+  {
+    "Company Name": "TRANE TECHNOLOGIES PLC",
+    "PermId": 5000668795.0,
+    "Ticker": "TT"
+  },
+  {
+    "Company Name": "TRUIST FINANCIAL CORP",
+    "PermId": 4295903505.0,
+    "Ticker": "TFC"
+  },
+  {
+    "Company Name": "UBER TECHNOLOGIES INC",
+    "PermId": 5037473967.0,
+    "Ticker": "UBER"
+  },
+  {
+    "Company Name": "US BANCORP",
+    "PermId": 8589934183.0,
+    "Ticker": "USB"
+  },
+  {
+    "Company Name": "VERTEX PHARMACEUTICALS INC",
+    "PermId": 4295908317.0,
+    "Ticker": "VRTX"
+  },
+  {
+    "Company Name": "WASTE MANAGEMENT INC",
+    "PermId": 4295905311.0,
+    "Ticker": "WM"
+  },
+  {
+    "Company Name": "WELLTOWER INC",
+    "PermId": 4295904152.0,
+    "Ticker": "WELL"
+  },
+  {
+    "Company Name": "WILLIAMS INC",
+    "PermId": null,
+    "Ticker": "WMB"
+  },
+  {
+    "Company Name": "ZOETIS INC CLASS A",
+    "PermId": 5037658928.0,
+    "Ticker": "ZTS"
+  },
+  {
+    "Company Name": "A O SMITH CORP",
+    "PermId": 4295908678.0,
+    "Ticker": "AOS"
+  },
+  {
+    "Company Name": "AES CORP",
+    "PermId": 4295903289.0,
+    "Ticker": "AES"
+  },
+  {
+    "Company Name": "AFLAC INC",
+    "PermId": 4295903261.0,
+    "Ticker": "AFL"
+  },
+  {
+    "Company Name": "AKAMAI TECHNOLOGIES INC",
+    "PermId": 4295912422.0,
+    "Ticker": "AKAM"
+  },
+  {
+    "Company Name": "ALBEMARLE CORP",
+    "PermId": 4295903309.0,
+    "Ticker": "ALB"
+  },
+  {
+    "Company Name": "ALEXANDRIA REAL ESTATE EQUITIES RE",
+    "PermId": 4295903337.0,
+    "Ticker": "ARE"
+  },
+  {
+    "Company Name": "ALIGN TECHNOLOGY INC",
+    "PermId": 4295900190.0,
+    "Ticker": "ALGN"
+  },
+  {
+    "Company Name": "ALLEGION PLC",
+    "PermId": 5040047599.0,
+    "Ticker": "ALLE"
+  },
+  {
+    "Company Name": "ALLIANT ENERGY CORP",
+    "PermId": 4295911995.0,
+    "Ticker": "LNT"
+  },
+  {
+    "Company Name": "ALLSTATE CORP",
+    "PermId": 4295903316.0,
+    "Ticker": "ALL"
+  },
+  {
+    "Company Name": "AMCOR PLC",
+    "PermId": 5064691048.0,
+    "Ticker": "AMCR"
+  },
+  {
+    "Company Name": "AMEREN CORP",
+    "PermId": 4295903332.0,
+    "Ticker": "AEE"
+  },
+  {
+    "Company Name": "AMERICAN ELECTRIC POWER INC",
+    "PermId": 4295903333.0,
+    "Ticker": "AEP"
+  },
+  {
+    "Company Name": "AMERICAN WATER WORKS INC",
+    "PermId": 4295903347.0,
+    "Ticker": "AWK"
+  },
+  {
+    "Company Name": "AMETEK INC",
+    "PermId": 4295903382.0,
+    "Ticker": "AME"
+  },
+  {
+    "Company Name": "ANSYS INC",
+    "PermId": 4295905566.0,
+    "Ticker": "ANSS"
+  },
+  {
+    "Company Name": "APA CORP",
+    "PermId": 5080022433.0,
+    "Ticker": "APA"
+  },
+  {
+    "Company Name": "APTIV PLC",
+    "PermId": 5035155584.0,
+    "Ticker": "APTV"
+  },
+  {
+    "Company Name": "ARCH CAPITAL GROUP LTD",
+    "PermId": 4295912518.0,
+    "Ticker": "ACGL"
+  },
+  {
+    "Company Name": "ARCHER DANIELS MIDLAND",
+    "PermId": 4295903463.0,
+    "Ticker": "ADM"
+  },
+  {
+    "Company Name": "ASSURANT INC",
+    "PermId": 4295899478.0,
+    "Ticker": "AIZ"
+  },
+  {
+    "Company Name": "ATMOS ENERGY CORP",
+    "PermId": 4295903484.0,
+    "Ticker": "ATO"
+  },
+  {
+    "Company Name": "AVALONBAY COMMUNITIES REIT INC",
+    "PermId": 4295903478.0,
+    "Ticker": "AVB"
+  },
+  {
+    "Company Name": "AVERY DENNISON CORP",
+    "PermId": 4295903492.0,
+    "Ticker": "AVY"
+  },
+  {
+    "Company Name": "AXON ENTERPRISE INC",
+    "PermId": 4295899766.0,
+    "Ticker": "AXON"
+  },
+  {
+    "Company Name": "BAKER HUGHES CLASS A",
+    "PermId": 5055424391.0,
+    "Ticker": "BKR"
+  },
+  {
+    "Company Name": "BALL CORP",
+    "PermId": 4295903520.0,
+    "Ticker": "BALL"
+  },
+  {
+    "Company Name": "BAXTER INTERNATIONAL INC",
+    "PermId": 4295903531.0,
+    "Ticker": "BAX"
+  },
+  {
+    "Company Name": "BEST BUY INC",
+    "PermId": 4295903556.0,
+    "Ticker": "BBY"
+  },
+  {
+    "Company Name": "BIO TECHNE CORP",
+    "PermId": 4295908113.0,
+    "Ticker": "TECH"
+  },
+  {
+    "Company Name": "BIOGEN INC",
+    "PermId": 4295906748.0,
+    "Ticker": "BIIB"
+  },
+  {
+    "Company Name": "BORGWARNER INC",
+    "PermId": 4295903602.0,
+    "Ticker": "BWA"
+  },
+  {
+    "Company Name": "BROADRIDGE FINANCIAL SOLUTIONS INC",
+    "PermId": 4295902623.0,
+    "Ticker": "BR"
+  },
+  {
+    "Company Name": "BROWN & BROWN INC",
+    "PermId": 4295912025.0,
+    "Ticker": "BRO"
+  },
+  {
+    "Company Name": "BROWN FORMAN CORP CLASS B",
+    "PermId": 4295905786.0,
+    "Ticker": "BFB"
+  },
+  {
+    "Company Name": "BUILDERS FIRSTSOURCE INC",
+    "PermId": 4295902917.0,
+    "Ticker": "BLDR"
+  },
+  {
+    "Company Name": "BUNGE GLOBAL SA",
+    "PermId": 5086635324.0,
+    "Ticker": "BG"
+  },
+  {
+    "Company Name": "BXP INC",
+    "PermId": 4295903585.0,
+    "Ticker": "BXP"
+  },
+  {
+    "Company Name": "CAESARS ENTERTAINMENT INC",
+    "PermId": 5076162916.0,
+    "Ticker": "CZR"
+  },
+  {
+    "Company Name": "CAMDEN PROPERTY TRUST REIT",
+    "PermId": 4295903679.0,
+    "Ticker": "CPT"
+  },
+  {
+    "Company Name": "CAMPBELL SOUP",
+    "PermId": 4295903649.0,
+    "Ticker": "CPB"
+  },
+  {
+    "Company Name": "CARDINAL HEALTH INC",
+    "PermId": 4295903651.0,
+    "Ticker": "CAH"
+  },
+  {
+    "Company Name": "CARMAX INC",
+    "PermId": 4295903702.0,
+    "Ticker": "KMX"
+  },
+  {
+    "Company Name": "CARNIVAL CORP",
+    "PermId": 4295903693.0,
+    "Ticker": "CCL"
+  },
+  {
+    "Company Name": "CATALENT INC",
+    "PermId": 5000053849.0,
+    "Ticker": "CTLT"
+  },
+  {
+    "Company Name": "CBOE GLOBAL MARKETS INC",
+    "PermId": 4296212311.0,
+    "Ticker": "CBOE"
+  },
+  {
+    "Company Name": "CBRE GROUP INC CLASS A",
+    "PermId": 4295899323.0,
+    "Ticker": "CBRE"
+  },
+  {
+    "Company Name": "CDW CORP",
+    "PermId": 4295905803.0,
+    "Ticker": "CDW"
+  },
+  {
+    "Company Name": "CELANESE CORP",
+    "PermId": 4295899696.0,
+    "Ticker": "CE"
+  },
+  {
+    "Company Name": "CENTENE CORP",
+    "PermId": 4295901893.0,
+    "Ticker": "CNC"
+  },
+  {
+    "Company Name": "CENTERPOINT ENERGY INC",
+    "PermId": 4295912256.0,
+    "Ticker": "CNP"
+  },
+  {
+    "Company Name": "CF INDUSTRIES HOLDINGS INC",
+    "PermId": 4295903461.0,
+    "Ticker": "CF"
+  },
+  {
+    "Company Name": "CH ROBINSON WORLDWIDE INC",
+    "PermId": 4295905810.0,
+    "Ticker": "CHRW"
+  },
+  {
+    "Company Name": "CHARLES RIVER LABORATORIES INTERNA",
+    "PermId": 4295900986.0,
+    "Ticker": "CRL"
+  },
+  {
+    "Company Name": "CHURCH AND DWIGHT INC",
+    "PermId": 4295903707.0,
+    "Ticker": "CHD"
+  },
+  {
+    "Company Name": "CINCINNATI FINANCIAL CORP",
+    "PermId": 4295905949.0,
+    "Ticker": "CINF"
+  },
+  {
+    "Company Name": "CITIZENS FINANCIAL GROUP INC",
+    "PermId": 4296419629.0,
+    "Ticker": "CFG"
+  },
+  {
+    "Company Name": "CLOROX",
+    "PermId": 4295903733.0,
+    "Ticker": "CLX"
+  },
+  {
+    "Company Name": "CMS ENERGY CORP",
+    "PermId": 4295903636.0,
+    "Ticker": "CMS"
+  },
+  {
+    "Company Name": "COGNIZANT TECHNOLOGY SOLUTIONS COR",
+    "PermId": 4295905973.0,
+    "Ticker": "CTSH"
+  },
+  {
+    "Company Name": "CONAGRA BRANDS INC",
+    "PermId": 4295903775.0,
+    "Ticker": "CAG"
+  },
+  {
+    "Company Name": "CONSOLIDATED EDISON INC",
+    "PermId": 4295903098.0,
+    "Ticker": "ED"
+  },
+  {
+    "Company Name": "CONSTELLATION BRANDS INC CLASS A",
+    "PermId": 4295908564.0,
+    "Ticker": "STZ"
+  },
+  {
+    "Company Name": "COOPER INC",
+    "PermId": 4295903781.0,
+    "Ticker": "COO"
+  },
+  {
+    "Company Name": "COPART INC",
+    "PermId": 4295906048.0,
+    "Ticker": "CPRT"
+  },
+  {
+    "Company Name": "CORNING INC",
+    "PermId": 4295903798.0,
+    "Ticker": "GLW"
+  },
+  {
+    "Company Name": "CORPAY INC",
+    "PermId": 4296330387.0,
+    "Ticker": "CPAY"
+  },
+  {
+    "Company Name": "CORTEVA INC",
+    "PermId": 5066581979.0,
+    "Ticker": "CTVA"
+  },
+  {
+    "Company Name": "COSTAR GROUP INC",
+    "PermId": 4295912984.0,
+    "Ticker": "CSGP"
+  },
+  {
+    "Company Name": "COTERRA ENERGY INC",
+    "PermId": 4295903660.0,
+    "Ticker": "CTRA"
+  },
+  {
+    "Company Name": "CROWN CASTLE INC",
+    "PermId": 5071557131.0,
+    "Ticker": "CCI"
+  },
+  {
+    "Company Name": "CUMMINS INC",
+    "PermId": 4295903829.0,
+    "Ticker": "CMI"
+  },
+  {
+    "Company Name": "D R HORTON INC",
+    "PermId": null,
+    "Ticker": "DHI"
+  },
+  {
+    "Company Name": "DELL TECHNOLOGIES INC CLASS C",
+    "PermId": 5067936850.0,
+    "Ticker": "DELL"
+  },
+  {
+    "Company Name": "DELTA AIR LINES INC",
+    "PermId": 4295903853.0,
+    "Ticker": "DAL"
+  },
+  {
+    "Company Name": "DIGITAL REALTY TRUST REIT INC",
+    "PermId": 4295909064.0,
+    "Ticker": "DLR"
+  },
+  {
+    "Company Name": "DISCOVER FINANCIAL SERVICES",
+    "PermId": 4295902718.0,
+    "Ticker": "DFS"
+  },
+  {
+    "Company Name": "DOMINION ENERGY INC",
+    "PermId": 5001437767.0,
+    "Ticker": "D"
+  },
+  {
+    "Company Name": "DUPONT DE NEMOURS INC",
+    "PermId": 5050895314.0,
+    "Ticker": "DD"
+  },
+  {
+    "Company Name": "EDISON INTERNATIONAL",
+    "PermId": 4295903910.0,
+    "Ticker": "EIX"
+  },
+  {
+    "Company Name": "EDWARDS LIFESCIENCES CORP",
+    "PermId": 4295911970.0,
+    "Ticker": "EW"
+  },
+  {
+    "Company Name": "ELECTRONIC ARTS INC",
+    "PermId": 4295901526.0,
+    "Ticker": "EA"
+  },
+  {
+    "Company Name": "ENTERGY CORP",
+    "PermId": 4295903931.0,
+    "Ticker": "ETR"
+  },
+  {
+    "Company Name": "EQUIFAX INC",
+    "PermId": 4295903939.0,
+    "Ticker": "EFX"
+  },
+  {
+    "Company Name": "EXELON CORP",
+    "PermId": 4295903216.0,
+    "Ticker": "EXC"
+  },
+  {
+    "Company Name": "EXTRA SPACE STORAGE REIT INC",
+    "PermId": 4295902564.0,
+    "Ticker": "EXR"
+  },
+  {
+    "Company Name": "FASTENAL",
+    "PermId": 4295906431.0,
+    "Ticker": "FAST"
+  },
+  {
+    "Company Name": "FIDELITY NATIONAL INFORMATION SERV",
+    "PermId": 4295899817.0,
+    "Ticker": "FIS"
+  },
+  {
+    "Company Name": "FORD MOTOR CO",
+    "PermId": 4295903068.0,
+    "Ticker": "F"
+  },
+  {
+    "Company Name": "GARMIN LTD",
+    "PermId": 4295913863.0,
+    "Ticker": "GRMN"
+  },
+  {
+    "Company Name": "GARTNER INC",
+    "PermId": 4295903161.0,
+    "Ticker": "IT"
+  },
+  {
+    "Company Name": "GE HEALTHCARE TECHNOLOGIES INC",
+    "PermId": 5083504147.0,
+    "Ticker": "GEHC"
+  },
+  {
+    "Company Name": "HARTFORD FINANCIAL SERVICES GROUP",
+    "PermId": 4295904141.0,
+    "Ticker": "HIG"
+  },
+  {
+    "Company Name": "HESS CORP",
+    "PermId": 4295903355.0,
+    "Ticker": "HES"
+  },
+  {
+    "Company Name": "HOWMET AEROSPACE INC",
+    "PermId": 5001815447.0,
+    "Ticker": "HWM"
+  },
+  {
+    "Company Name": "HP INC",
+    "PermId": 4295904170.0,
+    "Ticker": "HPQ"
+  },
+  {
+    "Company Name": "HUMANA INC",
+    "PermId": 4295904196.0,
+    "Ticker": "HUM"
+  },
+  {
+    "Company Name": "IDEXX LABORATORIES INC",
+    "PermId": 4295906763.0,
+    "Ticker": "IDXX"
+  },
+  {
+    "Company Name": "DARDEN RESTAURANTS INC",
+    "PermId": 4295903847.0,
+    "Ticker": "DRI"
+  },
+  {
+    "Company Name": "DAVITA INC",
+    "PermId": 4295905108.0,
+    "Ticker": "DVA"
+  },
+  {
+    "Company Name": "DAYFORCE INC",
+    "PermId": 5044099539.0,
+    "Ticker": "DAY"
+  },
+  {
+    "Company Name": "DECKERS OUTDOOR CORP",
+    "PermId": 4295906153.0,
+    "Ticker": "DECK"
+  },
+  {
+    "Company Name": "DEVON ENERGY CORP",
+    "PermId": 5000181402.0,
+    "Ticker": "DVN"
+  },
+  {
+    "Company Name": "DEXCOM INC",
+    "PermId": 4295902139.0,
+    "Ticker": "DXCM"
+  },
+  {
+    "Company Name": "DIAMONDBACK ENERGY INC",
+    "PermId": 5037314809.0,
+    "Ticker": "FANG"
+  },
+  {
+    "Company Name": "DOLLAR GENERAL CORP",
+    "PermId": 4295903123.0,
+    "Ticker": "DG"
+  },
+  {
+    "Company Name": "DOLLAR TREE INC",
+    "PermId": 4295906195.0,
+    "Ticker": "DLTR"
+  },
+  {
+    "Company Name": "DOMINOS PIZZA INC",
+    "PermId": 4295899533.0,
+    "Ticker": "DPZ"
+  },
+  {
+    "Company Name": "DOVER CORP",
+    "PermId": 4295903874.0,
+    "Ticker": "DOV"
+  },
+  {
+    "Company Name": "DOW INC",
+    "PermId": 5000296881.0,
+    "Ticker": "DOW"
+  },
+  {
+    "Company Name": "DTE ENERGY",
+    "PermId": 4295903858.0,
+    "Ticker": "DTE"
+  },
+  {
+    "Company Name": "EASTMAN CHEMICAL",
+    "PermId": 4295903892.0,
+    "Ticker": "EMN"
+  },
+  {
+    "Company Name": "EBAY INC",
+    "PermId": 4295906238.0,
+    "Ticker": "EBAY"
+  },
+  {
+    "Company Name": "ENPHASE ENERGY INC",
+    "PermId": 4298065499.0,
+    "Ticker": "ENPH"
+  },
+  {
+    "Company Name": "EPAM SYSTEMS INC",
+    "PermId": 4297034757.0,
+    "Ticker": "EPAM"
+  },
+  {
+    "Company Name": "EQT CORP",
+    "PermId": 4295903940.0,
+    "Ticker": "EQT"
+  },
+  {
+    "Company Name": "EQUITY RESIDENTIAL REIT",
+    "PermId": 4295903946.0,
+    "Ticker": "EQR"
+  },
+  {
+    "Company Name": "ERIE INDEMNITY CLASS A",
+    "PermId": 4295906381.0,
+    "Ticker": "ERIE"
+  },
+  {
+    "Company Name": "ESSEX PROPERTY TRUST REIT INC",
+    "PermId": 4295903947.0,
+    "Ticker": "ESS"
+  },
+  {
+    "Company Name": "ESTEE LAUDER INC CLASS A",
+    "PermId": 4295383797.0,
+    "Ticker": "EL"
+  },
+  {
+    "Company Name": "EVEREST GROUP LTD",
+    "PermId": 4295911983.0,
+    "Ticker": "EG"
+  },
+  {
+    "Company Name": "EVERGY INC",
+    "PermId": 5057833759.0,
+    "Ticker": "EVRG"
+  },
+  {
+    "Company Name": "EVERSOURCE ENERGY",
+    "PermId": 4295903197.0,
+    "Ticker": "ES"
+  },
+  {
+    "Company Name": "EXPEDIA GROUP INC",
+    "PermId": 4295899731.0,
+    "Ticker": "EXPE"
+  },
+  {
+    "Company Name": "EXPEDITORS INTERNATIONAL OF WASHIN",
+    "PermId": 4295906402.0,
+    "Ticker": "EXPD"
+  },
+  {
+    "Company Name": "FACTSET RESEARCH SYSTEMS INC",
+    "PermId": 4295903961.0,
+    "Ticker": "FDS"
+  },
+  {
+    "Company Name": "FEDERAL REALTY INVESTMENT TRUST RE",
+    "PermId": 5082460640.0,
+    "Ticker": "FRT"
+  },
+  {
+    "Company Name": "FIFTH THIRD BANCORP",
+    "PermId": 4295906442.0,
+    "Ticker": "FITB"
+  },
+  {
+    "Company Name": "FIRST SOLAR INC",
+    "PermId": 4295910005.0,
+    "Ticker": "FSLR"
+  },
+  {
+    "Company Name": "FIRSTENERGY CORP",
+    "PermId": 4295903132.0,
+    "Ticker": "FE"
+  },
+  {
+    "Company Name": "FMC CORP",
+    "PermId": 4295903957.0,
+    "Ticker": "FMC"
+  },
+  {
+    "Company Name": "FORTIVE CORP",
+    "PermId": 5047750409.0,
+    "Ticker": "FTV"
+  },
+  {
+    "Company Name": "FOX CORP CLASS A",
+    "PermId": 5067498187.0,
+    "Ticker": "FOXA"
+  },
+  {
+    "Company Name": "FOX CORP CLASS B",
+    "PermId": 5067498187.0,
+    "Ticker": "FOX"
+  },
+  {
+    "Company Name": "FRANKLIN RESOURCES INC",
+    "PermId": 4295904023.0,
+    "Ticker": "BEN"
+  },
+  {
+    "Company Name": "GEN DIGITAL INC",
+    "PermId": 4295908065.0,
+    "Ticker": "GEN"
+  },
+  {
+    "Company Name": "GENERAC HOLDINGS INC",
+    "PermId": 5000469187.0,
+    "Ticker": "GNRC"
+  },
+  {
+    "Company Name": "GENUINE PARTS",
+    "PermId": 4295904067.0,
+    "Ticker": "GPC"
+  },
+  {
+    "Company Name": "GLOBAL PAYMENTS INC",
+    "PermId": 4295900281.0,
+    "Ticker": "GPN"
+  },
+  {
+    "Company Name": "GLOBE LIFE INC",
+    "PermId": 4295905104.0,
+    "Ticker": "GL"
+  },
+  {
+    "Company Name": "GODADDY INC CLASS A",
+    "PermId": 5042943945.0,
+    "Ticker": "GDDY"
+  },
+  {
+    "Company Name": "HALLIBURTON",
+    "PermId": 4295904116.0,
+    "Ticker": "HAL"
+  },
+  {
+    "Company Name": "HASBRO INC",
+    "PermId": 4295904144.0,
+    "Ticker": "HAS"
+  },
+  {
+    "Company Name": "HEALTHPEAK PROPERTIES INC",
+    "PermId": 5083821503.0,
+    "Ticker": "DOC"
+  },
+  {
+    "Company Name": "HENRY SCHEIN INC",
+    "PermId": 4295907871.0,
+    "Ticker": "HSIC"
+  },
+  {
+    "Company Name": "HERSHEY FOODS",
+    "PermId": null,
+    "Ticker": "HSY"
+  },
+  {
+    "Company Name": "HORMEL FOODS CORP",
+    "PermId": 4295904183.0,
+    "Ticker": "HRL"
+  },
+  {
+    "Company Name": "HOST HOTELS & RESORTS REIT INC",
+    "PermId": null,
+    "Ticker": "HST"
+  },
+  {
+    "Company Name": "HUBBELL INC",
+    "PermId": 4295908614.0,
+    "Ticker": "HUBB"
+  },
+  {
+    "Company Name": "HUNTINGTON BANCSHARES INC",
+    "PermId": 4295906733.0,
+    "Ticker": "HBAN"
+  },
+  {
+    "Company Name": "HUNTINGTON INGALLS INDUSTRIES INC",
+    "PermId": 5001210761.0,
+    "Ticker": "HII"
+  },
+  {
+    "Company Name": "IDEX CORP",
+    "PermId": 4295904217.0,
+    "Ticker": "IEX"
+  },
+  {
+    "Company Name": "INGERSOLL RAND INC",
+    "PermId": 5040060340.0,
+    "Ticker": "IR"
+  },
+  {
+    "Company Name": "INTERNATIONAL FLAVORS & FRAGRANCES",
+    "PermId": 4295904309.0,
+    "Ticker": "IFF"
+  },
+  {
+    "Company Name": "IQVIA HOLDINGS INC",
+    "PermId": 5052135353.0,
+    "Ticker": "IQV"
+  },
+  {
+    "Company Name": "IRON MOUNTAIN INC",
+    "PermId": 5044340396.0,
+    "Ticker": "IRM"
+  },
+  {
+    "Company Name": "KELLANOVA",
+    "PermId": 4295903052.0,
+    "Ticker": "K"
+  },
+  {
+    "Company Name": "KENVUE INC",
+    "PermId": 5083557475.0,
+    "Ticker": "KVUE"
+  },
+  {
+    "Company Name": "KEURIG DR PEPPER INC",
+    "PermId": 4298010061.0,
+    "Ticker": "KDP"
+  },
+  {
+    "Company Name": "KIMBERLY CLARK CORP",
+    "PermId": 4295904369.0,
+    "Ticker": "KMB"
+  },
+  {
+    "Company Name": "KINDER MORGAN INC",
+    "PermId": 4298464085.0,
+    "Ticker": "KMI"
+  },
+  {
+    "Company Name": "KROGER",
+    "PermId": 4295903182.0,
+    "Ticker": "KR"
+  },
+  {
+    "Company Name": "L3HARRIS TECHNOLOGIES INC",
+    "PermId": 5000100407.0,
+    "Ticker": "LHX"
+  },
+  {
+    "Company Name": "LEIDOS HOLDINGS INC",
+    "PermId": 4295900055.0,
+    "Ticker": "LDOS"
+  },
+  {
+    "Company Name": "LENNAR A CORP CLASS A",
+    "PermId": 4295904410.0,
+    "Ticker": "LEN"
+  },
+  {
+    "Company Name": "LIVE NATION ENTERTAINMENT INC",
+    "PermId": 5000634824.0,
+    "Ticker": "LYV"
+  },
+  {
+    "Company Name": "LULULEMON ATHLETICA INC",
+    "PermId": 4295862576.0,
+    "Ticker": "LULU"
+  },
+  {
+    "Company Name": "M&T BANK CORP",
+    "PermId": 4295904442.0,
+    "Ticker": "MTB"
+  },
+  {
+    "Company Name": "MARATHON PETROLEUM CORP",
+    "PermId": 5001438555.0,
+    "Ticker": "MPC"
+  },
+  {
+    "Company Name": "MARTIN MARIETTA MATERIALS INC",
+    "PermId": 4295904478.0,
+    "Ticker": "MLM"
+  },
+  {
+    "Company Name": "METTLER TOLEDO INC",
+    "PermId": 5000313724.0,
+    "Ticker": "MTD"
+  },
+  {
+    "Company Name": "MICROCHIP TECHNOLOGY INC",
+    "PermId": 4295907171.0,
+    "Ticker": "MCHP"
+  },
+  {
+    "Company Name": "MONOLITHIC POWER SYSTEMS INC",
+    "PermId": 4295902829.0,
+    "Ticker": "MPWR"
+  },
+  {
+    "Company Name": "MONSTER BEVERAGE CORP",
+    "PermId": 5044505533.0,
+    "Ticker": "MNST"
+  },
+  {
+    "Company Name": "MSCI INC",
+    "PermId": 4295906344.0,
+    "Ticker": "MSCI"
+  },
+  {
+    "Company Name": "NASDAQ INC",
+    "PermId": 8589934167.0,
+    "Ticker": "NDAQ"
+  },
+  {
+    "Company Name": "NETAPP INC",
+    "PermId": 4295907376.0,
+    "Ticker": "NTAP"
+  },
+  {
+    "Company Name": "NEWMONT",
+    "PermId": 4295904618.0,
+    "Ticker": "NEM"
+  },
+  {
+    "Company Name": "NORFOLK SOUTHERN CORP",
+    "PermId": 4295904619.0,
+    "Ticker": "NSC"
+  },
+  {
+    "Company Name": "NORTHERN TRUST CORP",
+    "PermId": 4295907415.0,
+    "Ticker": "NTRS"
+  },
+  {
+    "Company Name": "NUCOR CORP",
+    "PermId": 4295904636.0,
+    "Ticker": "NUE"
+  },
+  {
+    "Company Name": "NVR INC",
+    "PermId": 4295904572.0,
+    "Ticker": "NVR"
+  },
+  {
+    "Company Name": "NXP SEMICONDUCTORS NV",
+    "PermId": 4298475354.0,
+    "Ticker": "NXPI"
+  },
+  {
+    "Company Name": "OCCIDENTAL PETROLEUM CORP",
+    "PermId": 4296378357.0,
+    "Ticker": "OXY"
+  },
+  {
+    "Company Name": "OLD DOMINION FREIGHT LINE INC",
+    "PermId": 4295907460.0,
+    "Ticker": "ODFL"
+  },
+  {
+    "Company Name": "ON SEMICONDUCTOR CORP",
+    "PermId": 4295916023.0,
+    "Ticker": "ON"
+  },
+  {
+    "Company Name": "OTIS WORLDWIDE CORP",
+    "PermId": 5068343942.0,
+    "Ticker": "OTIS"
+  },
+  {
+    "Company Name": "PACKAGING CORP OF AMERICA",
+    "PermId": 4295912229.0,
+    "Ticker": "PKG"
+  },
+  {
+    "Company Name": "PAYCHEX INC",
+    "PermId": 4295907559.0,
+    "Ticker": "PAYX"
+  },
+  {
+    "Company Name": "PG&E CORP",
+    "PermId": 4295904675.0,
+    "Ticker": "PCG"
+  },
+  {
+    "Company Name": "PHILLIPS66",
+    "PermId": 5037128948.0,
+    "Ticker": "PSX"
+  },
+  {
+    "Company Name": "PPG INDUSTRIES INC",
+    "PermId": 4295904686.0,
+    "Ticker": "PPG"
+  },
+  {
+    "Company Name": "PPL CORP",
+    "PermId": 4295912225.0,
+    "Ticker": "PPL"
+  },
+  {
+    "Company Name": "INCYTE CORP",
+    "PermId": 4295906783.0,
+    "Ticker": "INCY"
+  },
+  {
+    "Company Name": "INSULET CORP",
+    "PermId": 4295902738.0,
+    "Ticker": "PODD"
+  },
+  {
+    "Company Name": "INTERNATIONAL PAPER",
+    "PermId": 4295903177.0,
+    "Ticker": "IP"
+  },
+  {
+    "Company Name": "INTERPUBLIC GROUP OF COMPANIES INC",
+    "PermId": 4295904318.0,
+    "Ticker": "IPG"
+  },
+  {
+    "Company Name": "INVESCO LTD",
+    "PermId": 5060925194.0,
+    "Ticker": "IVZ"
+  },
+  {
+    "Company Name": "INVITATION HOMES INC",
+    "PermId": 5052795406.0,
+    "Ticker": "INVH"
+  },
+  {
+    "Company Name": "JABIL INC",
+    "PermId": 4295904335.0,
+    "Ticker": "JBL"
+  },
+  {
+    "Company Name": "JACK HENRY AND ASSOCIATES INC",
+    "PermId": 4295906693.0,
+    "Ticker": "JKHY"
+  },
+  {
+    "Company Name": "JACOBS SOLUTIONS INC",
+    "PermId": 5083440611.0,
+    "Ticker": "J"
+  },
+  {
+    "Company Name": "JB HUNT TRANSPORT SERVICES INC",
+    "PermId": 4295906731.0,
+    "Ticker": "JBHT"
+  },
+  {
+    "Company Name": "JM SMUCKER",
+    "PermId": 4295908680.0,
+    "Ticker": "SJM"
+  },
+  {
+    "Company Name": "JUNIPER NETWORKS INC",
+    "PermId": 4295913981.0,
+    "Ticker": "JNPR"
+  },
+  {
+    "Company Name": "KEYCORP",
+    "PermId": 4295904371.0,
+    "Ticker": "KEY"
+  },
+  {
+    "Company Name": "KIMCO REALTY REIT CORP",
+    "PermId": 5083761147.0,
+    "Ticker": "KIM"
+  },
+  {
+    "Company Name": "LABCORP HOLDINGS INC",
+    "PermId": 4295911969.0,
+    "Ticker": "LH"
+  },
+  {
+    "Company Name": "LAMB WESTON HOLDINGS INC",
+    "PermId": 5051774284.0,
+    "Ticker": "LW"
+  },
+  {
+    "Company Name": "LAS VEGAS SANDS CORP",
+    "PermId": 4295908419.0,
+    "Ticker": "LVS"
+  },
+  {
+    "Company Name": "LKQ CORP",
+    "PermId": 4295899858.0,
+    "Ticker": "LKQ"
+  },
+  {
+    "Company Name": "LOEWS CORP",
+    "PermId": 4295902026.0,
+    "Ticker": "L"
+  },
+  {
+    "Company Name": "LYONDELLBASELL INDUSTRIES NV CLASS",
+    "PermId": 5000737707.0,
+    "Ticker": "LYB"
+  },
+  {
+    "Company Name": "MARKETAXESS HOLDINGS INC",
+    "PermId": 4295915617.0,
+    "Ticker": "MKTX"
+  },
+  {
+    "Company Name": "MASCO CORP",
+    "PermId": 4295904477.0,
+    "Ticker": "MAS"
+  },
+  {
+    "Company Name": "MATCH GROUP INC",
+    "PermId": 4295908221.0,
+    "Ticker": "MTCH"
+  },
+  {
+    "Company Name": "MGM RESORTS INTERNATIONAL",
+    "PermId": 4295904450.0,
+    "Ticker": "MGM"
+  },
+  {
+    "Company Name": "MID AMERICA APARTMENT COMMUNITIES",
+    "PermId": 4295904528.0,
+    "Ticker": "MAA"
+  },
+  {
+    "Company Name": "MODERNA INC",
+    "PermId": 5066596648.0,
+    "Ticker": "MRNA"
+  },
+  {
+    "Company Name": "MOHAWK INDUSTRIES INC",
+    "PermId": 4295904551.0,
+    "Ticker": "MHK"
+  },
+  {
+    "Company Name": "MOLINA HEALTHCARE INC",
+    "PermId": 4295911073.0,
+    "Ticker": "MOH"
+  },
+  {
+    "Company Name": "MOLSON COORS BREWING CLASS B",
+    "PermId": 4295903805.0,
+    "Ticker": "TAP"
+  },
+  {
+    "Company Name": "MOSAIC",
+    "PermId": 5000274109.0,
+    "Ticker": "MOS"
+  },
+  {
+    "Company Name": "NEWS CORP CLASS A",
+    "PermId": 5039926532.0,
+    "Ticker": "NWSA"
+  },
+  {
+    "Company Name": "NEWS CORP CLASS B",
+    "PermId": 5039926532.0,
+    "Ticker": "NWS"
+  },
+  {
+    "Company Name": "NISOURCE INC",
+    "PermId": 4295911971.0,
+    "Ticker": "NI"
+  },
+  {
+    "Company Name": "NORWEGIAN CRUISE LINE HOLDINGS LTD",
+    "PermId": 5000822866.0,
+    "Ticker": "NCLH"
+  },
+  {
+    "Company Name": "NRG ENERGY INC",
+    "PermId": 4295912211.0,
+    "Ticker": "NRG"
+  },
+  {
+    "Company Name": "OMNICOM GROUP INC",
+    "PermId": 4295904652.0,
+    "Ticker": "OMC"
+  },
+  {
+    "Company Name": "PARAMOUNT GLOBAL CLASS B",
+    "PermId": 4295908715.0,
+    "Ticker": "PARA"
+  },
+  {
+    "Company Name": "PAYCOM SOFTWARE INC",
+    "PermId": 5040945605.0,
+    "Ticker": "PAYC"
+  },
+  {
+    "Company Name": "PENTAIR",
+    "PermId": 4295904700.0,
+    "Ticker": "PNR"
+  },
+  {
+    "Company Name": "PINNACLE WEST CORP",
+    "PermId": 4295904735.0,
+    "Ticker": "PNW"
+  },
+  {
+    "Company Name": "POOL CORP",
+    "PermId": 4295907828.0,
+    "Ticker": "POOL"
+  },
+  {
+    "Company Name": "PRUDENTIAL FINANCIAL INC",
+    "PermId": 4295901925.0,
+    "Ticker": "PRU"
+  },
+  {
+    "Company Name": "PUBLIC SERVICE ENTERPRISE GROUP IN",
+    "PermId": 4295904782.0,
+    "Ticker": "PEG"
+  },
+  {
+    "Company Name": "PUBLIC STORAGE REIT",
+    "PermId": 4295904777.0,
+    "Ticker": "PSA"
+  },
+  {
+    "Company Name": "PULTEGROUP INC",
+    "PermId": 4295904781.0,
+    "Ticker": "PHM"
+  },
+  {
+    "Company Name": "QUANTA SERVICES INC",
+    "PermId": 4295904787.0,
+    "Ticker": "PWR"
+  },
+  {
+    "Company Name": "REALTY INCOME REIT CORP",
+    "PermId": 4295903058.0,
+    "Ticker": "O"
+  },
+  {
+    "Company Name": "REGIONS FINANCIAL CORP",
+    "PermId": 4295907751.0,
+    "Ticker": "RF"
+  },
+  {
+    "Company Name": "REPUBLIC SERVICES INC",
+    "PermId": 4295904818.0,
+    "Ticker": "RSG"
+  },
+  {
+    "Company Name": "RESMED INC",
+    "PermId": 4295904819.0,
+    "Ticker": "RMD"
+  },
+  {
+    "Company Name": "ROCKWELL AUTOMATION INC",
+    "PermId": 4295904837.0,
+    "Ticker": "ROK"
+  },
+  {
+    "Company Name": "ROSS STORES INC",
+    "PermId": 4295907815.0,
+    "Ticker": "ROST"
+  },
+  {
+    "Company Name": "SBA COMMUNICATIONS REIT CORP CLASS",
+    "PermId": 5052136396.0,
+    "Ticker": "SBAC"
+  },
+  {
+    "Company Name": "SCHLUMBERGER NV",
+    "PermId": 4295904888.0,
+    "Ticker": "SLB"
+  },
+  {
+    "Company Name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+    "PermId": 5080057609.0,
+    "Ticker": "STX"
+  },
+  {
+    "Company Name": "SEMPRA",
+    "PermId": 4295904901.0,
+    "Ticker": "SRE"
+  },
+  {
+    "Company Name": "SMURFIT WESTROCK PLC",
+    "PermId": 5087106752.0,
+    "Ticker": "SW"
+  },
+  {
+    "Company Name": "SNAP ON INC",
+    "PermId": 4295904934.0,
+    "Ticker": "SNA"
+  },
+  {
+    "Company Name": "SOUTHWEST AIRLINES",
+    "PermId": 4295904946.0,
+    "Ticker": "LUV"
+  },
+  {
+    "Company Name": "STATE STREET CORP",
+    "PermId": 4295904976.0,
+    "Ticker": "STT"
+  },
+  {
+    "Company Name": "STERIS",
+    "PermId": 5066603776.0,
+    "Ticker": "STE"
+  },
+  {
+    "Company Name": "SUPER MICRO COMPUTER INC",
+    "PermId": 5035959243.0,
+    "Ticker": "SMCI"
+  },
+  {
+    "Company Name": "SYNCHRONY FINANCIAL",
+    "PermId": 5042214022.0,
+    "Ticker": "SYF"
+  },
+  {
+    "Company Name": "SYSCO CORP",
+    "PermId": 4295905023.0,
+    "Ticker": "SYY"
+  },
+  {
+    "Company Name": "T ROWE PRICE GROUP INC",
+    "PermId": 4295907655.0,
+    "Ticker": "TROW"
+  },
+  {
+    "Company Name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+    "PermId": 4295915088.0,
+    "Ticker": "TTWO"
+  },
+  {
+    "Company Name": "TARGA RESOURCES CORP",
+    "PermId": 5001158057.0,
+    "Ticker": "TRGP"
+  },
+  {
+    "Company Name": "TELEDYNE TECHNOLOGIES INC",
+    "PermId": 4295912294.0,
+    "Ticker": "TDY"
+  },
+  {
+    "Company Name": "TERADYNE INC",
+    "PermId": 4295905055.0,
+    "Ticker": "TER"
+  },
+  {
+    "Company Name": "TEXAS PACIFIC LAND CORP",
+    "PermId": 5079228126.0,
+    "Ticker": "TPL"
+  },
+  {
+    "Company Name": "TRACTOR SUPPLY",
+    "PermId": 4295908164.0,
+    "Ticker": "TSCO"
+  },
+  {
+    "Company Name": "TYLER TECHNOLOGIES INC",
+    "PermId": 4295912310.0,
+    "Ticker": "TYL"
+  },
+  {
+    "Company Name": "ULTA BEAUTY INC",
+    "PermId": 5053445407.0,
+    "Ticker": "ULTA"
+  },
+  {
+    "Company Name": "UNITED AIRLINES HOLDINGS INC",
+    "PermId": 4295905139.0,
+    "Ticker": "UAL"
+  },
+  {
+    "Company Name": "UNITED RENTALS INC",
+    "PermId": 4295905175.0,
+    "Ticker": "URI"
+  },
+  {
+    "Company Name": "VALERO ENERGY CORP",
+    "PermId": 4295905198.0,
+    "Ticker": "VLO"
+  },
+  {
+    "Company Name": "VENTAS REIT INC",
+    "PermId": 4295905210.0,
+    "Ticker": "VTR"
+  },
+  {
+    "Company Name": "VERALTO CORP",
+    "PermId": 5086711237.0,
+    "Ticker": "VLTO"
+  },
+  {
+    "Company Name": "VERISK ANALYTICS INC",
+    "PermId": 4298051902.0,
+    "Ticker": "VRSK"
+  },
+  {
+    "Company Name": "VICI PPTYS INC",
+    "PermId": 5057776667.0,
+    "Ticker": "VICI"
+  },
+  {
+    "Company Name": "VISTRA CORP",
+    "PermId": 5052137229.0,
+    "Ticker": "VST"
+  },
+  {
+    "Company Name": "VULCAN MATERIALS",
+    "PermId": 4295905292.0,
+    "Ticker": "VMC"
+  },
+  {
+    "Company Name": "WARNER BROS. DISCOVERY INC SERIES",
+    "PermId": 4295907310.0,
+    "Ticker": "WBD"
+  },
+  {
+    "Company Name": "WATERS CORP",
+    "PermId": 4295905309.0,
+    "Ticker": "WAT"
+  },
+  {
+    "Company Name": "WEC ENERGY GROUP INC",
+    "PermId": 4295905346.0,
+    "Ticker": "WEC"
+  },
+  {
+    "Company Name": "WEST PHARMACEUTICAL SERVICES INC",
+    "PermId": 4295912317.0,
+    "Ticker": "WST"
+  },
+  {
+    "Company Name": "WESTERN DIGITAL CORP",
+    "PermId": 4295905332.0,
+    "Ticker": "WDC"
+  },
+  {
+    "Company Name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIE",
+    "PermId": 4295912320.0,
+    "Ticker": "WAB"
+  },
+  {
+    "Company Name": "WEYERHAEUSER REIT",
+    "PermId": 4295903255.0,
+    "Ticker": "WY"
+  },
+  {
+    "Company Name": "WILLIS TOWERS WATSON PLC",
+    "PermId": 4295899509.0,
+    "Ticker": "WTW"
+  },
+  {
+    "Company Name": "WR BERKLEY CORP",
+    "PermId": 4295905713.0,
+    "Ticker": "WRB"
+  },
+  {
+    "Company Name": "WW GRAINGER INC",
+    "PermId": 4295904089.0,
+    "Ticker": "GWW"
+  },
+  {
+    "Company Name": "XCEL ENERGY INC",
+    "PermId": 4295904627.0,
+    "Ticker": "XEL"
+  },
+  {
+    "Company Name": "XYLEM INC",
+    "PermId": 5035774320.0,
+    "Ticker": "XYL"
+  },
+  {
+    "Company Name": "YUM BRANDS INC",
+    "PermId": 4295905127.0,
+    "Ticker": "YUM"
+  },
+  {
+    "Company Name": "ZEBRA TECHNOLOGIES CORP CLASS A",
+    "PermId": 4295908523.0,
+    "Ticker": "ZBRA"
+  },
+  {
+    "Company Name": "ZIMMER BIOMET HOLDINGS INC",
+    "PermId": 4295903020.0,
+    "Ticker": "ZBH"
+  },
+  {
+    "Company Name": "PRINCIPAL FINANCIAL GROUP INC",
+    "PermId": 4295901744.0,
+    "Ticker": "PFG"
+  },
+  {
+    "Company Name": "QORVO INC",
+    "PermId": 5042255248.0,
+    "Ticker": "QRVO"
+  },
+  {
+    "Company Name": "QUEST DIAGNOSTICS INC",
+    "PermId": 5000051617.0,
+    "Ticker": "DGX"
+  },
+  {
+    "Company Name": "RALPH LAUREN CORP CLASS A",
+    "PermId": 4295903221.0,
+    "Ticker": "RL"
+  },
+  {
+    "Company Name": "REGENCY CENTERS REIT CORP",
+    "PermId": 4295904812.0,
+    "Ticker": "REG"
+  },
+  {
+    "Company Name": "REVVITY INC",
+    "PermId": 4295912239.0,
+    "Ticker": "RVTY"
+  },
+  {
+    "Company Name": "ROLLINS INC",
+    "PermId": 4295904844.0,
+    "Ticker": "ROL"
+  },
+  {
+    "Company Name": "SKYWORKS SOLUTIONS INC",
+    "PermId": 4295905486.0,
+    "Ticker": "SWKS"
+  },
+  {
+    "Company Name": "SOLVENTUM CORP",
+    "PermId": 5086791810.0,
+    "Ticker": "SOLV"
+  },
+  {
+    "Company Name": "STANLEY BLACK & DECKER INC",
+    "PermId": 4295904973.0,
+    "Ticker": "SWK"
+  },
+  {
+    "Company Name": "STEEL DYNAMICS INC",
+    "PermId": 4295908010.0,
+    "Ticker": "STLD"
+  },
+  {
+    "Company Name": "TAPESTRY INC",
+    "PermId": 4295901506.0,
+    "Ticker": "TPR"
+  },
+  {
+    "Company Name": "TELEFLEX INC",
+    "PermId": 4295905048.0,
+    "Ticker": "TFX"
+  },
+  {
+    "Company Name": "TEXTRON INC",
+    "PermId": 4295905064.0,
+    "Ticker": "TXT"
+  },
+  {
+    "Company Name": "TRIMBLE INC",
+    "PermId": 5052137706.0,
+    "Ticker": "TRMB"
+  },
+  {
+    "Company Name": "TYSON FOODS INC CLASS A",
+    "PermId": 4295905141.0,
+    "Ticker": "TSN"
+  },
+  {
+    "Company Name": "UDR REIT INC",
+    "PermId": 4295905170.0,
+    "Ticker": "UDR"
+  },
+  {
+    "Company Name": "UNIVERSAL HEALTH SERVICES INC CLAS",
+    "PermId": 4295905199.0,
+    "Ticker": "UHS"
+  },
+  {
+    "Company Name": "VERISIGN INC",
+    "PermId": 4295908306.0,
+    "Ticker": "VRSN"
+  },
+  {
+    "Company Name": "VIATRIS INC",
+    "PermId": 5035523437.0,
+    "Ticker": "VTRS"
+  },
+  {
+    "Company Name": "WALGREEN BOOTS ALLIANCE INC",
+    "PermId": 5043951500.0,
+    "Ticker": "WBA"
+  },
+  {
+    "Company Name": "WYNN RESORTS LTD",
+    "PermId": 4295914758.0,
+    "Ticker": "WYNN"
+  },
+  {
+    "Company Name": "Canadian National Railway Company  ",
+    "PermId": 4295860595.0,
+    "Ticker": "CNR"
+  },
+  {
+    "Company Name": "Canadian Pacific Kansas City Limited  ",
+    "PermId": 4295861343.0,
+    "Ticker": "CP"
+  },
+  {
+    "Company Name": "Wabtec Corporation  ",
+    "PermId": 4295912320.0,
+    "Ticker": "WAB"
+  },
+  {
+    "Company Name": "Cencora, Inc.  ",
+    "PermId": 4295903374.0,
+    "Ticker": "COR"
+  },
+  {
+    "Company Name": "Microsoft Corporation  ",
+    "PermId": 4295907168.0,
+    "Ticker": "MSFT"
+  },
+  {
+    "Company Name": "Veeva Systems Inc  ",
+    "PermId": 5038081551.0,
+    "Ticker": "VEEV"
+  },
+  {
+    "Company Name": "Datadog, Inc.  ",
+    "PermId": 5037627667.0,
+    "Ticker": "DDOG"
+  },
+  {
+    "Company Name": "PTC Inc.  ",
+    "PermId": 4295907543.0,
+    "Ticker": "PTC"
+  },
+  {
+    "Company Name": "Workday, Inc.  ",
+    "PermId": 4296253209.0,
+    "Ticker": "WDAY"
+  },
+  {
+    "Company Name": "Spoti",
+    "PermId": 4297157941.0,
+    "Ticker": "SPLK"
+  },
+  {
+    "Company Name": "Marvell Technology, Inc.  ",
+    "PermId": 5000111822.0,
+    "Ticker": "MRVL"
+  },
+  {
+    "Company Name": "Keysight Technologies, Inc.  ",
+    "PermId": 5041978269.0,
+    "Ticker": "KEYS"
+  },
+  {
+    "Company Name": "Boyd Gaming Corporation  ",
+    "PermId": 4295903594.0,
+    "Ticker": "BYD"
+  },
+  {
+    "Company Name": "Hyatt Hotels Corporation  ",
+    "PermId": 4296368740.0,
+    "Ticker": "H"
+  },
+  {
+    "Company Name": "Marriott International  ",
+    "PermId": 4295904482.0,
+    "Ticker": "MAR"
+  },
+  {
+    "Company Name": "Penn Entertainment, Inc.  ",
+    "PermId": 4295907572.0,
+    "Ticker": "PENN"
+  },
+  {
+    "Company Name": "American Homes 4 Rent  ",
+    "PermId": 5037989355.0,
+    "Ticker": "AMH"
+  },
+  {
+    "Company Name": "Gaming & Leisure Properties, Inc.  ",
+    "PermId": 5040053599.0,
+    "Ticker": "GLPI"
+  },
+  {
+    "Company Name": "Brixmor Property Group, Inc.  ",
+    "PermId": 5034753212.0,
+    "Ticker": "BRX"
+  },
+  {
+    "Company Name": "CubeSmart  ",
+    "PermId": 4295899358.0,
+    "Ticker": "CUBE"
+  },
+  {
+    "Company Name": "Douglas Emmett, Inc.  ",
+    "PermId": 4295909016.0,
+    "Ticker": "DEI"
+  },
+  {
+    "Company Name": "NNN REIT, Inc. (National Retail Properties  )",
+    "PermId": 4295903768.0,
+    "Ticker": "NNN"
+  },
+  {
+    "Company Name": "Equity LifeStyle Properties, Inc.  ",
+    "PermId": 4295904469.0,
+    "Ticker": "ELS"
+  },
+  {
+    "Company Name": "Sun Communities, Inc.  ",
+    "PermId": 4295905000.0,
+    "Ticker": "SUI"
+  },
+  {
+    "Company Name": "The Macerich Company  ",
+    "PermId": 4295904458.0,
+    "Ticker": "MAC"
+  },
+  {
+    "Company Name": "Uniti Group Inc.  ",
+    "PermId": 5044731437.0,
+    "Ticker": "UNIT"
+  },
+  {
+    "Company Name": "Anheuser-Busch Companies, Inc.",
+    "PermId": 4295903351.0,
+    "Ticker": "BUD"
+  },
+  {
+    "Company Name": "Flowers Foods, Inc.",
+    "PermId": 4295904013.0,
+    "Ticker": "FLO"
+  },
+  {
+    "Company Name": "The Hershey Company",
+    "PermId": 4295904171.0,
+    "Ticker": "HSY"
+  },
+  {
+    "Company Name": "Mars, Inc.",
+    "PermId": 4298160473.0,
+    "Ticker": null
+  },
+  {
+    "Company Name": "McCormick & Company, Inc.",
+    "PermId": 4295904494.0,
+    "Ticker": "MKC"
+  },
+  {
+    "Company Name": "Abbott Laboratories",
+    "PermId": 4295903265.0,
+    "Ticker": "ABT"
+  },
+  {
+    "Company Name": "Laboratory Corp. of America",
+    "PermId": 4295911969.0,
+    "Ticker": "LH"
+  },
+  {
+    "Company Name": "Owens & Minor, Inc.",
+    "PermId": 4295904672.0,
+    "Ticker": "OMI"
+  },
+  {
+    "Company Name": "Advance Auto Parts, Inc.",
+    "PermId": 4295901827.0,
+    "Ticker": "AAP"
+  },
+  {
+    "Company Name": "AutoNation, Inc.",
+    "PermId": 4295911957.0,
+    "Ticker": "AN"
+  },
+  {
+    "Company Name": "Kohl\u2019s Corporation",
+    "PermId": 4295904377.0,
+    "Ticker": "KSS"
+  },
+  {
+    "Company Name": "Macy\u2019s, Inc.",
+    "PermId": 4295903122.0,
+    "Ticker": "M"
+  },
+  {
+    "Company Name": "Dick\u2019s Sporting Goods, Inc.",
+    "PermId": 4295913845.0,
+    "Ticker": "DKS"
+  },
+  {
+    "Company Name": "The Gap, Inc.",
+    "PermId": 4295904051.0,
+    "Ticker": "GAP"
+  },
+  {
+    "Company Name": "American Airlines Group Inc.",
+    "PermId": 4295903254.0,
+    "Ticker": "AAL"
+  },
+  {
+    "Company Name": "International Consolidated Airlines Group, S.A.",
+    "PermId": 5001229906.0,
+    "Ticker": "IAG"
+  },
+  {
+    "Company Name": "Marriott International, Inc.",
+    "PermId": 4295904482.0,
+    "Ticker": "MAR"
+  },
+  {
+    "Company Name": "Starbucks Corporation",
+    "PermId": 4295908005.0,
+    "Ticker": "SBUX"
+  },
+  {
+    "Company Name": "United Continental Holdings, Inc.",
+    "PermId": 4295905139.0,
+    "Ticker": "UAL"
+  },
+  {
+    "Company Name": "Ingersoll Rand Inc.",
+    "PermId": 5040060340.0,
+    "Ticker": "IR"
+  },
+  {
+    "Company Name": "Johnson Controls International plc",
+    "PermId": 5043315501.0,
+    "Ticker": "JCI"
+  },
+  {
+    "Company Name": "General Electric Co.",
+    "PermId": 4295903128.0,
+    "Ticker": "GE"
+  },
+  {
+    "Company Name": "Nordson Corporation",
+    "PermId": 4295907402.0,
+    "Ticker": "NDSN"
+  },
+  {
+    "Company Name": "LPL Financial Holdings Inc.",
+    "PermId": 4297699947.0,
+    "Ticker": "LPLA"
+  },
+  {
+    "Company Name": "Deutsche Borse AG",
+    "PermId": 4298007872.0,
+    "Ticker": "DB1"
+  },
+  {
+    "Company Name": "SEI Investments Company",
+    "PermId": 4295907833.0,
+    "Ticker": "SEIC"
+  },
+  {
+    "Company Name": "Euronet Worldwide, Inc.",
+    "PermId": 4295906384.0,
+    "Ticker": "EEFT"
+  },
+  {
+    "Company Name": "Stifel Financial Corp.",
+    "PermId": 4295903250.0,
+    "Ticker": "SF"
+  },
+  {
+    "Company Name": "Synopsys, Inc.",
+    "PermId": 4295908075.0,
+    "Ticker": "SNPS"
+  },
+  {
+    "Company Name": "TransUnion",
+    "PermId": 5037345940.0,
+    "Ticker": "TRU"
+  },
+  {
+    "Company Name": "Virtu Financial, Inc.",
+    "PermId": 5041982679.0,
+    "Ticker": "VIRT"
+  },
+  {
+    "Company Name": "London Stock Exchange Group plc",
+    "PermId": 4298007752.0,
+    "Ticker": "LSEG"
+  },
+  {
+    "Company Name": "Olin Corporation",
+    "PermId": 4295904649.0,
+    "Ticker": "OLN"
+  },
+  {
+    "Company Name": "RPM International Inc.",
+    "PermId": 4295904793.0,
+    "Ticker": "RPM"
+  },
+  {
+    "Company Name": "The Chemours Company",
+    "PermId": 5045867108.0,
+    "Ticker": "CC"
+  },
+  {
+    "Company Name": "Huntsman Corporation",
+    "PermId": 4295914761.0,
+    "Ticker": "HUN"
+  },
+  {
+    "Company Name": "Westlake Corporation",
+    "PermId": 4295900037.0,
+    "Ticker": "WLK"
+  },
+  {
+    "Company Name": "Agilent Technologies, Inc.",
+    "PermId": 4295908720.0,
+    "Ticker": "A"
+  },
+  {
+    "Company Name": "Hologic Inc.",
+    "PermId": 4295906709.0,
+    "Ticker": "HOLX"
+  },
+  {
+    "Company Name": "Icon plc",
+    "PermId": 4295874891.0,
+    "Ticker": "ICLR"
+  },
+  {
+    "Company Name": "Avantor, Inc.",
+    "PermId": 5052132612.0,
+    "Ticker": "AVTR"
+  },
+  {
+    "Company Name": "Illumina, Inc.",
+    "PermId": 4295900447.0,
+    "Ticker": "ILMN"
+  },
+  {
+    "Company Name": "Syneos Health, Inc.",
+    "PermId": 5040258481.0,
+    "Ticker": "SYNH"
+  },
+  {
+    "Company Name": "Bio-Rad Laboratories, Inc.",
+    "PermId": 4295908554.0,
+    "Ticker": "BIO"
+  },
+  {
+    "Company Name": "Medpace Holdings, Inc.",
+    "PermId": 5042216622.0,
+    "Ticker": "MEDP"
+  },
+  {
+    "Company Name": "Bruker Corporation",
+    "PermId": 4295900424.0,
+    "Ticker": "BRKR"
+  },
+  {
+    "Company Name": "Myriad Genetics, Inc.",
+    "PermId": 4295907228.0,
+    "Ticker": "MYGN"
+  },
+  {
+    "Company Name": "Raymond James Financial",
+    "PermId": 8589934220.0,
+    "Ticker": "RJF"
+  },
+  {
+    "Company Name": "Post Holdings, Inc.",
+    "PermId": 5035967307.0,
+    "Ticker": "POST"
+  },
+  {
+    "Company Name": "Reckitt Benckiser Group plc",
+    "PermId": 4295894756.0,
+    "Ticker": "RKT"
+  },
+  {
+    "Company Name": "The Scotts Miracle-Gro Company",
+    "PermId": 4295904893.0,
+    "Ticker": "SMG"
+  },
+  {
+    "Company Name": "Perrigo Company, plc",
+    "PermId": 5040203322.0,
+    "Ticker": "PRGO"
+  },
+  {
+    "Company Name": "Newell Brands Inc.",
+    "PermId": 4295912212.0,
+    "Ticker": "NWL"
+  },
+  {
+    "Company Name": "Energizer Holdings, Inc.",
+    "PermId": 5045945933.0,
+    "Ticker": "ENR"
+  },
+  {
+    "Company Name": "Edgewell Personal Care Company",
+    "PermId": 4295912120.0,
+    "Ticker": "EPC"
+  },
+  {
+    "Company Name": "Coty Inc.",
+    "PermId": 5000068201.0,
+    "Ticker": "COTY"
+  },
+  {
+    "Company Name": "CNA Financial Corporation",
+    "PermId": 4295903632.0,
+    "Ticker": "CNA"
+  },
+  {
+    "Company Name": "Hanover Insurance Group Inc.",
+    "PermId": 4295903307.0,
+    "Ticker": "THG"
+  },
+  {
+    "Company Name": "Markel Corporation",
+    "PermId": 4295904473.0,
+    "Ticker": "MKL"
+  },
+  {
+    "Company Name": "Selective Insurance Group Inc.",
+    "PermId": 4295907894.0,
+    "Ticker": "SIGI"
+  },
+  {
+    "Company Name": "United Fire Group Inc.",
+    "PermId": 5037269933.0,
+    "Ticker": "UFCS"
+  },
+  {
+    "Company Name": "Qualcomm Incorporated",
+    "PermId": 4295907706.0,
+    "Ticker": "QCOM"
+  },
+  {
+    "Company Name": "Apple Inc.",
+    "PermId": 4295905573.0,
+    "Ticker": "AAPL"
+  },
+  {
+    "Company Name": "MercadoLibre, Inc.",
+    "PermId": 4295856134.0,
+    "Ticker": "MELI"
+  },
+  {
+    "Company Name": "Fair Isaac Corporation",
+    "PermId": 4295903960.0,
+    "Ticker": "FICO"
+  },
+  {
+    "Company Name": "Zillow Group, Inc.",
+    "PermId": 5044027706.0,
+    "Ticker": "Z"
+  },
+  {
+    "Company Name": "VMWare",
+    "PermId": 4295907347.0,
+    "Ticker": "VMW"
+  },
+  {
+    "Company Name": "DXC",
+    "PermId": 5054883975.0,
+    "Ticker": "DXC"
+  },
+  {
+    "Company Name": "The Walt Disney Company",
+    "PermId": 5064610769.0,
+    "Ticker": "DIS"
+  },
+  {
+    "Company Name": "Pioneer Natural Resources",
+    "PermId": 5000007778.0,
+    "Ticker": "PXD"
+  },
+  {
+    "Company Name": "WestRock Company",
+    "PermId": 5063196140.0,
+    "Ticker": "WRK"
+  },
+  {
+    "Company Name": "Masimo Corporation",
+    "PermId": 4295899512.0,
+    "Ticker": "MASI"
+  },
+  {
+    "Company Name": "Bausch + Lomb Corporation",
+    "PermId": 5081164429.0,
+    "Ticker": "BLCO"
+  },
+  {
+    "Company Name": "DENTSPLY SIRONA Inc.",
+    "PermId": 4295906169.0,
+    "Ticker": "XRAY"
+  },
+  {
+    "Company Name": "Carvana Co.",
+    "PermId": 5055456807.0,
+    "Ticker": "CVNA"
+  },
+  {
+    "Company Name": "Etsy, Inc.",
+    "PermId": 4297595346.0,
+    "Ticker": "ETSY"
+  },
+  {
+    "Company Name": "RB Global, Inc.",
+    "PermId": 4295862027.0,
+    "Ticker": "RBA"
+  },
+  {
+    "Company Name": "TE Connectivity Limited",
+    "PermId": 5000038620.0,
+    "Ticker": "TEL"
+  },
+  {
+    "Company Name": "Applied Materials, Inc.",
+    "PermId": 4295905583.0,
+    "Ticker": "AMAT"
+  },
+  {
+    "Company Name": "Dayforce, Inc.(former: Ceridian HCM Holding Inc.)",
+    "PermId": 5044099539.0,
+    "Ticker": "DAY"
+  },
+  {
+    "Company Name": "SS&C Technologies Holdings, Inc.",
+    "PermId": 4296658618.0,
+    "Ticker": "SSNC"
+  },
+  {
+    "Company Name": "Wex, Inc.",
+    "PermId": 4295900075.0,
+    "Ticker": "WEX"
+  },
+  {
+    "Company Name": "Nutrien Ltd.",
+    "PermId": 5059998878.0,
+    "Ticker": "NTR"
+  },
+  {
+    "Company Name": "Deere & Company",
+    "PermId": 4295903104.0,
+    "Ticker": "DE"
+  },
+  {
+    "Company Name": "BJ's Wholesale Club Holdings, Inc.  ",
+    "PermId": 5000832242.0,
+    "Ticker": "BJ"
+  },
+  {
+    "Company Name": "Wesfarmers Ltd.",
+    "PermId": 4295857467.0,
+    "Ticker": "WES"
+  },
+  {
+    "Company Name": "Expand Energy Corporation  ",
+    "PermId": 4295903700.0,
+    "Ticker": "EXE"
+  },
+  {
+    "Company Name": "Marathon Oil Corporation  ",
+    "PermId": 4295905140.0,
+    "Ticker": "MRO"
+  },
+  {
+    "Company Name": "Ovintiv Inc.",
+    "PermId": 5073113072.0,
+    "Ticker": "OVV"
+  },
+  {
+    "Company Name": "BILL Holdings  ",
+    "PermId": 5071545370.0,
+    "Ticker": "BILL"
+  },
+  {
+    "Company Name": "Okta  ",
+    "PermId": 5000795447.0,
+    "Ticker": "OKTA"
+  },
+  {
+    "Company Name": "Snowflake  ",
+    "PermId": 5044027756.0,
+    "Ticker": "SNOW"
+  },
+  {
+    "Company Name": "Block  ",
+    "PermId": 5000598124.0,
+    "Ticker": "XYZ"
+  },
+  {
+    "Company Name": "Atlassian  ",
+    "PermId": 5047293673.0,
+    "Ticker": "TEAM"
+  },
+  {
+    "Company Name": "MongoDB  ",
+    "PermId": 5042221932.0,
+    "Ticker": "MDB"
+  },
+  {
+    "Company Name": "The Trade Desk  ",
+    "PermId": 5000684484.0,
+    "Ticker": "TTD"
+  },
+  {
+    "Company Name": "Twilio  ",
+    "PermId": 4298095779.0,
+    "Ticker": "TWLO"
+  },
+  {
+    "Company Name": "Pinterest  ",
+    "PermId": 5036190505.0,
+    "Ticker": "PINS"
+  },
+  {
+    "Company Name": "Roblox  ",
+    "PermId": 4297288103.0,
+    "Ticker": "RBLX"
+  },
+  {
+    "Company Name": "Zoom Video Communications  ",
+    "PermId": 5038054958.0,
+    "Ticker": "ZM"
+  },
+  {
+    "Company Name": "Zscaler  ",
+    "PermId": 5036689323.0,
+    "Ticker": "ZS"
+  },
+  {
+    "Company Name": "HubSpot  ",
+    "PermId": 4296262603.0,
+    "Ticker": "HUBS"
+  },
+  {
+    "Company Name": "Shopify  ",
+    "PermId": 5001433891.0,
+    "Ticker": "SHOP"
+  },
+  {
+    "Company Name": "Lumen Technologies Inc",
+    "PermId": 4295912040.0,
+    "Ticker": "LUMN"
+  },
+  {
+    "Company Name": "EchoStar",
+    "PermId": 4298015188.0,
+    "Ticker": "SATS"
+  },
+  {
+    "Company Name": "Liberty Global Plc",
+    "PermId": 5039682674.0,
+    "Ticker": "LBTYA"
+  },
+  {
+    "Company Name": "BioMarin Pharmaceutical Inc.  ",
+    "PermId": 4295912660.0,
+    "Ticker": "BMRN"
+  },
+  {
+    "Company Name": "Docusign, Inc.  ",
+    "PermId": 4297160277.0,
+    "Ticker": "DOCU"
+  },
+  {
+    "Company Name": "Exact Sciences Corporation  ",
+    "PermId": 4295900268.0,
+    "Ticker": "EXAS"
+  },
+  {
+    "Company Name": "Albertsons Companies, Inc.  ",
+    "PermId": 5046318067.0,
+    "Ticker": "ACI"
+  },
+  {
+    "Company Name": "Rite Aid Corporation  ",
+    "PermId": 4295904827.0,
+    "Ticker": "RADCQ"
+  },
+  {
+    "Company Name": "Burlington Stores, Inc.  ",
+    "PermId": 4295929900.0,
+    "Ticker": "BURL"
+  },
+  {
+    "Company Name": "Nordstrom, Inc.  ",
+    "PermId": 4295904616.0,
+    "Ticker": "JWN"
+  },
+  {
+    "Company Name": "Amazon.com, Inc.  ",
+    "PermId": 4295905494.0,
+    "Ticker": "AMZN"
+  },
+  {
+    "Company Name": "DoorDash, Inc.  ",
+    "PermId": 5045821058.0,
+    "Ticker": "DASH"
+  },
+  {
+    "Company Name": "Wayfair Inc.  ",
+    "PermId": 5043441154.0,
+    "Ticker": "W"
+  },
+  {
+    "Company Name": "Novartis  ",
+    "PermId": 4295890628.0,
+    "Ticker": "NOVN"
+  },
+  {
+    "Company Name": "Sanofi  ",
+    "PermId": 4295868215.0,
+    "Ticker": "SAN"
+  },
+  {
+    "Company Name": "AstraZeneca  ",
+    "PermId": 4295894341.0,
+    "Ticker": "AZN"
+  },
+  {
+    "Company Name": "GlaxoSmithKline  ",
+    "PermId": 4295895781.0,
+    "Ticker": "GSK"
+  },
+  {
+    "Company Name": "Novo Nordisk  ",
+    "PermId": 4295865996.0,
+    "Ticker": "NVO"
+  },
+  {
+    "Company Name": "Takeda  ",
+    "PermId": 4295877353.0,
+    "Ticker": "TAK"
+  },
+  {
+    "Company Name": "Roche  ",
+    "PermId": 4295890594.0,
+    "Ticker": "ROG"
+  },
+  {
+    "Company Name": "SunPower, Inc.  ",
+    "PermId": 4296892199.0,
+    "Ticker": "SPWRQ"
+  },
+  {
+    "Company Name": "Alarm.com Holdings, Inc.  ",
+    "PermId": 5000386924.0,
+    "Ticker": "ALRM"
+  },
+  {
+    "Company Name": "Resideo Technologies, Inc.  ",
+    "PermId": 5065322350.0,
+    "Ticker": "REZI"
+  },
+  {
+    "Company Name": "Sunrun, Inc.  ",
+    "PermId": 5000454292.0,
+    "Ticker": "RUN"
+  },
+  {
+    "Company Name": "ADT, Inc.  ",
+    "PermId": 5050720117.0,
+    "Ticker": "ADT"
+  },
+  {
+    "Company Name": "Sunnova  ",
+    "PermId": 5070519685.0,
+    "Ticker": "NOVAQ"
+  },
+  {
+    "Company Name": "Wolfspeed, Inc.  ",
+    "PermId": 4295906086.0,
+    "Ticker": "WOLF"
+  },
+  {
+    "Company Name": "SolarEdge Technologies, Inc.  ",
+    "PermId": 4297906412.0,
+    "Ticker": "SEDG"
+  },
+  {
+    "Company Name": "Alcon, Inc.  ",
+    "PermId": 5068075938.0,
+    "Ticker": "ALC"
+  },
+  {
+    "Company Name": "Bausch & Lomb Inc.  ",
+    "PermId": 4295903550.0,
+    "Ticker": "BOL"
+  },
+  {
+    "Company Name": "Smith & Nephew plc  ",
+    "PermId": 4295895197.0,
+    "Ticker": "SN."
+  },
+  {
+    "Company Name": "SAP SE  ",
+    "PermId": 5043321284.0,
+    "Ticker": "SAP"
+  },
+  {
+    "Company Name": "Akzo Nobel N.V.  ",
+    "PermId": 4295884730.0,
+    "Ticker": "AKZA"
+  },
+  {
+    "Company Name": "The Goodyear Tire & Rubber Company  ",
+    "PermId": 4295903126.0,
+    "Ticker": "GT"
+  },
+  {
+    "Company Name": "Whirlpool Corporation",
+    "PermId": 4295905337.0,
+    "Ticker": "WHR"
+  },
+  {
+    "Company Name": "Lincoln National  ",
+    "PermId": 4295904418.0,
+    "Ticker": "LNC"
+  },
+  {
+    "Company Name": "WESCO International, Inc.",
+    "PermId": 5037652044.0,
+    "Ticker": "WCC"
+  },
+  {
+    "Company Name": "MSC Industrial Direct Co., Inc.",
+    "PermId": 4295904456.0,
+    "Ticker": "MSM"
+  },
+  {
+    "Company Name": "Donaldson Company, Inc.",
+    "PermId": 4295903872.0,
+    "Ticker": "DCI"
+  },
+  {
+    "Company Name": "Ameresco, Inc.  ",
+    "PermId": 4296288833.0,
+    "Ticker": "AMRC"
+  },
+  {
+    "Company Name": "Amkor Technology, Inc.  ",
+    "PermId": 4295905539.0,
+    "Ticker": "AMKR"
+  },
+  {
+    "Company Name": "Analog Devices, Inc.  ",
+    "PermId": 4295903393.0,
+    "Ticker": "ADI"
+  },
+  {
+    "Company Name": "Array Technologies, Inc.  ",
+    "PermId": 5003344199.0,
+    "Ticker": "ARRY"
+  },
+  {
+    "Company Name": "Avangrid, Inc.  ",
+    "PermId": 4295903923.0,
+    "Ticker": "AGR"
+  },
+  {
+    "Company Name": "Cirrus Logic, Inc.  ",
+    "PermId": 4295905951.0,
+    "Ticker": "CRUS"
+  },
+  {
+    "Company Name": "Diodes Incorporated  ",
+    "PermId": 4295906188.0,
+    "Ticker": "DIOD"
+  },
+  {
+    "Company Name": "EnerSys  ",
+    "PermId": 4295902753.0,
+    "Ticker": "ENS"
+  },
+  {
+    "Company Name": "Entegris, Inc.  ",
+    "PermId": 4295915818.0,
+    "Ticker": "ENTG"
+  },
+  {
+    "Company Name": "MKS Instruments, Inc.  ",
+    "PermId": 4295914227.0,
+    "Ticker": "MKSI"
+  },
+  {
+    "Company Name": "Nextracker Inc.  ",
+    "PermId": 5083817827.0,
+    "Ticker": "NXT"
+  },
+  {
+    "Company Name": "Check Point Software Technologies  ",
+    "PermId": 4295875182.0,
+    "Ticker": "CHKP"
+  },
+  {
+    "Company Name": "Elanco Animal Health Incorporated",
+    "PermId": 4296365146.0,
+    "Ticker": "ELAN "
+  },
+  {
+    "Company Name": "Chocoladefabriken Lindt & Spruengli AG",
+    "PermId": 4295890655.0,
+    "Ticker": "LISP "
+  },
+  {
+    "Company Name": "Nestl\u00e9 S.A.",
+    "PermId": 4295890634.0,
+    "Ticker": "NESN"
+  },
+  {
+    "Company Name": "Danone",
+    "PermId": 5000049931.0,
+    "Ticker": "BN"
+  },
+  {
+    "Company Name": "Diageo plc",
+    "PermId": 4295894791.0,
+    "Ticker": "DGE"
+  },
+  {
+    "Company Name": "Unilever PLC",
+    "PermId": 4295894770.0,
+    "Ticker": "ULVR"
+  },
+  {
+    "Company Name": "NVIDIA Corporation",
+    "PermId": 4295914405.0,
+    "Ticker": "NVDA"
+  },
+  {
+    "Company Name": "InBev  ",
+    "PermId": 4295859326.0,
+    "Ticker": "ABI"
+  },
+  {
+    "Company Name": "AXA  ",
+    "PermId": 4295867483.0,
+    "Ticker": "CS"
+  },
+  {
+    "Company Name": "Sun Life  ",
+    "PermId": 4295861241.0,
+    "Ticker": "SLF"
+  },
+  {
+    "Company Name": "Manulife  ",
+    "PermId": 4295862758.0,
+    "Ticker": "MFC"
+  },
+  {
+    "Company Name": "Alnylam Pharmaceuticals  ",
+    "PermId": 4295916167.0,
+    "Ticker": "ALNY"
+  },
+  {
+    "Company Name": "BeiGene Ltd.  ",
+    "PermId": 5095331483.0,
+    "Ticker": 688235
+  },
+  {
+    "Company Name": "Jazz Pharmaceuticals  ",
+    "PermId": 4297329846.0,
+    "Ticker": "JAZZ"
+  },
+  {
+    "Company Name": "Barclays Plc  ",
+    "PermId": 8589934333.0,
+    "Ticker": "BARC "
+  },
+  {
+    "Company Name": "UBS AG  ",
+    "PermId": 4295890710.0,
+    "Ticker": "UBSG"
+  },
+  {
+    "Company Name": "Sirius XM Holdings, Inc.  ",
+    "PermId": 5040694674.0,
+    "Ticker": "SIRI"
+  },
+  {
+    "Company Name": "STMicroelectronics  ",
+    "PermId": 4295867372.0,
+    "Ticker": "STMPA"
+  },
+  {
+    "Company Name": "ASML Holding  ",
+    "PermId": 4295884869.0,
+    "Ticker": "ASML"
+  },
+  {
+    "Company Name": "Infineon Technologies  ",
+    "PermId": 4295870063.0,
+    "Ticker": "IFX"
+  },
+  {
+    "Company Name": "Ryder System, Inc.  ",
+    "PermId": 4295903059.0,
+    "Ticker": "R"
+  },
+  {
+    "Company Name": "Saia, Inc.  ",
+    "PermId": 4295908423.0,
+    "Ticker": "SAIA"
+  },
+  {
+    "Company Name": "Schneider National, Inc.  ",
+    "PermId": 4296471241.0,
+    "Ticker": "SNDR"
+  },
+  {
+    "Company Name": "U-Haul Holding Company  ",
+    "PermId": 4295905501.0,
+    "Ticker": "UHAL"
+  },
+  {
+    "Company Name": "XPO, Inc.  ",
+    "PermId": 4295902251.0,
+    "Ticker": "XPO"
+  },
+  {
+    "Company Name": "Knight-Swift Transportation Holdings Inc.  ",
+    "PermId": 5000803238.0,
+    "Ticker": "KNX"
+  },
+  {
+    "Company Name": "Landstar System, Inc.  ",
+    "PermId": 4295906971.0,
+    "Ticker": "LSTR"
+  },
+  {
+    "Company Name": "Hub Group, Inc.  ",
+    "PermId": 4295906729.0,
+    "Ticker": "HUBG"
+  },
+  {
+    "Company Name": "Hewlett Packard Enterprise Company  ",
+    "PermId": 5046390586.0,
+    "Ticker": "HPE"
+  },
+  {
+    "Company Name": "Cloudflare, Inc.",
+    "PermId": 5000589109.0,
+    "Ticker": "NET"
+  },
+  {
+    "Company Name": "UiPath Inc.",
+    "PermId": 5055475912.0,
+    "Ticker": "PATH"
+  },
+  {
+    "Company Name": "Unity Software Inc.",
+    "PermId": 5065226047.0,
+    "Ticker": "U"
+  },
+  {
+    "Company Name": "Diageo plc",
+    "PermId": 4295894791.0,
+    "Ticker": "DGE"
+  },
+  {
+    "Company Name": "Heineken N.V.",
+    "PermId": 4295884692.0,
+    "Ticker": "HEIA"
+  },
+  {
+    "Company Name": "Imperial Brands PLC",
+    "PermId": 4295894647.0,
+    "Ticker": "IMB"
+  },
+  {
+    "Company Name": "Japan Tobacco Inc.",
+    "PermId": 4295879109.0,
+    "Ticker": 2914
+  },
+  {
+    "Company Name": "British American Tobacco p.l.c.",
+    "PermId": 4295894777.0,
+    "Ticker": "BATS"
+  },
+  {
+    "Company Name": "V.F. Corporation  ",
+    "PermId": 4295905197.0,
+    "Ticker": "VFC"
+  },
+  {
+    "Company Name": "Williams-Sonoma, Inc.  ",
+    "PermId": 4295905344.0,
+    "Ticker": "WSM"
+  },
+  {
+    "Company Name": "Foot Locker, Inc.  ",
+    "PermId": 4295903067.0,
+    "Ticker": "FL"
+  },
+  {
+    "Company Name": "Bath & Body Works, Inc.  ",
+    "PermId": 4295904421.0,
+    "Ticker": "BBWI"
+  },
+  {
+    "Company Name": "Thomson Reuters  ",
+    "PermId": 4295861160.0,
+    "Ticker": "TRI"
+  },
+  {
+    "Company Name": "Tanger Inc.  ",
+    "PermId": 4295905039.0,
+    "Ticker": "SKY"
+  },
+  {
+    "Company Name": "Jones Lang LaSalle, Inc.  ",
+    "PermId": 4295912169.0,
+    "Ticker": "JLL"
+  },
+  {
+    "Company Name": "Cushman & Wakefield  ",
+    "PermId": 5064663797.0,
+    "Ticker": "CWK"
+  },
+  {
+    "Company Name": "The Carlyle Group  ",
+    "PermId": 5035741840.0,
+    "Ticker": "CG"
+  },
+  {
+    "Company Name": "Publix Super Markets, Inc.",
+    "PermId": 4295914632.0,
+    "Ticker": "PUSH"
+  },
+  {
+    "Company Name": "Clarivate  ",
+    "PermId": 5067504851.0,
+    "Ticker": "CLVT"
+  },
+  {
+    "Company Name": "Royal Bank of Canada  ",
+    "PermId": 8589934213.0,
+    "Ticker": "RY"
+  },
+  {
+    "Company Name": "State Street  ",
+    "PermId": 4295904976.0,
+    "Ticker": "STT"
+  },
+  {
+    "Company Name": "UBS Group AG  ",
+    "PermId": 5043337560.0,
+    "Ticker": "UBSG"
+  },
+  {
+    "Company Name": "HSBC Holdings plc  ",
+    "PermId": 8589934275.0,
+    "Ticker": "HSBS"
+  },
+  {
+    "Company Name": "BNP Paribas S.A.  ",
+    "PermId": 8589934326.0,
+    "Ticker": "BNP"
+  },
+  {
+    "Company Name": "Banco Santander, S.A.  ",
+    "PermId": 8589934205.0,
+    "Ticker": "SAN"
+  },
+  {
+    "Company Name": "Splunk Inc.  ",
+    "PermId": 4297157941.0,
+    "Ticker": "SPLK"
+  },
+  {
+    "Company Name": "Ciena Corporation",
+    "PermId": 4295905947.0,
+    "Ticker": "CIEN"
+  },
+  {
+    "Company Name": "Littelfuse",
+    "PermId": 4295907012.0,
+    "Ticker": "LFUS"
+  },
+  {
+    "Company Name": "Teredyne",
+    "PermId": 4295905055.0,
+    "Ticker": "TER"
+  },
+  {
+    "Company Name": "Lumentum Holdings, Inc.",
+    "PermId": 5045880046.0,
+    "Ticker": "LITE"
+  },
+  {
+    "Company Name": "IPG Photonics Corporation",
+    "PermId": 4295900349.0,
+    "Ticker": "IPGP"
+  },
+  {
+    "Company Name": "Dropbox",
+    "PermId": 5041064108.0,
+    "Ticker": "DBX"
+  },
+  {
+    "Company Name": "Snap",
+    "PermId": 5038065579.0,
+    "Ticker": "SNAP"
+  },
+  {
+    "Company Name": "Robinhood",
+    "PermId": 5057828127.0,
+    "Ticker": "HOOD"
+  },
+  {
+    "Company Name": "Cognex Corporation",
+    "PermId": 4295905971.0,
+    "Ticker": "CGNX"
+  },
+  {
+    "Company Name": "CommVault Systems, Inc.",
+    "PermId": 4295915950.0,
+    "Ticker": "CVLT"
+  },
+  {
+    "Company Name": "F5, Inc.",
+    "PermId": 4295913368.0,
+    "Ticker": "FFIV"
+  },
+  {
+    "Company Name": "Five9, Inc.",
+    "PermId": 4297140185.0,
+    "Ticker": "FIVN"
+  },
+  {
+    "Company Name": "InterDigital, Inc.",
+    "PermId": 5076169705.0,
+    "Ticker": "IDCC "
+  },
+  {
+    "Company Name": "Paylocity Holding Corporation",
+    "PermId": 5041065061.0,
+    "Ticker": "PCTY"
+  },
+  {
+    "Company Name": "Qualys, Inc.",
+    "PermId": 4296961643.0,
+    "Ticker": "QLYS"
+  },
+  {
+    "Company Name": "Ziff Davis, Inc.",
+    "PermId": 5042953645.0,
+    "Ticker": "ZD"
+  },
+  {
+    "Company Name": "Coinbase Global, Inc.",
+    "PermId": 5057764257.0,
+    "Ticker": "COIN"
+  },
+  {
+    "Company Name": "Chewy, Inc.",
+    "PermId": 5043986687.0,
+    "Ticker": "CHWY"
+  },
+  {
+    "Company Name": "Maplebear Inc. (d\/b\/a Instacart)",
+    "PermId": 5040048949.0,
+    "Ticker": "CART"
+  },
+  {
+    "Company Name": "Spotify Technology S.A.",
+    "PermId": 5037833896.0,
+    "Ticker": "SPOT"
+  },
+  {
+    "Company Name": "Stripe, Inc.",
+    "PermId": 5037315446.0,
+    "Ticker": "STRI.PVT "
+  },
+  {
+    "Company Name": "Toast, Inc.",
+    "PermId": 5033074099.0,
+    "Ticker": "TOST"
+  },
+  {
+    "Company Name": "Magna International Inc.  ",
+    "PermId": 4295861309.0,
+    "Ticker": "MG"
+  },
+  {
+    "Company Name": "Mobileye Global Inc.  ",
+    "PermId": 5083481283.0,
+    "Ticker": "MBLY"
+  },
+  {
+    "Company Name": "Joby Aviation, Inc.  ",
+    "PermId": 5060677477.0,
+    "Ticker": "JOBY"
+  },
+  {
+    "Company Name": "Rivian Automotive, Inc.  ",
+    "PermId": 5037344406.0,
+    "Ticker": "RIVN"
+  },
+  {
+    "Company Name": "Lyft, Inc.  ",
+    "PermId": 5036653793.0,
+    "Ticker": "LYFT"
+  },
+  {
+    "Company Name": "Harley-Davidson, Inc.",
+    "PermId": 4295904129.0,
+    "Ticker": "HOG"
+  },
+  {
+    "Company Name": "Altair Engineering Inc.  ",
+    "PermId": 5059021424.0,
+    "Ticker": "ALTR"
+  },
+  {
+    "Company Name": "Enfusion, Inc.  ",
+    "PermId": 5004421188.0,
+    "Ticker": "ENFN"
+  },
+  {
+    "Company Name": "Progress Software Corp.  ",
+    "PermId": 5037269255.0,
+    "Ticker": "PRGS"
+  },
+  {
+    "Company Name": "Alteryx, Inc.  ",
+    "PermId": 5035167477.0,
+    "Ticker": "AYX"
+  },
+  {
+    "Company Name": "Everbridge, Inc.  ",
+    "PermId": 5000634701.0,
+    "Ticker": "EVBG"
+  },
+  {
+    "Company Name": "Guidewire Software, Inc.  ",
+    "PermId": 4295935378.0,
+    "Ticker": "GWRE"
+  },
+  {
+    "Company Name": "SPS Commerce Inc.  ",
+    "PermId": 4295986595.0,
+    "Ticker": "SPSC"
+  },
+  {
+    "Company Name": "Coupa Software Inc.  ",
+    "PermId": 4297626627.0,
+    "Ticker": "COUP"
+  },
+  {
+    "Company Name": "EverCommerce Inc.  ",
+    "PermId": 5080197319.0,
+    "Ticker": "EVCM"
+  },
+  {
+    "Company Name": "New Relic, Inc.  ",
+    "PermId": 4297844625.0,
+    "Ticker": "NEWR"
+  },
+  {
+    "Company Name": "Teradata Corp.  ",
+    "PermId": 4298009953.0,
+    "Ticker": "TDC"
+  },
+  {
+    "Company Name": "DOMO, Inc.  ",
+    "PermId": 5001217125.0,
+    "Ticker": "DOMO"
+  },
+  {
+    "Company Name": "EVO Payments, Inc.  ",
+    "PermId": 5063727662.0,
+    "Ticker": "EVOP"
+  },
+  {
+    "Company Name": "Pegasystems Inc.  ",
+    "PermId": 4295907568.0,
+    "Ticker": "PEGA"
+  },
+  {
+    "Company Name": "Verint Systems Inc.  ",
+    "PermId": 4295902125.0,
+    "Ticker": "VRNT"
+  },
+  {
+    "Company Name": "IAC  ",
+    "PermId": 5001440533.0,
+    "Ticker": "IAC"
+  },
+  {
+    "Company Name": "BOX  ",
+    "PermId": 5000451167.0,
+    "Ticker": "BOX"
+  },
+  {
+    "Company Name": "RINGCENTRAL  ",
+    "PermId": 4296841975.0,
+    "Ticker": "RNG"
+  },
+  {
+    "Company Name": "ROKU  ",
+    "PermId": 4297900917.0,
+    "Ticker": "ROKU"
+  },
+  {
+    "Company Name": "SONOS  ",
+    "PermId": 4297023247.0,
+    "Ticker": "SONO"
+  },
+  {
+    "Company Name": "Tripadvisor, Inc.  ",
+    "PermId": 5094101128.0,
+    "Ticker": "TRIP"
+  },
+  {
+    "Company Name": "Yelp Inc.  ",
+    "PermId": 4297393184.0,
+    "Ticker": "YELP"
+  },
+  {
+    "Company Name": "SoFi Technologies, Inc.  ",
+    "PermId": 5080526705.0,
+    "Ticker": "SOFI"
+  },
+  {
+    "Company Name": "AMC Networks, Inc.  ",
+    "PermId": 5035168044.0,
+    "Ticker": "AMCX"
+  },
+  {
+    "Company Name": "Lionsgate Studios Corp.  ",
+    "PermId": 5090659124.0,
+    "Ticker": "LION"
+  },
+  {
+    "Company Name": "Endeavor Group Holdings, Inc.  ",
+    "PermId": 5069413392.0,
+    "Ticker": "EDR"
+  },
+  {
+    "Company Name": "TEGNA Inc.  ",
+    "PermId": 4295904046.0,
+    "Ticker": "TGNA"
+  },
+  {
+    "Company Name": "Nexstar Media Group, Inc.  ",
+    "PermId": 4295899219.0,
+    "Ticker": "NXST"
+  },
+  {
+    "Company Name": "Warner Music Group Corp.  ",
+    "PermId": 4295899944.0,
+    "Ticker": "WMG"
+  },
+  {
+    "Company Name": "Dynatrace  ",
+    "PermId": 5071081317.0,
+    "Ticker": "DT"
+  },
+  {
+    "Company Name": "Zoominfo Technologies  ",
+    "PermId": 5041798671.0,
+    "Ticker": "GTM"
+  },
+  {
+    "Company Name": "Xerox  ",
+    "PermId": 5068338327.0,
+    "Ticker": "XRX"
+  },
+  {
+    "Company Name": "Flex Ltd.  ",
+    "PermId": 4295887812.0,
+    "Ticker": "FLEX"
+  },
+  {
+    "Company Name": "Kyndryl Holdings  ",
+    "PermId": 5081381076.0,
+    "Ticker": "KD"
+  },
+  {
+    "Company Name": "Mettler-Toledo  ",
+    "PermId": 4295904529.0,
+    "Ticker": "MTD"
+  },
+  {
+    "Company Name": "TransDigm Group Incorporated  ",
+    "PermId": 4295913094.0,
+    "Ticker": "TDG"
+  },
+  {
+    "Company Name": "TreeHouse Foods, Inc.",
+    "PermId": 4295911050.0,
+    "Ticker": "THS"
+  },
+  {
+    "Company Name": "W.K. Kellogg Co",
+    "PermId": 5086695528.0,
+    "Ticker": "KLG"
+  },
+  {
+    "Company Name": "The Hain Celestial Group Inc",
+    "PermId": 4295913625.0,
+    "Ticker": "HAIN"
+  },
+  {
+    "Company Name": "BP",
+    "PermId": 4295894740.0,
+    "Ticker": "BP"
+  },
+  {
+    "Company Name": "Brookfield Asset Management",
+    "PermId": 5073777894.0,
+    "Ticker": "BAM"
+  },
+  {
+    "Company Name": "CHS",
+    "PermId": 4296341355.0,
+    "Ticker": "CHSCP"
+  },
+  {
+    "Company Name": "Saudi Aramco",
+    "PermId": 5000067689.0,
+    "Ticker": 2222
+  },
+  {
+    "Company Name": "TD Synnex",
+    "PermId": 4295899452.0,
+    "Ticker": "SNX"
+  },
+  {
+    "Company Name": "Telefonica",
+    "PermId": 5000062703.0,
+    "Ticker": "TEF"
+  },
+  {
+    "Company Name": "Siemens",
+    "PermId": 4295869238.0,
+    "Ticker": "SIE"
+  },
+  {
+    "Company Name": "World Kinect",
+    "PermId": 4295905355.0,
+    "Ticker": "INT"
+  },
+  {
+    "Company Name": "Energy Transfer Partners",
+    "PermId": 4295914798.0,
+    "Ticker": "ET"
+  },
+  {
+    "Company Name": "Petco Health and Wellness Co.  ",
+    "PermId": 5073694146.0,
+    "Ticker": "WOOF"
+  },
+  {
+    "Company Name": "Big Lots, Inc.  ",
+    "PermId": 4295903806.0,
+    "Ticker": "BIG"
+  },
+  {
+    "Company Name": "Grocery Outlet Holding Corp.  ",
+    "PermId": 5069401918.0,
+    "Ticker": "GO"
+  },
+  {
+    "Company Name": "Sally Beauty Holdings, Inc.  ",
+    "PermId": 4295911053.0,
+    "Ticker": "SBH"
+  },
+  {
+    "Company Name": "Five Below, Inc.  ",
+    "PermId": 4296912565.0,
+    "Ticker": "FIVE"
+  },
+  {
+    "Company Name": "Designer Brands Inc  ",
+    "PermId": 4295902329.0,
+    "Ticker": "DBI"
+  },
+  {
+    "Company Name": "Casey\u2019s General Stores, Inc.  ",
+    "PermId": 4295905875.0,
+    "Ticker": "CASY"
+  },
+  {
+    "Company Name": "Sprouts Farmers Market, Inc. ",
+    "PermId": 4297662534.0,
+    "Ticker": "SFM "
+  },
+  {
+    "Company Name": "Crane Company  ",
+    "PermId": 4295368104.0,
+    "Ticker": "CR"
+  },
+  {
+    "Company Name": "Pentair plc  ",
+    "PermId": 4295904700.0,
+    "Ticker": "PNR"
+  },
+  {
+    "Company Name": "Woodward, Inc.  ",
+    "PermId": 4295908500.0,
+    "Ticker": "WWD"
+  },
+  {
+    "Company Name": "Donaldson Company, Inc.  ",
+    "PermId": 4295903872.0,
+    "Ticker": "DCI"
+  },
+  {
+    "Company Name": "Polaris Inc.  ",
+    "PermId": 5000727826.0,
+    "Ticker": "PII"
+  },
+  {
+    "Company Name": "Enerpac Tool Group Corp.  ",
+    "PermId": 4295903471.0,
+    "Ticker": "EPAC"
+  },
+  {
+    "Company Name": "Simpson Manufacturing Co., Inc.  ",
+    "PermId": 4295904919.0,
+    "Ticker": "SSD"
+  },
+  {
+    "Company Name": "ITT Inc.  ",
+    "PermId": 5050925560.0,
+    "Ticker": "ITT"
+  },
+  {
+    "Company Name": "The Middleby Corporation  ",
+    "PermId": 4295907183.0,
+    "Ticker": "MIDD"
+  },
+  {
+    "Company Name": "Barnes Group Inc.  ",
+    "PermId": 4295903040.0,
+    "Ticker": "B"
+  },
+  {
+    "Company Name": "Kennametal Inc.  ",
+    "PermId": 4295904363.0,
+    "Ticker": "KMT"
+  },
+  {
+    "Company Name": "The Toro Company  ",
+    "PermId": 4295905105.0,
+    "Ticker": "TTC"
+  },
+  {
+    "Company Name": "Chart Industries, Inc.  ",
+    "PermId": 4295903740.0,
+    "Ticker": "GTLS"
+  },
+  {
+    "Company Name": "Tennant Company  ",
+    "PermId": 4295908139.0,
+    "Ticker": "TNC"
+  },
+  {
+    "Company Name": "Albany International Corp.  ",
+    "PermId": 4295903323.0,
+    "Ticker": "AIN"
+  },
+  {
+    "Company Name": "Franklin Electric Co., Inc.  ",
+    "PermId": 4295906533.0,
+    "Ticker": "FELE"
+  },
+  {
+    "Company Name": "PJT Partners Inc.  ",
+    "PermId": 5045875373.0,
+    "Ticker": "PJT"
+  },
+  {
+    "Company Name": "Moelis & Company  ",
+    "PermId": 5041976873.0,
+    "Ticker": "MC"
+  },
+  {
+    "Company Name": "Evercore Inc.  ",
+    "PermId": 4295899350.0,
+    "Ticker": "EVR"
+  },
+  {
+    "Company Name": "Lazard Inc.  ",
+    "PermId": 4297388836.0,
+    "Ticker": "LAZ"
+  },
+  {
+    "Company Name": "BankUnited, Inc.  ",
+    "PermId": 5001204503.0,
+    "Ticker": "BKU"
+  },
+  {
+    "Company Name": "First Citizens BancShares, Inc.  ",
+    "PermId": 5001113817.0,
+    "Ticker": "FCNCA"
+  },
+  {
+    "Company Name": "BOK Financial Corporation  ",
+    "PermId": 4295905668.0,
+    "Ticker": "BOKF"
+  },
+  {
+    "Company Name": "SouthState Corporation  ",
+    "PermId": 4295903993.0,
+    "Ticker": "SSB"
+  },
+  {
+    "Company Name": "Synovus Financial  ",
+    "PermId": 4295905022.0,
+    "Ticker": "SNV"
+  },
+  {
+    "Company Name": "Columbia Banking System, Inc.  ",
+    "PermId": 4295905988.0,
+    "Ticker": "COLB"
+  },
+  {
+    "Company Name": "Valley National Bancorp  ",
+    "PermId": 4295905201.0,
+    "Ticker": "VLY"
+  },
+  {
+    "Company Name": "Comerica Incorporated  ",
+    "PermId": 4295903746.0,
+    "Ticker": "CMA"
+  },
+  {
+    "Company Name": "Western Alliance Bancorporation  ",
+    "PermId": 5046306172.0,
+    "Ticker": "WAL"
+  },
+  {
+    "Company Name": "Cullen\/Frost Bankers, Inc.  ",
+    "PermId": 4295903828.0,
+    "Ticker": "CFR"
+  },
+  {
+    "Company Name": "Pinnacle Financial Partners, Inc.  ",
+    "PermId": 4295902630.0,
+    "Ticker": "PNFP"
+  },
+  {
+    "Company Name": "Wintrust Financial Corporation  ",
+    "PermId": 4295908493.0,
+    "Ticker": "WTFC"
+  },
+  {
+    "Company Name": "Popular, Inc.  ",
+    "PermId": 4295907638.0,
+    "Ticker": "BPOP"
+  },
+  {
+    "Company Name": "Zions Bancorp  ",
+    "PermId": 4295999515.0,
+    "Ticker": "ZION"
+  },
+  {
+    "Company Name": "EAST WEST BANCORP INC ",
+    "PermId": 4295913225.0,
+    "Ticker": "EWBC "
+  },
+  {
+    "Company Name": "Aspen Technology, Inc.  ",
+    "PermId": 5027078363.0,
+    "Ticker": "AZPN"
+  },
+  {
+    "Company Name": "Manhattan Associates, Inc.  ",
+    "PermId": 4295907062.0,
+    "Ticker": "MANH"
+  },
+  {
+    "Company Name": "BlackLine, Inc.  ",
+    "PermId": 5052135332.0,
+    "Ticker": "BL"
+  },
+  {
+    "Company Name": "Elastic N.V.  ",
+    "PermId": 5037945341.0,
+    "Ticker": "ESTC"
+  },
+  {
+    "Company Name": "ArcBest Corporation  ",
+    "PermId": 4295905599.0,
+    "Ticker": "ARCB "
+  },
+  {
+    "Company Name": "Corebridge Financial, Inc.  ",
+    "PermId": 5035095769.0,
+    "Ticker": "CRBG "
+  },
+  {
+    "Company Name": "Equitable Holdings, Inc.  ",
+    "PermId": 5000037947.0,
+    "Ticker": "EQH "
+  },
+  {
+    "Company Name": "iA Financial Corporation Inc.  ",
+    "PermId": 5067495779.0,
+    "Ticker": "IAG "
+  },
+  {
+    "Company Name": "Unum Group  ",
+    "PermId": null,
+    "Ticker": "UNM "
+  },
+  {
+    "Company Name": "Lincoln National Corp.  ",
+    "PermId": 4295904418.0,
+    "Ticker": "LNC"
+  },
+  {
+    "Company Name": "Voya Financial, Inc.  ",
+    "PermId": 4296543362.0,
+    "Ticker": "VOYA"
+  },
+  {
+    "Company Name": "Equitable Holdings, Inc.  ",
+    "PermId": 5000037947.0,
+    "Ticker": "EQH "
+  },
+  {
+    "Company Name": "Corebridge Financial, Inc.  ",
+    "PermId": 5035095769.0,
+    "Ticker": "CRBG "
+  },
+  {
+    "Company Name": "REINSURANCE GROUP OF AMERICA INC ",
+    "PermId": 4295904813.0,
+    "Ticker": "RGA "
+  },
+  {
+    "Company Name": "Arrow Electronics, Inc.  ",
+    "PermId": 4295903472.0,
+    "Ticker": "ARW "
+  },
+  {
+    "Company Name": "Compass Group PLC  ",
+    "PermId": 4295895403.0,
+    "Ticker": "CPG"
+  },
+  {
+    "Company Name": "Pilgrim\u2019s Pride Corporation  ",
+    "PermId": 4295904736.0,
+    "Ticker": "PPC "
+  },
+  {
+    "Company Name": "US Foods Holding Corp.  ",
+    "PermId": 4298218064.0,
+    "Ticker": "USFD "
+  },
+  {
+    "Company Name": "Avnet, Inc.  ",
+    "PermId": 4295903504.0,
+    "Ticker": "AVT "
+  },
+  {
+    "Company Name": "United Natural Foods, Inc.  ",
+    "PermId": 4295908260.0,
+    "Ticker": "UNFI "
+  },
+  {
+    "Company Name": "AAR Corp.  ",
+    "PermId": 4295903281.0,
+    "Ticker": "AIR "
+  },
+  {
+    "Company Name": "Kratos Defense & Security Solutions Inc.  ",
+    "PermId": 4295915455.0,
+    "Ticker": "KTOS "
+  },
+  {
+    "Company Name": "Mercury Systems Inc.  ",
+    "PermId": 4295907134.0,
+    "Ticker": "MRCY "
+  },
+  {
+    "Company Name": "Moog Inc.  ",
+    "PermId": 4295908640.0,
+    "Ticker": "MOG.A"
+  },
+  {
+    "Company Name": "BWX Technologies, Inc.  ",
+    "PermId": 5000413382.0,
+    "Ticker": "BWXT"
+  },
+  {
+    "Company Name": "Parsons Corporation  ",
+    "PermId": 5068660285.0,
+    "Ticker": "PSN"
+  },
+  {
+    "Company Name": "Hexcel Corp.  ",
+    "PermId": 4295904165.0,
+    "Ticker": "HXL "
+  },
+  {
+    "Company Name": "Triumph Group Inc.  ",
+    "PermId": 5067504526.0,
+    "Ticker": "TGI"
+  },
+  {
+    "Company Name": "CURTISS WRIGHT CORP ",
+    "PermId": 4295903178.0,
+    "Ticker": "CW "
+  },
+  {
+    "Company Name": "American Financial Group, Inc.  ",
+    "PermId": 4295903336.0,
+    "Ticker": "AFG"
+  },
+  {
+    "Company Name": "National Oilwell Varco, Inc.  ",
+    "PermId": 4295904589.0,
+    "Ticker": " NOV"
+  },
+  {
+    "Company Name": "ChampionX Corp.  ",
+    "PermId": 5063165075.0,
+    "Ticker": "CHX"
+  },
+  {
+    "Company Name": "Oceaneering International, Inc.  ",
+    "PermId": 4295904647.0,
+    "Ticker": " OII"
+  },
+  {
+    "Company Name": "Transocean Ltd.  ",
+    "PermId": 4295912336.0,
+    "Ticker": "RIG"
+  },
+  {
+    "Company Name": "Flowserve Corporation  ",
+    "PermId": 4295904011.0,
+    "Ticker": "FLS"
+  },
+  {
+    "Company Name": "Valmont Industries, Inc.  ",
+    "PermId": 4295908291.0,
+    "Ticker": "VMI"
+  },
+  {
+    "Company Name": "Fluor Corporation  ",
+    "PermId": 4295899290.0,
+    "Ticker": "FLR"
+  },
+  {
+    "Company Name": "Weatherford International plc  ",
+    "PermId": 5042958170.0,
+    "Ticker": "WFRD"
+  },
+  {
+    "Company Name": "Kadant Inc  ",
+    "PermId": 4295905071.0,
+    "Ticker": "KAI"
+  },
+  {
+    "Company Name": "Air Lease Corporation  ",
+    "PermId": 5000746975.0,
+    "Ticker": "AL"
+  },
+  {
+    "Company Name": "ESCO Technologies Inc.  ",
+    "PermId": 4295912125.0,
+    "Ticker": "ESE"
+  },
+  {
+    "Company Name": "AeroVironment Inc.  ",
+    "PermId": 4295913894.0,
+    "Ticker": "AVAV"
+  },
+  {
+    "Company Name": "GATX Corporation  ",
+    "PermId": 4295904035.0,
+    "Ticker": "GATX"
+  },
+  {
+    "Company Name": "HEICO Corporation  ",
+    "PermId": 4295904159.0,
+    "Ticker": "HEI"
+  },
+  {
+    "Company Name": "Willis Lease Finance Corporation  ",
+    "PermId": 4295908478.0,
+    "Ticker": "WLFC"
+  },
+  {
+    "Company Name": "Herc Holdings  ",
+    "PermId": 4295900057.0,
+    "Ticker": "HRI"
+  },
+  {
+    "Company Name": "FTAI Aviation Ltd.",
+    "PermId": 5074561285.0,
+    "Ticker": "FTAI"
+  },
+  {
+    "Company Name": "EPR Properties  ",
+    "PermId": 4295903933.0,
+    "Ticker": "EPR"
+  },
+  {
+    "Company Name": "Omega Healthcare Investors, Inc.  ",
+    "PermId": 4295904656.0,
+    "Ticker": "OHI"
+  },
+  {
+    "Company Name": "Rexford Industrial Realty, Inc.  ",
+    "PermId": 5039925038.0,
+    "Ticker": "REXR"
+  },
+  {
+    "Company Name": "W. P. Carey Inc.  ",
+    "PermId": 5037622213.0,
+    "Ticker": "WPC"
+  },
+  {
+    "Company Name": "Community Health Systems  ",
+    "PermId": 4295909482.0,
+    "Ticker": "CYH"
+  },
+  {
+    "Company Name": "Encompass Health  ",
+    "PermId": 4295904149.0,
+    "Ticker": "EHC"
+  },
+  {
+    "Company Name": "Select Medical  ",
+    "PermId": 4298009262.0,
+    "Ticker": "SEM"
+  },
+  {
+    "Company Name": "TENET HEALTHCARE CORP",
+    "PermId": 4295905051.0,
+    "Ticker": "THC"
+  },
+  {
+    "Company Name": "AECOM  ",
+    "PermId": 4295903417.0,
+    "Ticker": "ACM"
+  },
+  {
+    "Company Name": "CACI International Inc.  ",
+    "PermId": 4295905828.0,
+    "Ticker": "CACI"
+  },
+  {
+    "Company Name": "EMCOR Group, Inc.  ",
+    "PermId": 4295906278.0,
+    "Ticker": "EME"
+  },
+  {
+    "Company Name": "ManpowerGroup Inc.  ",
+    "PermId": 4295904472.0,
+    "Ticker": "MAN"
+  },
+  {
+    "Company Name": "Robert Half International Inc.  ",
+    "PermId": 4295904835.0,
+    "Ticker": "RHI"
+  },
+  {
+    "Company Name": "CGI Group Inc.  ",
+    "PermId": 4295861259.0,
+    "Ticker": "GIB.A"
+  },
+  {
+    "Company Name": "Dave & Buster\u2019s Entertainment, Inc.  ",
+    "PermId": 5035420598.0,
+    "Ticker": "PLAY"
+  },
+  {
+    "Company Name": "Denny\u2019s Corporation  ",
+    "PermId": 4295905446.0,
+    "Ticker": "DENN"
+  },
+  {
+    "Company Name": "Dine Brands Global, Inc.  ",
+    "PermId": 4295904203.0,
+    "Ticker": "DIN"
+  },
+  {
+    "Company Name": "Jack in the Box Inc.  ",
+    "PermId": 4295912168.0,
+    "Ticker": "JACK"
+  },
+  {
+    "Company Name": "Papa John\u2019s International, Inc.  ",
+    "PermId": 4295907538.0,
+    "Ticker": "PZZA"
+  },
+  {
+    "Company Name": "Red Robin Gourmet Burgers, Inc.  ",
+    "PermId": 4295905242.0,
+    "Ticker": "RRGB"
+  },
+  {
+    "Company Name": "The Cheesecake Factory Incorporated  ",
+    "PermId": 4295905930.0,
+    "Ticker": "CAKE"
+  },
+  {
+    "Company Name": "The Wendy\u2019s Company  ",
+    "PermId": 4295905130.0,
+    "Ticker": "WEN"
+  },
+  {
+    "Company Name": "Cracker Barrel Old Country Store, Inc.  ",
+    "PermId": 4295912790.0,
+    "Ticker": "CBRL"
+  },
+  {
+    "Company Name": "Bloomin\u2019 Brands, Inc.  ",
+    "PermId": 4297758829.0,
+    "Ticker": "BLMN"
+  },
+  {
+    "Company Name": "Brinker International, Inc.  ",
+    "PermId": 4295903608.0,
+    "Ticker": "EAT"
+  },
+  {
+    "Company Name": "Texas Roadhouse, Inc.",
+    "PermId": 4295900005.0,
+    "Ticker": "TXRH"
+  },
+  {
+    "Company Name": "National Storage Affiliates Trust  ",
+    "PermId": 5045067840.0,
+    "Ticker": "NSA"
+  },
+  {
+    "Company Name": "ACADIA Pharmaceuticals, Inc.  ",
+    "PermId": 4295903398.0,
+    "Ticker": "ACAD"
+  },
+  {
+    "Company Name": "Alkermes plc  ",
+    "PermId": 5035456435.0,
+    "Ticker": "ALKS"
+  },
+  {
+    "Company Name": "Exelixis, Inc.  ",
+    "PermId": 4295915832.0,
+    "Ticker": "EXEL"
+  },
+  {
+    "Company Name": "Horizon Therapeutics plc  ",
+    "PermId": 5037276891.0,
+    "Ticker": "HZNP"
+  },
+  {
+    "Company Name": "argenx SE  ",
+    "PermId": 5000263797.0,
+    "Ticker": "ARGX"
+  },
+  {
+    "Company Name": "Ionis Pharmaceuticals, Inc.  ",
+    "PermId": 4295906873.0,
+    "Ticker": "IONS"
+  },
+  {
+    "Company Name": "Karuna Therapeutics, Inc.  ",
+    "PermId": 5036220029.0,
+    "Ticker": "KRTX"
+  },
+  {
+    "Company Name": "Organon & Co.  ",
+    "PermId": 5080031678.0,
+    "Ticker": "OGN"
+  },
+  {
+    "Company Name": "Sarepta Therapeutics, Inc.  ",
+    "PermId": 4295905395.0,
+    "Ticker": "SRPT"
+  },
+  {
+    "Company Name": "Ultragenyx Pharmaceutical Inc  ",
+    "PermId": 5035304895.0,
+    "Ticker": "RARE"
+  },
+  {
+    "Company Name": "United Therapeutics Corporation  ",
+    "PermId": 4295915261.0,
+    "Ticker": "UTHR"
+  },
+  {
+    "Company Name": "NEUROCRINE BIOSCIENCES INC",
+    "PermId": 4295907381.0,
+    "Ticker": "NBIX"
+  },
+  {
+    "Company Name": "Medical Properties Trust  ",
+    "PermId": 4295911070.0,
+    "Ticker": "MPW"
+  },
+  {
+    "Company Name": "Carlisle Companies Incorporated  ",
+    "PermId": 4295903654.0,
+    "Ticker": "CSL"
+  },
+  {
+    "Company Name": "Graco Inc.  ",
+    "PermId": 4295904086.0,
+    "Ticker": "GGG"
+  },
+  {
+    "Company Name": "ESAB Corporation  ",
+    "PermId": 5081481979.0,
+    "Ticker": "ESAB"
+  },
+  {
+    "Company Name": "Sensata Technologies Holding plc  ",
+    "PermId": 5057860440.0,
+    "Ticker": "ST"
+  },
+  {
+    "Company Name": "Watts Water Technologies, Inc.  ",
+    "PermId": 4295905316.0,
+    "Ticker": "WTS"
+  },
+  {
+    "Company Name": "Enpro Inc.  ",
+    "PermId": 4295902119.0,
+    "Ticker": "NPO"
+  },
+  {
+    "Company Name": "Lincoln Electric Holdings, Inc.  ",
+    "PermId": 4295907011.0,
+    "Ticker": "LECO"
+  }
+]

@@ -1,0 +1,28 @@
+.resizer {
+    /* background-color: darkkhaki; */
+    display: flex;
+    position: fixed;
+    z-index: 200;
+}
+.resizerDisplay {
+    margin: auto;
+    background: #dfe2e7;
+}
+.width {
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+}
+.width:active {
+    transform: translateX(-50%);
+    width: 100%;
+}
+.height {
+    height: 10px;
+    width: 100%;
+    cursor: row-resize;
+}
+.height:active {
+    transform: translateY(-50%);
+    height: 100%;
+}

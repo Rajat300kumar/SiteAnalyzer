@@ -1,0 +1,218 @@
+.componentBody {
+  display: flex;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec_left_sb_key_tbl_td_span {
+  float: left;
+  height: 29px;
+  width: 80px;
+  text-align: center;
+  line-height: 30px;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 0px 0px;
+  cursor: pointer;
+}
+
+.tgl_btn_2 {
+  cursor: pointer;
+  font-size: 28px;
+  padding: 8px 15px;
+  color: #8186c6;
+  font-weight: normal;
+}
+
+
+/*  */
+
+.sideMenuTitleContainer {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  gap: 8px;
+  /* background: #BDC9E4; */
+  background: #e0e4f4;
+
+}
+
+/* Searchbox */
+.searchContainer {
+  display: flex;
+  padding: 12px 16px;
+  gap: 8px;
+  background: #E9EFF6;
+}
+.searchinput{
+  border: none;
+  outline: none;
+  padding: 0px 8px;
+  border-radius: 8px 0 0 8px;
+  flex-grow: 1;height: 100%;
+}
+.searchBox {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  gap: 8px;
+  justify-content: space-between;
+}
+.halfButton {
+  height: 100%;
+  background-color: #0384FC;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  /* Small/Shadow-sm-3 */
+  box-shadow: 0px 4px 8px 0px rgba(14, 31, 53, 0.08), 0px 1px 4px 0px rgba(14, 31, 53, 0.12);
+  padding: 0 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* Headings */
+h2 {
+  margin-top: 30px;
+  color: #2c3e50;
+  font-size: 1.6em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 6px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #34495e;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 10px 14px;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Add subtle card style to each section */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+
+/* 
+
+*/
+
+.ownership-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.ownership-table th,
+.ownership-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.ownership-table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+
+.company-info {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.company-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #0071bc;
+  border-bottom: 2px solid #0071bc;
+  padding-bottom: 8px;
+}
+
+.company-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.company-info ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.company-info ul li strong {
+  width: 140px;
+  display: inline-block;
+  color: #555;
+}
+
+.company-info div {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.company-info a {
+  color: #0071bc;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.company-info a:hover {
+  text-decoration: underline;
+}
+
+.company-info span {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #888;
+  word-break: break-word;
+}
+

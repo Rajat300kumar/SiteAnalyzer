@@ -1,0 +1,28 @@
+.example-form {
+    min-width: 100px;
+    /* max-width: 300px; */
+    width: 100%;
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+
+.example-full-width {
+    width: 100%;
+    border: 1px solid whitesmoke;
+}
+mat-form-field{
+    height: 48px !important;
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+    height: 0px;
+    overflow: hidden; /* Ensures content doesn't push the height */
+  }
+  
+  ::ng-deep .mat-mdc-form-field-bottom-align {
+    height: 0px;
+  }
+  
+  .highlight-icon {
+    color: green;
+  }

@@ -1,0 +1,173 @@
+.n {
+    display: block;
+}
+
+.h {
+    display: none;
+}
+
+.c {
+    display: none;
+}
+
+#homeIcon:hover .n {
+    display: none;
+}
+
+#homeIcon:hover .h {
+    display: block;
+}
+
+#homeIcon:hover .n {
+    display: none;
+}
+
+#homeIcon:hover .h {
+    display: block;
+}
+
+#homeIcon:active .n {
+    display: none;
+}
+
+#homeIcon:active .h {
+    display: none;
+}
+
+#homeIcon:active .c {
+    display: block;
+}
+
+#downloadIcon:hover .n {
+    display: none;
+}
+
+#downloadIcon:hover .h {
+    display: block;
+}
+
+#downloadIcon:active .n {
+    display: none;
+}
+
+#downloadIcon:active .h {
+    display: none;
+}
+
+#downloadIcon:active .c {
+    display: block;
+}
+
+#logoutIcon:hover .n {
+    display: none;
+}
+
+#logoutIcon:hover .h {
+    display: block;
+}
+
+#logoutIcon:active .n {
+    display: none;
+}
+
+#logoutIcon:active .h {
+    display: none;
+}
+
+#logoutIcon:active .c {
+    display: block;
+}
+
+#settingsIcon:hover .n {
+    display: none;
+}
+
+#settingsIcon:hover .h {
+    display: block;
+}
+
+#settingsIcon:active .n {
+    display: none;
+}
+
+#settingsIcon:active .h {
+    display: none;
+}
+
+#settingsIcon:active .c {
+    display: block;
+}
+
+#userIcon:hover .n {
+    display: none;
+}
+
+#userIcon:hover .h {
+    display: block;
+}
+
+#userIcon:active .n {
+    display: none;
+}
+
+#userIcon:active .h {
+    display: none;
+}
+
+#userIcon:active .c {
+    display: block;
+}
+
+#menuIcon:hover .n {
+    display: none;
+}
+
+#menuIcon:hover .h {
+    display: block;
+}
+
+#menuIcon:active .n {
+    display: none;
+}
+
+#menuIcon:active .h {
+    display: none;
+}
+
+#menuIcon:active .c {
+    display: block;
+}
+
+#sidepanel:hover .n {
+    display: none;
+}
+
+#sidepanel:hover .h {
+    display: block;
+}
+
+#sidepanel:active .n {
+    display: none;
+}
+
+#sidepanel:active .h {
+    display: none;
+}
+
+#sidepanel:active .c {
+    display: block;
+}
+
+/* Header  */
+.header {
+    width: 100%;
+    flex-shrink: 0;
+    height: 48px;
+    display: flex;
+    padding: 0 24px;
+    justify-content: space-between;
+    z-index: 1;
+    background: #FFF;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(14, 31, 53, 0.08), 0px 1px 4px 0px rgba(14, 31, 53, 0.12) !important;
+}

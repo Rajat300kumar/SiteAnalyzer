@@ -1,0 +1,259 @@
+<div class="referenceComponent font14" #footer>
+  @if(config().toolbarConfig){
+  <div class="toolbar" [class.expanded]="config().minimiseFlg">
+    <div class="left" [hidden]="config().selectedTab != 'Reference'" title="{{config().active}}">
+      @if (config().toolbarConfig?.leftMinimise) {
+      <button class="blueBtn" (click)="toogleFooter()">
+        @if(config().minimiseFlg) {
+        <i class="fa fa-chevron-up"></i>
+        }
+        @else {
+        <i class="fa fa-chevron-down"></i>
+        }
+      </button>
+      }
+      @if(config().toolbarConfig?.title) {
+      <div class="title">
+        {{config().toolbarConfig?.title}}
+      </div>
+      }
+      @if (config().toolbarConfig?.leftMenu) {
+      <div class="leftMenu" (click)="leftMenu()">
+        <mat-icon>sort</mat-icon>
+      </div>
+      }
+      @if (config().toolbarConfig?.docTypes) {
+      <!-- <div class="docTypes" title="{{config().active}}">
+                        <div class="docTypesElement" [ngClass]="{'activeDoc': config().active=='WEB DOC'}" (click)="docTabChange('WEB DOC')">
+                            <div class="webDoc icon"></div>
+                            <span style="margin: auto">WEB DOC</span>
+                        </div>
+                        <div class="docTypesElement" [ngClass]="{'activeDoc': config().active=='IMAGE'}" (click)="docTabChange('IMAGE')">
+                            <div class="image icon"></div>
+                            <span style="margin: auto">IMAGE</span>
+                        </div>
+                        <div class="docTypesElement" [ngClass]="{'activeDoc': config().active=='PDF'}" (click)="docTabChange('PDF')">
+                            <div class="pdf icon"></div>
+                            <span style="margin: auto">PDF</span>
+                        </div>
+                    </div> -->
+      <div class="ulTabCont" title="{{config().active}}">
+        <!-- <div class="ulTabCont navLefttabs" id="nav-tab" role="tablist"> -->
+        @for(tab of config().toolbarConfig?.docTypes; track tab) {
+        <button class="ulTab text-dark" id="{{config().active}}" [ngClass]="{'activeDoc': config().active==tab}"
+          (click)="docTabChange(tab)">{{tab}}</button>
+        }
+        <!-- </div> -->
+      </div>
+      }
+      <!-- @if (config().toolbarConfig.left == 5|| config().toolbarConfig.left == 6) {
+                    <div class="ulTabCont" title="{{config().active==''}}" style="display: flex; justify-content: space-between; position: relative;">
+                        <div class="ulTabCont navLefttabs" id="nav-tab" role="tablist">
+
+                            <button class="ulTab text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-pdf" type="button" role="tab" aria-controls="nav-pdf" aria-selected="true" [ngClass]="{'activeDoc': config().active=='PDF'}" (click)="docTabChange('PDF')">PDF</button>
+                            <button class="ulTab text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" [ngClass]="{'activeDoc': config().active=='TYPE3'}" (click)="docTabChange('TYPE3')">UniDS</button>
+                            <button class="ulTab text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" [ngClass]="{'activeDoc': config().active=='ERRORSTAT'}" (click)="docTabChange('ERRORSTAT')">Error Summary</button>
+                        </div>
+                    </div>
+                } -->
+    </div>
+
+    <div class="center">
+      @if(config().toolbarConfig?.customTabList) {
+      <div class="customTabs">
+        @for (tab of config().toolbarConfig?.customTabList; track tab) {
+        <div (click)="config().selectedTab = tab" [ngStyle]="{'border-right': !$last ? 'solid 1px #D0D5DD' : ''}"
+          [ngClass]="{'activeTab': tab==config().selectedTab}" class="customTabsElement font14">{{tab}}</div>
+        }
+      </div>
+      }
+      @if(config().toolbarConfig?.getpage) {
+      <div class="markClear">
+        <div *ngIf="config().active != 'WEB DOC' && config().active != 'HTML'" class="markClearElement flexCenter"
+          [ngClass]="{'mainprimary': select_page}" (click)="selet_page()">
+          <span>
+            Select Pages
+          </span>
+        </div>
+      </div>
+      }
+      @if(config().toolbarConfig?.select_doctype) {
+      <div class="markClear">
+        <div *ngIf="config().id=='referenceConfig'&&config().active == 'HTML'" class="markClearElement flexCenter"
+          [ngClass]="{'mainprimary': select_doctype_}" (click)="selet_doctype_()">
+          <span>
+            Select doctype2
+          </span>{{select_doctype_}}
+        </div>
+        <div *ngIf="config().id=='referenceConfig_1' && config().active == 'HTML'" class="markClearElement flexCenter"
+          [ngClass]="{'mainprimary': select_doctype_1}" (click)="selet_doctype_1()">
+          <span>
+            Select doctype1
+          </span>{{select_doctype_1}}
+        </div>
+      </div>
+      }
+      @if(config().toolbarConfig?.markClear) {
+      <div class="markClear">
+        <div *ngIf="config().active != 'WEB DOC' && config().active != 'HTML'" class="markClearElement flexCenter"
+          [ngClass]="{'mainprimary': mark_annotation}" (click)="markAnnotation()">
+          <span>
+            <i class="fa fa-solid fa-crop-simple"></i>
+          </span>
+          <span>
+            Mark Annotation
+          </span>
+        </div>
+        <div class="markClearElement flexCenter" (click)="clearAll_hightlights(id)">
+          <span>
+            <i class="fa fa-eraser"></i>
+          </span>
+          <span>
+            Clear
+          </span>
+        </div>
+
+
+      </div>
+      }
+      @if(config().active == 'IMAGE') {
+      Zoom: {{zoomSize*100}}%
+      }
+    </div>
+    <div class="right">
+      @if(config().toolbarConfig?.docInfo) {
+      <div class="docInfo">
+        Document Name: <span style="color: #175CD3;text-align: center;">{{docInfo}}</span>
+      </div>
+      }
+      @if(config().toolbarConfig?.save) {
+      <button class="blueBtn" (click)="save()">
+        <i class="fa fa-save"></i>
+        Save
+      </button>
+      }
+      @if(config().toolbarConfig?.dropdown) {
+      <div class="dropDown flexCenter">
+        @for(dropdown of config().toolbarConfig?.dropdown | keyvalue:originalOrder; track dropdown) {
+        <span>{{dropdown.key}}:</span>
+        <app-dropdown style="height: 40px" [config]="dropdown.value"></app-dropdown>
+        }
+        <!-- <ul class="list-group list-group-flush side_menu" style="width: 200px; overflow: auto; padding: 0px 2px; border: none">
+                            <li>
+                                <div (click)="toggleDropdown()" title="" style="color: #8d645e; font-family: 'Inter'; font-size: 12px !important; font-weight: 600; padding: 10px 2px; border: none; display: flex; gap: 4px; justify-content: space-between; cursor: pointer;">
+                                <span style="overflow: hidden; text-overflow: ellipsis; width: 160px; white-space: nowrap;">
+                                    <span style="width: 88px; opacity: 0.6; font-size: 15px; font-family: sans-serif;">View: </span>
+                                    <span style="max-width: 144px; display: inline-block; overflow: hidden; text-overflow: ellipsis; margin-bottom: -2px; font-size: 16px; white-space: nowrap; line-height: 12px; align-items: center; cursor: pointer;">{{ config().selectedOption }}</span>
+                                </span>
+                                </div>
+                                @if(dropdownOpen) {
+                                    <ul style="padding: 6px; width: 150px; border: 1px solid #b9c9e2;  left: 0; list-style: none; position: absolute;z-index: 2;">
+                                    <li *ngFor="let item of dropdownItems" style="height: 36px; display: flex; justify-content: center;">
+                                        <a (click)="selectItem(item)" title="" style="color: black !important; background-color: #dae8f1; display: flex; width: 100%; cursor: pointer; justify-content: center; height: 32px !important; line-height: 30px !important; padding: 0px 4px;">
+                                        <span style="font-size: 13px !important; padding: 0px; white-space: nowrap; overflow: auto; text-overflow: ellipsis;">{{item}}</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                                } -->
+        <!-- <ul *ngIf="dropdownOpen" style="padding: 6px; width: 150px; border: 1px solid #b9c9e2; left: 0; list-style: none; position: absolute;">
+                                    <li *ngFor="let item of dropdownItems" style="height: 36px; display: flex; justify-content: center;">
+                                    <a [routerLink]="#" title="" style="color: black !important; background-color: #dae8f1; display: flex; width: 100%; cursor: pointer; justify-content: center; height: 32px !important; line-height: 30px !important; padding: 0px 4px;" (click)="selectItem(item)">
+                                        <span style="font-size: 13px !important; padding: 0px; white-space: nowrap; overflow: auto; text-overflow: ellipsis;">{{ item.label }}</span>
+                                    </a>
+                                    </li>
+                                </ul> -->
+        <!-- </li>
+                        </ul> -->
+      </div>
+      }
+      @if (config().toolbarConfig?.rightMinimise) {
+      <button class="blueBtn" (click)="toogleFooter()">
+        @if(config().minimiseFlg) {
+        <i class="fa fa-chevron-up"></i>
+        }
+        @else {
+        <i class="fa fa-chevron-down"></i>
+        }
+      </button>
+      }
+      @if (config().toolbarConfig?.close) {
+      <button class="close" (click)="config().minimiseFlg=true">
+        <mat-icon>close</mat-icon>
+      </button>
+      }
+    </div>
+  </div>
+  }
+
+  <div class="rmcb no_contextmenu rm_scr page" title="{{config().active}}" [ngStyle]="{'height': componentHeight()}">
+    @if(config().selectedTab=='Reference') {
+    @if (config().filePaths[config().active]?.type == 'iframe') {
+    <iframe id="{{config().id}}" [src]="(config().filePaths[config().active].path) | safe" height="100%"
+      width="100%"></iframe>
+    }
+    @else if (config().filePaths[config().active]?.type == 'pdf' && config().pdfvisible) {
+    <ng2-pdfjs-viewer id="{{config().id}}_pdf" #pdfViewerOnDemand pdfSrc="{{config().filePaths[config().active].path}}"
+      [page]="config().filePaths[config().active].pgno"
+      style="height: 100%;display: block;" oncontextmenu="return false;">
+    </ng2-pdfjs-viewer>
+    }
+    @else if (config().filePaths[config().active]?.type == 'image') {
+    <div class="rmcc_img no_contextmenu" id="img_cnc_{{config()['id']}}" style="width: fit-content !important;"
+      oncontextmenu="return false;">
+      <img [src]="config().filePaths[config().active].path" [ngStyle]="imgZoomDims" id="{{config()['id']}}"
+        oncontextmenu="return false;" />
+    </div>
+    }
+    @else if(config().filePaths[config().active]?.type == 'grid') {
+    <app-ag-grid [config]="config().errorSummaryGrid || defaultGrid"></app-ag-grid>
+    }
+    <!-- @if(config().active == 'WEB DOC') {
+                <iframe id="{{config().id}}" [src]="config().webDoc | safe" height="100%" width="100%" ></iframe>
+            }
+            @if(config().active == 'IMAGE') {
+                <div class="rmcc_img no_contextmenu" id="img_cnc_{{config()['id']}}" style="width: fit-content !important;"  oncontextmenu="return false;">
+                    <img [src]="config().img"  [ngStyle]="imgZoomDims" id="{{config()['id']}}"  oncontextmenu="return false;"  />
+                </div>
+            }
+            @if(config().active == 'PDF') {
+                @if(config().pdfvisible) {
+                    <ng2-pdfjs-viewer
+                    id="{{config().id}}_pdf"
+                    #pdfViewerOnDemand
+                    pdfSrc="{{config().pdf}}"
+                    oncontextmenu="return false;"
+                    style="height: 100%;display: block;"
+                    >
+                    </ng2-pdfjs-viewer>
+                }
+            }
+            @if(config().active == 'UniDS') {
+                <iframe style="background-color: white" id="{{config().id}}" [src]="config().type3 | safe" height="100%" width="100%" ></iframe>
+            }
+            @if(config().active == 'UniFmt') {
+                <iframe style="background-color: white" id="{{config().id}}" [src]="config().frmtType | safe" height="100%" width="100%" ></iframe>
+            }
+            @if(config().active == 'Error Summary') {
+                <app-ag-grid [config]="config().errorSummaryGrid || defaultGrid"></app-ag-grid>
+            } -->
+    }
+    <!-- @if(config().selectedTab=='Add/Edit Formula') {
+            <div class="formula">
+                <div class="table">
+
+                </div>
+                <div class="formulaImg">
+                    @if(config().active=='WEB DOC') {
+                        <iframe [src]="webDoc | safe" height="100%" width="100%"></iframe>
+                    }
+                    @if(config().active=='IMAGE') {
+                        <img [src]="config().img | safe" id="refImg" [ngStyle]="imgZoomDims"/>
+                    }
+                    @if(config().active=='PDF') {
+                        <iframe [src]="pdf | safe" height="100%" width="100%"></iframe>
+                    }
+                </div>
+            </div>
+        } -->
+  </div>
+</div>

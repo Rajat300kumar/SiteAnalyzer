@@ -1,0 +1,37 @@
+<!-- Control value: {{myControl.value || 'empty'}} -->
+
+<form class="example-form">
+  <mat-form-field class="example-full-width m-0 b-0">
+    <mat-label>{{label}}</mat-label>
+    <input #input type="text" placeholder="Pick one" matInput [formControl]="myControl" [matAutocomplete]="auto"
+      (input)="filter()" (focus)="filter()">
+    <mat-autocomplete requireSelection #auto="matAutocomplete" (optionSelected)="onSelect($event.option.value)">
+      @for (option of filteredOptions; track option) {
+      <mat-option style="border-bottom: 1px solid lightsteelblue;"
+        [value]="option.toString().split(',')">{{option.toString().split(',')[0]}}
+        <mat-icon *ngIf="option.toString().split(',')[2]=='true'" class="icon-true"
+          style="color: green;">circle</mat-icon>
+        <mat-icon *ngIf="option.toString().split(',')[2]=='false'" class="icon-true"
+          style="color: gray;">circle</mat-icon>
+      </mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+
+
+<!-- <form class="example-form">
+  <mat-form-field class="example-full-width m-0 b-0">
+    <mat-label>{{label}}</mat-label>
+    <input #input type="text" placeholder="Pick one" matInput [formControl]="myControl" [matAutocomplete]="auto"
+      (input)="filter()" (focus)="filter()">
+    <mat-autocomplete requireSelection #auto="matAutocomplete" (optionSelected)="onSelect($event.option.value)">
+      <mat-option *ngFor="let option of filteredOptions; trackBy: trackByFn" [value]="option">
+        {{option.name}}
+        <mat-icon *ngIf="option.active" class="icon-true" style="color: green;">circle</mat-icon>
+        <mat-icon *ngIf="!option.active" class="icon-true" style="color: gray;">circle</mat-icon>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form> -->

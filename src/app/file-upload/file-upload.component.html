@@ -1,0 +1,14 @@
+
+<div class="mainContainer">
+  <div class="searchBox">
+    <label for="file" class="searchinput flexCenter">
+    <input id="file" type="file" single (change)="selectFiles($event)" style="display: none" />
+    <span class="ellipsis">{{selectedFiles[0]?.name||'No file chosen'}}</span>
+    <i class="fa fa-solid fa-file-upload"></i>
+    </label>
+
+    <button class="halfBtn" [disabled]="!selectedFiles" (click)="uploadFiles()">
+      Upload
+    </button>
+  </div>
+</div>

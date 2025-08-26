@@ -1,0 +1,192 @@
+{
+  "companyName": "AMAZON COM INC",
+  "cik": "0001018724",
+  "sic": "5961",
+  "sicDescription": "Retail-Catalog & Mail-Order Houses",
+  "date": "December 31",
+  "ticker": "AMZN",
+  "exchenge": "Nasdaq",
+  "link": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925033442/tm252295-1_def14a.htm",
+  "data": [
+    {
+      "owner": "Garman Matthew S",
+      "Filings": "0002024813"
+    },
+    {
+      "owner": "Ng Andrew Y.",
+      "Filings": "0001851101"
+    },
+    {
+      "owner": "SMITH BRAD D",
+      "Filings": "0001284323"
+    },
+    {
+      "owner": "Herrington Douglas J",
+      "Filings": "0001936006"
+    },
+    {
+      "owner": "Jassy Andrew R",
+      "Filings": "0001374545"
+    },
+    {
+      "owner": "COOPER EDITH W",
+      "Filings": "0001517276"
+    },
+    {
+      "owner": "Selipsky Adam",
+      "Filings": "0001684974"
+    },
+    {
+      "owner": "Clark David H",
+      "Filings": "0001837650"
+    },
+    {
+      "owner": "Alexander Keith Brian",
+      "Filings": "0001659719"
+    },
+    {
+      "owner": "NOOYI INDRA K",
+      "Filings": "0001183818"
+    },
+    {
+      "owner": "BEZOS JEFFREY P",
+      "Filings": "0001043298"
+    },
+    {
+      "owner": "McGrath Judith A",
+      "Filings": "0001612243"
+    },
+    {
+      "owner": "Zapolsky David",
+      "Filings": "0001557979"
+    },
+    {
+      "owner": "BREWER ROSALIND G",
+      "Filings": "0001357855"
+    },
+    {
+      "owner": "WILKE JEFFREY A",
+      "Filings": "0001184758"
+    },
+    {
+      "owner": "Huttenlocher Daniel P",
+      "Filings": "0001630567"
+    },
+    {
+      "owner": "WEEKS WENDELL P",
+      "Filings": "0001206158"
+    },
+    {
+      "owner": "Olsavsky Brian T",
+      "Filings": "0001639902"
+    },
+    {
+      "owner": "GORDON WILLIAM B",
+      "Filings": "0001229590"
+    },
+    {
+      "owner": "BROWN JOHN SEELY",
+      "Filings": "0001206159"
+    },
+    {
+      "owner": "GORELICK JAMIE S",
+      "Filings": "0001184176"
+    },
+    {
+      "owner": "RYDER THOMAS O",
+      "Filings": "0001137819"
+    },
+    {
+      "owner": "ALBERG TOM A",
+      "Filings": "0001184752"
+    },
+    {
+      "owner": "PIACENTINI DIEGO",
+      "Filings": "0001184755"
+    },
+    {
+      "owner": "STONESIFER PATRICIA Q",
+      "Filings": "0001184756"
+    },
+    {
+      "owner": "RUBINSTEIN JONATHAN",
+      "Filings": "0001209522"
+    },
+    {
+      "owner": "SZKUTAK THOMAS J",
+      "Filings": "0001209974"
+    },
+    {
+      "owner": "Blackburn Jeffrey M",
+      "Filings": "0001374831"
+    },
+    {
+      "owner": "Reynolds Shelley",
+      "Filings": "0001397333"
+    },
+    {
+      "owner": "MONIE ALAIN",
+      "Filings": "0001230564"
+    },
+    {
+      "owner": "KRIKORIAN BLAKE",
+      "Filings": "0001529022"
+    },
+    {
+      "owner": "DOERR L JOHN",
+      "Filings": "0001032455"
+    },
+    {
+      "owner": "Gunningham Sebastian J",
+      "Filings": "0001392259"
+    },
+    {
+      "owner": "ONETTO MARC A",
+      "Filings": "0001244320"
+    },
+    {
+      "owner": "VALENTINE H BRIAN",
+      "Filings": "0001193122"
+    },
+    {
+      "owner": "Kessel Steven",
+      "Filings": "0001374832"
+    },
+    {
+      "owner": "Holden Jeffrey",
+      "Filings": "0001320194"
+    },
+    {
+      "owner": "RAMAN KAL",
+      "Filings": "0001277904"
+    },
+    {
+      "owner": "STABINGAS MARK V",
+      "Filings": "0001287959"
+    },
+    {
+      "owner": "POTTER MYRTLE S",
+      "Filings": "0001214130"
+    },
+    {
+      "owner": "KILAR JASON",
+      "Filings": "0001239764"
+    },
+    {
+      "owner": "PEEK MARK S",
+      "Filings": "0001184754"
+    },
+    {
+      "owner": "HANSEN MARK S",
+      "Filings": "0001070001"
+    },
+    {
+      "owner": "DALZELL RICHARD L",
+      "Filings": "0001184753"
+    },
+    {
+      "owner": "WILSON L MICHELLE",
+      "Filings": "0001184757"
+    }
+  ]
+}

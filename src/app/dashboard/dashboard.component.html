@@ -1,0 +1,123 @@
+<app-header [title]="'Site Analyzer '" />
+<mat-card appearance="outlined" class="flex-row">
+  <div class="float-right" style="width: 100%;display: flex;">
+    <div class="sideMenuTitleContainer" style="width: 20%;">
+      <div class="searchBox">
+        <!-- <div class="searchCntr"> -->
+        <span style="margin-top: 2%;">CIK:</span> <input type="text" [(ngModel)]="cik" class="searchinput"
+          placeholder="Enter CIK"><!--[(ngModel)]="searchTerm"-->
+        <button class="halfButton" (click)="getcikdata()">
+          <i class="fa fa-solid fa-magnifying-glass"></i>
+        </button>
+        <!-- </div> -->
+      </div>
+
+    </div>
+    <div class="sideMenuTitleContainer" style="width: 40%;">
+      <div class="searchBox">
+        <!-- <div class="searchCntr"> -->
+        <input type="text" [(ngModel)]="websiteUrl" class="searchinput"
+          placeholder="Link url"><!--[(ngModel)]="searchTerm"-->
+        <button class="halfButton" (click)="loadWebsite()">
+          <i class="fa fa-solid fa-magnifying-glass"></i>
+        </button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- Save Button -->
+    <button mat-raised-button style="margin-top: 10px;display: none;" (click)="saveElement()">Save Element</button>
+    <!-- Breadcrumb display -->
+    <div *ngIf="breadcrumbItems.length" style="    font-size: x-large;margin-top: 12px;margin-left: 6%;">
+      <ng-container
+        *ngFor="let breadcrumb of breadcrumbItems; let last = last"><!--[ngStyle]="{'color': last ? 'green' : 'blue'}"-->
+        <span *ngIf="!last">{{breadcrumb.name}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-right" viewBox="0 0 16 16" style="color: lightblue;">
+            <path fill-rule="evenodd"
+              d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" />
+            <path fill-rule="evenodd"
+              d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708" />
+          </svg>
+        </span>
+        <span *ngIf="last">{{breadcrumb.name}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-chevron-double-right" viewBox="0 0 16 16" style="color: lightblue;">
+            <path fill-rule="evenodd"
+              d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" />
+            <path fill-rule="evenodd"
+              d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708" />
+          </svg>
+        </span>
+      </ng-container>
+    </div>
+
+  </div>
+
+</mat-card>
+
+
+
+<!-- Main -->
+<mat-grid-list class="flex-row" cols="1" rows="1" rowHeight="89vh">
+  <mat-grid-tile style="text-align: normal;height: calc(100% - 100px);">
+    <div class="row m-0 p-0" style="width: 100%;height: 100%;">
+      <div style="display: flex;flex-direction: row;justify-content: flex-end;">
+        <div class="col-md-3 border pr-0 " style="height: 90vh;"
+          [ngStyle]="{ 'width': selectedpage.length !=0  ? '27%' : '60%' }">
+          <!-- Display website inside iframe B -->
+          <iframe #iframeB [src]="safeUrl" style="width: 100%;height: 99%;"></iframe>
+
+        </div>
+        <div class="col-md-9 border-0 pr-0" style="height: 90vh;"
+          [ngStyle]="{ 'width': selectedpage.length !=0  ? '67%' : '40%' }">
+          <button mat-raised-button style="float: right;" (click)="open__()">Open</button>
+          <button mat-raised-button style="float: right;" (click)="savedisplaydata()">Save</button>
+          <button mat-raised-button style="float: right;" (click)="saveexcel()">Save XLSX</button>
+          <!--need to display the data -->
+          <div class="company-info">
+            <h2>{{ companyName }}</h2>
+            <ul>
+              <li><strong>CIK:</strong> {{ cik }}</li>
+              <li><strong>Ticker:</strong> {{ ticker }}</li>
+              <li><strong>SIC:</strong> {{ sic }} – {{ sicDescription }}</li>
+              <li><strong>Exchange:</strong> {{exchenge}}</li>
+              <!-- <li><strong>State incorporation:</strong> {{ stateIncorp }}</li> -->
+              <li><strong>Fiscal year end:</strong> {{ fye }}</li>
+            </ul>
+            <div *ngIf="proxyDate">
+              <strong>Proxy (annual meeting):</strong>
+              {{ proxyDate }} –
+              <a [href]="proxyUrl1" target="_blank" rel="noopener noreferrer">DEF 14A</a>
+              <span><a [href]="proxyUrl1" target="_blank" rel="noopener noreferrer">{{ proxyUrl1 }}</a></span>
+            </div>
+          </div>
+
+          <div class="ownership-table" style="height: 100%;" *ngIf="ownershipData.length">
+            <!-- <p><strong>Name:</strong> {{ companyName }}</p>
+            <p><strong>SIC Code:</strong> {{ sicCode }}</p>
+            <p><strong>SIC Description:</strong> {{ sicDescription }}</p>
+
+            <h3>Ownership Reports</h3> -->
+            <div style="height: 53%;overflow: scroll;width: 100%;">
+              <table class="simple-table">
+                <thead>
+                  <tr>
+                    <th>Owner</th>
+                    <th>Filings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let owner of ownershipData">
+                    <td>{{ owner.owner }}</td>
+                    <td>{{ owner.Filings }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
