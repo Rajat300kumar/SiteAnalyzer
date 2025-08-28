@@ -191,7 +191,7 @@ export class Dialogmetadata implements OnInit {
   ngOnInit(): void {
     this.http.get<any[]>('assets/Permline.json').subscribe(data => {
       this.companyList = data;
-      console.log(this.companyList)
+      console.log(this.companyList.length)
     });
   }
 
